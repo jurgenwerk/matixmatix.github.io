@@ -10,6 +10,7 @@
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
@@ -17,5 +18,49 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+
+<style>
+  .sidebar {
+    opacity: 1 !important;
+  }
+
+  .masthead__inner-wrap {
+    text-transform: lowercase;
+  }
+
+  .greedy-nav .visible-links a:before {
+    display: none;
+  }
+
+  .author__urls a {
+    text-transform: lowercase;
+  }
+
+  .sidebar p, .sidebar li {
+    font-family: 'Merriweather', serif !important;
+  }
+
+  .site-nav {
+    font-family: 'Merriweather', serif !important;
+  }
+
+  .nav-button {
+    display: inline-block;
+    visibility: visible;
+    position: relative !important;
+    color: initial !important;
+    margin-right: 5px !important;
+  }
+
+  .masthead__menu-item {
+    display: inline-block !important;
+  }
+
+  .short-poem p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+</style>
 
 <meta http-equiv="cleartype" content="on">

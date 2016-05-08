@@ -7,16 +7,16 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "codeandtechno"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Matic Jurglic"
+description              : "Matic Jurglič is a computer person who specializes in avant-garde internet applications."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 201
 comments:
   provider               : # false (default), "disqus", "facebook", "google-plus", custom"
   disqus:
@@ -61,10 +61,10 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  name             : "matic jurglic"
+  avatar           : "matic-jurglic.png"
+  bio              : "a computer person who specializes in avant-garde internet applications"
+  location         : "slovenia"
   email            :
   uri              :
   bitbucket        :
@@ -73,7 +73,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "http://github.com/matixmatix"
   google_plus      :
   keybase          :
   instagram        :
@@ -84,7 +84,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "http://twitter.com/matixmatix"
   vine             :
   weibo            :
   xing             :
@@ -147,7 +147,7 @@ kramdown:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 500 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -204,3 +204,14 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      comments: true
+      share: true

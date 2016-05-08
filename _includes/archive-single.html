@@ -28,7 +28,14 @@
       {% if post.read_time %}
         <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
       {% endif %}
-      {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+      <!-- {{ post.content }} -->
+      {% if post.title contains "Haiku" %}
+        <div class="short-poem">
+          {{post.content}}
+        </div>
+      {% else %}
+        {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+      {% endif %}
     </article>
   </a>
 </div>

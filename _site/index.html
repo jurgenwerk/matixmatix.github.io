@@ -74,6 +74,9 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
@@ -83,6 +86,17 @@
 <link rel="stylesheet" href="/assets/css/main.css">
 
 <style>
+  article {
+    font-family: 'Droid Serif', serif;
+  }
+
+  .archive__item-title {
+    font-family: 'Droid Serif', serif;
+  }
+  .single-poem p {
+    margin: 0;
+    padding: 0;
+  }
   .sidebar {
     opacity: 1 !important;
   }
@@ -124,6 +138,51 @@
     margin: 0;
     padding: 0;
   }
+
+  .inline-block {
+    display: inline-block;
+  }
+
+  p.about {
+    font-family: 'Merriweather', serif !important;
+    width: 70%;
+    font-size: 14px;
+  }
+
+  p.about a {
+    text-decoration: underline;
+  }
+
+  .item-about {
+    font-family: 'Merriweather', serif !important;
+    font-size: 15px;
+  }
+
+  .item-about a {
+    text-decoration: underline;
+  }
+
+  .fine-title {
+    margin: 1.414em 0 0;
+    padding-bottom: 0.5em;
+    font-size: 1em;
+    color: #303030;
+    font-family: 'Merriweather', serif !important;
+    border-bottom: 1px solid #aeaeae !important;
+    margin-bottom: 1em;
+  }
+
+  .sidebar-radio {
+    margin-right: 5px !important;
+  }
+
+  #main {
+    margin-top: 1em !important;
+  }
+
+  .page__title {
+    font-family: 'Merriweather', serif !important;
+  }
 </style>
 
 <meta http-equiv="cleartype" content="on">
@@ -152,23 +211,36 @@
           
             
             <li class="masthead__menu-item">
-              <button onclick="location.href='https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/'" class="nav-button">
-                code
-              </button>
+              
+                posts &nbsp;
+              
             </li>
           
             
             <li class="masthead__menu-item">
-              <button onclick="location.href='https://mmistakes.github.io/minimal-mistakes/'" class="nav-button">
-                pieces
-              </button>
+              
+                <button onclick="location.href='/poems/'" class="nav-button">
+                  poems
+                </button>
+              
             </li>
           
             
             <li class="masthead__menu-item">
-              <button onclick="location.href='https://mmistakes.github.io/minimal-mistakes/year-archive/'" class="nav-button">
-                lines
-              </button>
+              
+                <button onclick="location.href='/pieces/'" class="nav-button">
+                  pieces
+                </button>
+              
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              
+                <button onclick="location.href='/about/'" class="nav-button">
+                  bio
+                </button>
+              
             </li>
           
         </ul>
@@ -194,38 +266,47 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
-  <div class="author__avatar">
-    
-    	<img src="/images/matic-jurglic.png" class="author__avatar" alt="matic jurglic">
-    
-  </div>
+  <a href="/">
+    <div class="author__avatar">
+      
+      	<img src="/images/matic-jurglic.png" class="author__avatar" alt="matic jurglic">
+      
+    </div>
+  </a>
 
   <div class="author__content">
     <h3 class="author__name">matic jurglic</h3>
-    <p class="author__bio">a computer person who specializes in avant-garde internet applications</p>
+    <p class="author__bio">i'm tempted to describe myself as a software developer, but I actually care deeply about all of this</p>
   </div>
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> slovenia</li>
       
       
       
       
-      
-        <li><a href="https://twitter.com/http://twitter.com/matixmatix"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-      
-      
+        <li>
+          <a href="https://twitter.com/matixmatix" target="_blank"><input type="radio" class="sidebar-radio"/>twitter</a>
+        </li>
       
       
       
       
       
       
+        <li>
+          <a href="https://instagram.com/matixmatix" target="_blank"><input type="radio" class="sidebar-radio"/>insta</a>
+        </li>
       
-        <li><a href="https://github.com/http://github.com/matixmatix"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
+      
+      
+      
+        <li><a href="https://github.com/matixmatix" target="_blank"><input type="radio" class="sidebar-radio"/>github</a></li>
+      
+      
+        <li><a href="https://medium.com/@jurgenwerk" target="_blank"><input type="radio" class="sidebar-radio"/>medium</a></li>
       
       
       
@@ -260,30 +341,17 @@
 
 
 
-<div class="list__item">
+<div class="list__item" data-lang="">
   
-    <a href="/haiku11/">
+    <a href="/posts/metadata-via-response-headers-in-emberjs/">
   
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       
-      <h2 class="archive__item-title" itemprop="headline">Haiku11
+      <h2 class="archive__item-title" itemprop="headline">Metadata via HTTP headers in Ember.js
 </h2>
       
-      <!-- <p>it’s raining outside</p>
-
-<p>i have water in my shoes</p>
-
-<p>tomorrow will snow</p>
- -->
       
-        <div class="short-poem">
-          <p>it’s raining outside</p>
-
-<p>i have water in my shoes</p>
-
-<p>tomorrow will snow</p>
-
-        </div>
+        <p class="archive__item-excerpt" itemprop="description">In your ambitious web app, there’s a very high probability you’ll want to pass some metadata from your store along with the actual data, e.g. total count of ...</p>
       
     </article>
   </a>
@@ -294,27 +362,17 @@
 
 
 
-<div class="list__item">
+<div class="list__item" data-lang="">
   
-    <a href="/adult-life/">
+    <a href="/posts/transforming-json-payload-to-include-object-root-with-restadapter-in-emberjs/">
   
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       
-      <h2 class="archive__item-title" itemprop="headline">Adult Life
+      <h2 class="archive__item-title" itemprop="headline">Transforming JSON payload to include object root with RESTSerializer in Ember.js
 </h2>
       
-      <!-- <p>sometimes I realize I need to grow up</p>
-
-<p>then I realize I’m an adult</p>
-
-<p>then I get happy</p>
-
-<p>then I feel really crappy</p>
- -->
       
-        <p class="archive__item-excerpt" itemprop="description">sometimes I realize I need to grow up
-
-</p>
+        <p class="archive__item-excerpt" itemprop="description">If you find yourself using Ember Data combined with a backend that doesn’t conform to JSON API specs, you just might be in a bit of a trouble. As always, Emb...</p>
       
     </article>
   </a>
@@ -325,336 +383,17 @@
 
 
 
-<div class="list__item">
+<div class="list__item" data-lang="">
   
-    <a href="/haiku10/">
-  
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      
-      <h2 class="archive__item-title" itemprop="headline">Haiku10
-</h2>
-      
-      <!-- <p>even if I try hard</p>
-
-<p>i will always arrive late</p>
-
-<p>it’s who I am</p>
- -->
-      
-        <div class="short-poem">
-          <p>even if I try hard</p>
-
-<p>i will always arrive late</p>
-
-<p>it’s who I am</p>
-
-        </div>
-      
-    </article>
-  </a>
-</div>
-
-
-  
-
-
-
-<div class="list__item">
-  
-    <a href="/haiku9/">
+    <a href="/posts/continuous-integration-for-emberjs-apps-with-codeship-and-divshot/">
   
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       
-      <h2 class="archive__item-title" itemprop="headline">Haiku9
+      <h2 class="archive__item-title" itemprop="headline">Continuous integration for Ember.js apps with Codeship and Divshot
 </h2>
       
-      <!-- <p>concert tonight</p>
-
-<p>under stars, for you and me</p>
-
-<p>there is no entrance fee</p>
- -->
       
-        <div class="short-poem">
-          <p>concert tonight</p>
-
-<p>under stars, for you and me</p>
-
-<p>there is no entrance fee</p>
-
-        </div>
-      
-    </article>
-  </a>
-</div>
-
-
-  
-
-
-
-<div class="list__item">
-  
-    <a href="/haiku8/">
-  
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      
-      <h2 class="archive__item-title" itemprop="headline">Haiku8
-</h2>
-      
-      <!-- <p>assembling boxes</p>
-
-<p>don’t know where I’m going</p>
-
-<p>but I’m packing</p>
- -->
-      
-        <div class="short-poem">
-          <p>assembling boxes</p>
-
-<p>don’t know where I’m going</p>
-
-<p>but I’m packing</p>
-
-        </div>
-      
-    </article>
-  </a>
-</div>
-
-
-  
-
-
-
-<div class="list__item">
-  
-    <a href="/haiku7/">
-  
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      
-      <h2 class="archive__item-title" itemprop="headline">Haiku7
-</h2>
-      
-      <!-- <p>deploy now</p>
-
-<p>as per attached screenshot</p>
-
-<p>much appreciated</p>
- -->
-      
-        <div class="short-poem">
-          <p>deploy now</p>
-
-<p>as per attached screenshot</p>
-
-<p>much appreciated</p>
-
-        </div>
-      
-    </article>
-  </a>
-</div>
-
-
-  
-
-
-
-<div class="list__item">
-  
-    <a href="/haiku6/">
-  
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      
-      <h2 class="archive__item-title" itemprop="headline">Haiku6
-</h2>
-      
-      <!-- <p>early rise, early bed</p>
-
-<p>makes you healthy and rested</p>
-
-<p>but socially dead</p>
- -->
-      
-        <div class="short-poem">
-          <p>early rise, early bed</p>
-
-<p>makes you healthy and rested</p>
-
-<p>but socially dead</p>
-
-        </div>
-      
-    </article>
-  </a>
-</div>
-
-
-  
-
-
-
-<div class="list__item">
-  
-    <a href="/haiku5/">
-  
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      
-      <h2 class="archive__item-title" itemprop="headline">Haiku5
-</h2>
-      
-      <!-- <p>through a line in blinds</p>
-
-<p>darkness comes oddly bright</p>
-
-<p>full moon floats tonight</p>
- -->
-      
-        <div class="short-poem">
-          <p>through a line in blinds</p>
-
-<p>darkness comes oddly bright</p>
-
-<p>full moon floats tonight</p>
-
-        </div>
-      
-    </article>
-  </a>
-</div>
-
-
-  
-
-
-
-<div class="list__item">
-  
-    <a href="/haiku4/">
-  
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      
-      <h2 class="archive__item-title" itemprop="headline">Haiku4
-</h2>
-      
-      <!-- <p>what did she mean</p>
-
-<p>it’s hard to read between lines</p>
-
-<p>is it a yes or no</p>
- -->
-      
-        <div class="short-poem">
-          <p>what did she mean</p>
-
-<p>it’s hard to read between lines</p>
-
-<p>is it a yes or no</p>
-
-        </div>
-      
-    </article>
-  </a>
-</div>
-
-
-  
-
-
-
-<div class="list__item">
-  
-    <a href="/haiku3/">
-  
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      
-      <h2 class="archive__item-title" itemprop="headline">Haiku3
-</h2>
-      
-      <!-- <p>designated driver</p>
-
-<p>sipping water, chain smoking</p>
-
-<p>not having fun at all</p>
- -->
-      
-        <div class="short-poem">
-          <p>designated driver</p>
-
-<p>sipping water, chain smoking</p>
-
-<p>not having fun at all</p>
-
-        </div>
-      
-    </article>
-  </a>
-</div>
-
-
-  
-
-
-
-<div class="list__item">
-  
-    <a href="/haiku2/">
-  
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      
-      <h2 class="archive__item-title" itemprop="headline">Haiku2
-</h2>
-      
-      <!-- <p>today I have a plan</p>
-
-<p>it’s noon already, wait</p>
-
-<p>too late to start now</p>
- -->
-      
-        <div class="short-poem">
-          <p>today I have a plan</p>
-
-<p>it’s noon already, wait</p>
-
-<p>too late to start now</p>
-
-        </div>
-      
-    </article>
-  </a>
-</div>
-
-
-  
-
-
-
-<div class="list__item">
-  
-    <a href="/haiku1/">
-  
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      
-      <h2 class="archive__item-title" itemprop="headline">Haiku1
-</h2>
-      
-      <!-- <p>hit that snooze button</p>
-
-<p>again, again, one more time</p>
-
-<p>what a loser</p>
- -->
-      
-        <div class="short-poem">
-          <p>hit that snooze button</p>
-
-<p>again, again, one more time</p>
-
-<p>what a loser</p>
-
-        </div>
+        <p class="archive__item-excerpt" itemprop="description">I guess pretty much everyone agrees there is no better thing in life than to see your app get deployed automatically after you push some code to your reposit...</p>
       
     </article>
   </a>
@@ -681,7 +420,7 @@
     
     
     
-      <li><a href="http://github.com/http://github.com/matixmatix"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+      <li><a href="http://github.com/matixmatix"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
     
     
     <li><a href="/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
@@ -697,6 +436,67 @@
 
 
 
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-64778356-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+
+  
+  <script type="text/javascript">
+  	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  	var disqus_shortname = 'codeandtechno';
+
+  	/* * * DON'T EDIT BELOW THIS LINE * * */
+  	(function() {
+  		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  	})();
+
+  	/* * * DON'T EDIT BELOW THIS LINE * * */
+  	(function () {
+  		var s = document.createElement('script'); s.async = true;
+  		s.type = 'text/javascript';
+  		s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  		(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  	}());
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+
+
+<script>
+  $(document).ready(function(){
+    $('[data-lang=slo]').hide();
+  });
+
+  $('input[name=lang]').change(function(e){
+    var isSlo = e.target.value === "slo";
+    if (isSlo) {
+      $('[data-lang=slo]').show();
+      $('[data-lang=eng]').hide();
+    } else {
+      $('[data-lang=eng]').show();
+      $('[data-lang=slo]').hide();
+    }
+  })
+</script>
 
     <!-- start custom footer snippets -->
 

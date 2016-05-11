@@ -14,9 +14,13 @@
               {% assign domain = base_path %}
             {% endif %}
             <li class="masthead__menu-item">
-              <button onclick="location.href='{{ domain }}{{ link.url }}'" class="nav-button">
-                {{ link.title }}
-              </button>
+              {% if page.url == link.url %}
+                {{ link.title }} &nbsp;
+              {% else %}
+                <button onclick="location.href='{{ domain }}{{ link.url }}'" class="nav-button">
+                  {{ link.title }}
+                </button>
+              {% endif %}
             </li>
           {% endfor %}
         </ul>

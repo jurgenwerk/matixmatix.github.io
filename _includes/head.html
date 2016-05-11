@@ -11,6 +11,9 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
@@ -20,6 +23,17 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
 <style>
+  article {
+    font-family: 'Droid Serif', serif;
+  }
+
+  .archive__item-title {
+    font-family: 'Droid Serif', serif;
+  }
+  .single-poem p {
+    margin: 0;
+    padding: 0;
+  }
   .sidebar {
     opacity: 1 !important;
   }
@@ -60,6 +74,51 @@
     font-size: 14px;
     margin: 0;
     padding: 0;
+  }
+
+  .inline-block {
+    display: inline-block;
+  }
+
+  p.about {
+    font-family: 'Merriweather', serif !important;
+    width: 70%;
+    font-size: 14px;
+  }
+
+  p.about a {
+    text-decoration: underline;
+  }
+
+  .item-about {
+    font-family: 'Merriweather', serif !important;
+    font-size: 15px;
+  }
+
+  .item-about a {
+    text-decoration: underline;
+  }
+
+  .fine-title {
+    margin: 1.414em 0 0;
+    padding-bottom: 0.5em;
+    font-size: 1em;
+    color: #303030;
+    font-family: 'Merriweather', serif !important;
+    border-bottom: 1px solid #aeaeae !important;
+    margin-bottom: 1em;
+  }
+
+  .sidebar-radio {
+    margin-right: 5px !important;
+  }
+
+  #main {
+    margin-top: 1em !important;
+  }
+
+  .page__title {
+    font-family: 'Merriweather', serif !important;
   }
 </style>
 

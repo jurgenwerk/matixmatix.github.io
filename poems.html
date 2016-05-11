@@ -1,0 +1,34 @@
+---
+layout: archive
+author_profile: true
+---
+
+{% include base_path %}
+
+<!-- <h3 class="archive__subtitle">recent things</h3> -->
+
+<p class="about">
+  ~ check out my <a href="http://twitter.com/greatHaikuBot" target="_blank" style="font-size: 16px;">haiku bot</a>
+  &nbsp;
+  <a href="https://twitter.com/greatHaikuBot" class="twitter-follow-button" data-show-count="false">Follow @greatHaikuBot</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</p>
+<hr>
+<div class="selected" style="font-size: 12px; margin-top: 30px;">
+  selected scribblings:
+</div>
+<label class="inline-block" style="font-size: 14px; font-weight: normal;">
+  <input type="radio" name="lang" value="eng" class="inline-block" checked/>
+  english
+</label>
+
+<label class="inline-block" style="font-size: 14px; font-weight: normal;">
+  &nbsp; <input type="radio" name="lang" class="inline-block" value="slo" />
+  slovene
+</label>
+
+{% for post in site.poems reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<!-- {% include paginator.html %} -->

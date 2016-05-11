@@ -18,9 +18,9 @@ teaser                   : # filename of teaser fallback teaser image placed in 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 201
 comments:
-  provider               : # false (default), "disqus", "facebook", "google-plus", custom"
+  provider               : "disqus"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "codeandtechno"
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
@@ -50,9 +50,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google"
   google:
-    tracking_id          :
+    tracking_id          : "UA-64778356-1"
+
 
 # Google AdSense
 google_ad_client         :
@@ -63,8 +64,8 @@ google_ad_slot           :
 author:
   name             : "matic jurglic"
   avatar           : "matic-jurglic.png"
-  bio              : "a computer person who specializes in avant-garde internet applications"
-  location         : "slovenia"
+  bio              : "i'm tempted to describe myself as a software developer, but I actually care deeply about all of this"
+  location         :
   email            :
   uri              :
   bitbucket        :
@@ -73,18 +74,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "http://github.com/matixmatix"
+  github           : "matixmatix"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "matixmatix"
   lastfm           :
   linkedin         :
+  medium           : "jurgenwerk"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "http://twitter.com/matixmatix"
+  twitter          : "matixmatix"
   vine             :
   weibo            :
   xing             :
@@ -147,7 +149,7 @@ kramdown:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 500 # amount of posts to show
+paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -205,13 +207,9 @@ compress_html:
   ignore:
     envs: development
 
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      comments: true
-      share: true
+collections:
+  posts:
+    output: true
+  poems:
+    output: true
+    layout: single

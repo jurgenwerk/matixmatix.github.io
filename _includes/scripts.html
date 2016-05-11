@@ -2,3 +2,20 @@
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
+
+<script>
+  $(document).ready(function(){
+    $('[data-lang=slo]').hide();
+  });
+
+  $('input[name=lang]').change(function(e){
+    var isSlo = e.target.value === "slo";
+    if (isSlo) {
+      $('[data-lang=slo]').show();
+      $('[data-lang=eng]').hide();
+    } else {
+      $('[data-lang=eng]').show();
+      $('[data-lang=slo]').hide();
+    }
+  })
+</script>

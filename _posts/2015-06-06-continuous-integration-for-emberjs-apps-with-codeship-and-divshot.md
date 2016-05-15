@@ -4,7 +4,7 @@ layout: single
 title: "Continuous integration for Ember.js apps with Codeship and Divshot"  
 ---
 
-I guess pretty much everyone agrees there is no better thing in life than to see your app get deployed automatically after you push some code to your repository.
+[DEPRECATED] I guess pretty much everyone agrees there is no better thing in life than to see your app get deployed automatically after you push some code to your repository.
 
 Since Ember build is a fully static web assets bundle, it's possible to serve it via a CDN so you can take some load off your app servers. While the pros and cons of serving your JavaScript app either via CDN or your server are heavily debatable, let's spare this essay for another time.
 

@@ -35,4 +35,4 @@ What should we use then?
 
 To be 100% sure all memory is wiped away and the grounds are freshly prepared, just reload the page (usually in the session invalidation step). `window.location = '/'` or something similar should do just fine. There's no shame in doing it. Things are cached. Don't worry.
 
-P.S. Are you fresh in Ember land? I wrote a great book for you: [Front-end revolution with Ember.js](http://emberjs-book.com/). Check it out!
+P.S. Are you fresh in Ember land and want to learn more tricks like these? Check out [Front-end revolution with Ember.js](http://emberjs-book.com/)!

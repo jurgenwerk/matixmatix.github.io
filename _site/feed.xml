@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-06-12T23:46:16+02:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>matic jurglic</name></author><entry><title>How to reset Ember applications</title><link href="/posts/how-to-reset-ember-applications/" rel="alternate" type="text/html" title="How to reset Ember applications" /><published>2016-06-12T00:00:00+02:00</published><updated>2016-06-12T00:00:00+02:00</updated><id>/posts/how-to-reset-ember-applications</id><content type="html" xml:base="/posts/how-to-reset-ember-applications/">&lt;p&gt;Usually when the user logs out of your Ember application, we want to clear the state, wipe out every trace of user activity, and unload the store in order to reach a blank state and make the application ready to start a fresh session.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-08-08T23:25:42+02:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>matic jurglic</name></author><entry><title>Tips for selling your side project</title><link href="/posts/tips-for-selling-your-side-project/" rel="alternate" type="text/html" title="Tips for selling your side project" /><published>2016-08-08T00:00:00+02:00</published><updated>2016-08-08T00:00:00+02:00</updated><id>/posts/tips-for-selling-your-side-project</id><content type="html" xml:base="/posts/tips-for-selling-your-side-project/">&lt;p&gt;Side projects are expressions of creativity, they are tools for fixing frustrations, having fun and brushing up on skills. This is true for all areas of life, not just in software projects, which this post is about.&lt;/p&gt;
+
+&lt;p&gt;Always be doing side projects if you want to stay relevant, especially to yourself.&lt;/p&gt;
+
+&lt;!-- Sometimes, side projects actually grow into something that other people could use too. You have something to show. That’s incredible! Perhaps you published it and have a few people using it. You managed to ship the damn thing, but then… It’s just sitting there. You lose interest. You think your project has potential, but you leave it standing, because you find yourself caught up in another project and can find a better use of your time.   --&gt;
+
+&lt;p&gt;This is a story of how I managed to sell my simple project to a guy from the internet and earned an amount of cash equivalent to my yearly supply of beer, and trust me, I REALLY like beer. All I did was put together a trivial web app to scratch my own itch, and it keeps scratching it, while I drink my free beer.&lt;/p&gt;
+
+&lt;p&gt;Here’s the project: &lt;a href=&quot;http://sitestalker.net&quot;&gt;Sitestalker&lt;/a&gt;. I made it because I needed to buy a car and grew sick of checking used car ads every day. At first it was just a simple script. I built an interface around it. A few hours of work.&lt;/p&gt;
+
+&lt;p&gt;Following these rules, I got somebody to buy the project.&lt;/p&gt;
+
+&lt;h2 id=&quot;make-it-look-good&quot;&gt;1. Make it look good&lt;/h2&gt;
+
+&lt;p&gt;Whatever your side project does, make a nice presentation page with brief explanations. I know, copywriting is hard. But also an invaluable skill for life, so why not practice it whenever you can? If you can’t design, get a cheap template, or just copy something you like. Put in some user testimonials if you can get them.&lt;/p&gt;
+
+&lt;p&gt;Nobody’s buying websites with default Bootstrap theme.&lt;/p&gt;
+
+&lt;h2 id=&quot;display-value&quot;&gt;2. Display value&lt;/h2&gt;
+
+&lt;p&gt;Stick in some Google Analytics. Do basic SEO, optimize for your keywords. Check how Google sees you. Offer user sign up if you can (if that’s the nature of your product), otherwise try to collect emails. Always collect emails. Try to push the project in your online social circle. Don’t be afraid to show what you have. Screw the haters, seriously. Make some traffic. This is essentially what you’re selling, and what your possible buyers are looking for.&lt;/p&gt;
+
+&lt;p&gt;People who look to buy projects like nice traffic charts. Nobody’s buying flat line projects.&lt;/p&gt;
+
+&lt;h2 id=&quot;publish-it-on-the-side-project-market&quot;&gt;3. Publish it on the side project market&lt;/h2&gt;
+
+&lt;p&gt;The most popular markets for selling side projects are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://flippa.com&quot;&gt;Flippa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sideprojectors.com&quot;&gt;SideProjectors&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Often there are also discussions on Reddit and Hacker News where people discuss selling their projects: &lt;a href=&quot;https://news.ycombinator.com/item?id=7656154&quot;&gt;example 1&lt;/a&gt;, &lt;a href=&quot;https://news.ycombinator.com/item?id=7656154&quot;&gt;example 2&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Publish your thing in these websites. Write a solid sales pitch. Write your ideas for future development. If your side project doesn’t have a lot of traffic, try giving some ideas on how to improve that. The same goes for monetization. How can a buyer adopt your product and make profit? Give them ideas. Try to sell your support if they need it.&lt;/p&gt;
+
+&lt;h2 id=&quot;package-and-document-it&quot;&gt;4. Package and document it&lt;/h2&gt;
+
+&lt;p&gt;You have to come up with a way to minimize the time and cost of transferring the project - the application, the code and the knowledge on how to operate and maintain the project.&lt;/p&gt;
+
+&lt;p&gt;Here’s some ideas:&lt;/p&gt;
+
+&lt;p&gt;Transfer the code by pushing it to a private code repository (free at &lt;a href=&quot;https://bitbucket.org&quot;&gt;Bitbucket&lt;/a&gt; or &lt;a href=&quot;https://about.gitlab.com/&quot;&gt;GitLab&lt;/a&gt;), then transfer the ownership to your buyer. They’ll see the code, and if the code is shit, then you may be in trouble. So write cool code.&lt;/p&gt;
+
+&lt;p&gt;Transfer the running application by deploying it to &lt;a href=&quot;https://www.digitalocean.com/&quot;&gt;DigitalOcean&lt;/a&gt;, then make a snapshot and transfer it to your buyer’s DigitalOcean account. Easy.&lt;/p&gt;
+
+&lt;p&gt;Write a cheat sheet on how to run the project. Describe the procedure to deploy, restart, and how to troubleshoot common problems. List all the credentials needed. List all external dependencies.&lt;/p&gt;
+
+&lt;p&gt;Transfer the domain, and that’s it, you’re done.&lt;/p&gt;
+
+&lt;p&gt;If your buyer is concerned about non-compete legal stuff, you can both sign an Assignment and Transfer Agreement via &lt;a href=&quot;https://www.docracy.com/&quot;&gt;Docracy&lt;/a&gt;. It’s a valid document, and it only takes a few minutes.&lt;/p&gt;
+
+&lt;h2 id=&quot;be-patient&quot;&gt;5. Be patient&lt;/h2&gt;
+
+&lt;p&gt;Wait it out, and take it easy. Don’t lower your price every week.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-lesson&quot;&gt;My lesson&lt;/h2&gt;
+
+&lt;p&gt;There’s a market for even the simplest of things, if you know how to present their value well. I’m giving myself a nice pat on the back for rediscovering the basics of commerce, but if I managed to sell my Sitestalker, and if my friend sold a bot that tweets your crush on Valentines, then what’s stopping you from exchanging your thing that’s just idling there for free beer?&lt;/p&gt;</content><category term="posts" /><summary>Side projects are expressions of creativity, tools for fixing frustrations, having fun and brushing up on skills. Always be doing side-projects if you want to stay relevant, especially to yourself.</summary></entry><entry><title>How to reset Ember applications</title><link href="/posts/how-to-reset-ember-applications/" rel="alternate" type="text/html" title="How to reset Ember applications" /><published>2016-06-12T00:00:00+02:00</published><updated>2016-06-12T00:00:00+02:00</updated><id>/posts/how-to-reset-ember-applications</id><content type="html" xml:base="/posts/how-to-reset-ember-applications/">&lt;p&gt;Usually when the user logs out of your Ember application, we want to clear the state, wipe out every trace of user activity, and unload the store in order to reach a blank state and make the application ready to start a fresh session.&lt;/p&gt;
 
 &lt;p&gt;Most of the time we are (totally rightfully) tempted to find the one and only &lt;strong&gt;Ember way&lt;/strong&gt; for each possible action in our application. So, you go surfin’ in the Ember’s &lt;a href=&quot;http://emberjs.com/api/classes/Ember.Application.html&quot;&gt;API docs&lt;/a&gt; and find the &lt;code class=&quot;highlighter-rouge&quot;&gt;Application#reset&lt;/code&gt; method. It says it re-creates the application’s container. Sounds good?&lt;/p&gt;
 

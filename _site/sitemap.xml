@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>/posts/tips-for-selling-your-side-project/</loc>
+<lastmod>2016-08-08T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>/posts/how-to-reset-ember-applications/</loc>
 <lastmod>2016-06-12T00:00:00+02:00</lastmod>
 </url>
@@ -100,5 +104,8 @@
 </url>
 <url>
 <loc>/poems/slovene/2016-06-12-digitalna-jeca/</loc>
+</url>
+<url>
+<loc>/poems/english/2016-07-03-haiku12/</loc>
 </url>
 </urlset>

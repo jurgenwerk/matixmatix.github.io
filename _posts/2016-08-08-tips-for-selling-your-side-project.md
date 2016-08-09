@@ -35,6 +35,7 @@ The most popular markets for selling side projects are:
 
 - [Flippa](http://flippa.com)
 - [SideProjectors](https://www.sideprojectors.com)
+- [Empire Flippers](https://empireflippers.com/)
 
 Often there are also discussions on Reddit and Hacker News where people discuss selling their projects: [example 1](https://news.ycombinator.com/item?id=7656154), [example 2](https://news.ycombinator.com/item?id=7656154).
 

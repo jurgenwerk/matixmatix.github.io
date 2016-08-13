@@ -1,0 +1,28 @@
+{% include base_path %}
+
+<section class="page__share" style="border-top: none;">
+  If you appreciate what I wrote, please award me with your e-mail, so we can stay in touch:
+  <br />
+  <input class="email-input" style="width: 190px; height: 35px; margin-top: 10px; font-size: 18px;" placeholder="Your e-mail" />
+  <button class="email-button"> &nbsp;  &nbsp; ok &nbsp;  &nbsp;</button>
+</section>
+
+<script>
+  function setupGiveEmail() {
+    $('.email-button').click(function(e) {
+  		e.preventDefault()
+  		var email = $('.email-input').val();
+
+  		if (String(email) === "") {
+  			$('.email-input').focus();
+  			return;
+  		}
+
+  		var url = "https://emberjs-email-sender.herokuapp.com/handle_email?email=" + email + "&from_site=codeandtechno";
+  		$('.email-button').text("Subscribing...");
+  		$.post(url, function() {
+  			$('.email-button').text("Done!");
+  		});
+  	});
+  }
+</script>

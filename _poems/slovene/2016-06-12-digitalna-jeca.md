@@ -41,10 +41,8 @@ brez, da bi se mi dvom porajal.
 
 &nbsp;
 
-Del si mene, in del tebe sem jaz
-
-a digitalni žandar, prosim te zdaj;
+Računalo vsevedno, prosim te zdaj;
 
 spusti me vendar malo ven,
 
-obljubim, da kmalu vrnem se nazaj.
+saj kmalu vrnem se nazaj.

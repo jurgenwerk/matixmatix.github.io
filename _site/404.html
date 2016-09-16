@@ -288,10 +288,11 @@
 <meta http-equiv="cleartype" content="on">
 
     <!-- start custom head snippets -->
-
+<meta name="google-site-verification" content="b859-vRJdU5tDrRL0QnDXthQjW_psAd-IF-X8KZ9yFo" />
 <!-- insert favicons. use http://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->
+
   </head>
 
   <body>
@@ -483,6 +484,7 @@
       
 
 <section class="page__share" style="border-top: none;">
+  <img src="/images/notepad.png" style="width: 20px">
   If you appreciate what I wrote, please award me with your e-mail, so we can stay in touch:
   <br />
   <input class="email-input" style="width: 190px; height: 35px; margin-top: 10px; font-size: 18px;" placeholder="Your e-mail" />
@@ -492,7 +494,7 @@
 <script>
   function setupGiveEmail() {
     $('.email-button').click(function(e) {
-  		e.preventDefault()
+  		e.preventDefault();
   		var email = $('.email-input').val();
 
   		if (String(email) === "") {
@@ -644,7 +646,7 @@
       $('[data-lang=eng]').show();
       $('[data-lang=slo]').hide();
     }
-  })
+  });
 
   setupGiveEmail();
 </script>

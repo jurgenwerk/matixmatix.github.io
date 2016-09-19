@@ -7,9 +7,10 @@ lang: slo
 
 Šel sem po svetu, podal sem na pot
 
-da najdem sebe, dokažem drugim,
+da najdem sebe, poiščem srečo,
 
 pobral sem se od tod.
+
 
 &nbsp;
 
@@ -19,15 +20,13 @@ Onkraj te vasi! Preko meje, tam mene čaka svet.
 
 &nbsp;
 
-Hodeč po velemestu izven meja
+Hodeč po velemestu, tesnoba me obda,
 
 v prsih stisne me od gorja;
 
 v spokoju vzgojen, zdaj z vrvežom obdan,
 
-vse se silno naglo premika,
-
-toliko bitij, jaz pa tako sam.
+toliko bitij, jaz pa tako neznansko sam.
 
 &nbsp;
 

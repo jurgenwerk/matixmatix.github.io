@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-09-19T19:16:59+02:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>matic jurglic</name></author><entry><title>Tips for selling your side project</title><link href="/posts/tips-for-selling-your-side-project/" rel="alternate" type="text/html" title="Tips for selling your side project" /><published>2016-08-08T00:00:00+02:00</published><updated>2016-08-08T00:00:00+02:00</updated><id>/posts/tips-for-selling-your-side-project</id><content type="html" xml:base="/posts/tips-for-selling-your-side-project/">&lt;p&gt;Side projects are expressions of creativity, they are tools for fixing frustrations, having fun and brushing up on skills. This is true for all areas of life, not just in software projects, which this post is about.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-09-23T17:59:03+02:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>matic jurglic</name></author><entry><title>Recurring subscription payments: use external service or make your own?</title><link href="/posts/subscription-payments-use-external-service-or-make-your-own/" rel="alternate" type="text/html" title="Recurring subscription payments: use external service or make your own?" /><published>2016-09-19T00:00:00+02:00</published><updated>2016-09-19T00:00:00+02:00</updated><id>/posts/subscription-payments-use-external-service-or-make-your-own</id><content type="html" xml:base="/posts/subscription-payments-use-external-service-or-make-your-own/">&lt;p&gt;Billing is far more complex than people tend to believe, and much more so with subscriptions.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Remind me to never make a subscription service again.&lt;/p&gt;&amp;mdash; Jeffrey Biles (@JeffreyBiles) &lt;a href=&quot;https://twitter.com/JeffreyBiles/status/775371558768390144&quot;&gt;September 12, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;center&gt;&lt;small&gt;I feel your pain, Jeffrey. It&#39;s hard to get it right.&lt;/small&gt;&lt;/center&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Subscriptions are a common business model in paid online products, especially in SaaS world. That means the customers are charged in a recurring fashion; most commonly monthly or yearly.&lt;/p&gt;
+
+&lt;p&gt;After you manage to convince your customer to enter their payment vehicle (credit card, PayPal, etc), there are two ways you can trigger acquiring currency when their payment is due:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Use an external billing service (&lt;a href=&quot;https://www.braintreegateway.com/&quot;&gt;Braintree&lt;/a&gt;, &lt;a href=&quot;https://recurly.com/product/&quot;&gt;Recurly&lt;/a&gt;, &lt;a href=&quot;https://stripe.com&quot;&gt;Stripe&lt;/a&gt;, &lt;a href=&quot;https://cheddargetter.com/&quot;&gt;Chedargetter&lt;/a&gt;,…) and let it do &lt;strong&gt;all&lt;/strong&gt; the billing work. Let it charge your customers on a recurring basis and send you event notifications, which you use to update your system - prolong or expire customers’ subscription. Simple, fast, reliable, but severely limited in customization as your business needs grow.&lt;/li&gt;
+  &lt;li&gt;Also use one of the billing services*, but only use it manually - implement your own payment scheduler (usually with a cron job or a run loop) and bill customers using your own server. Periodically use the payment service’s API to bill customers, and handle all the results yourself. More complex and bug prone, takes more time to implement, but you’re in complete control and know exactly how your billing system works, especially when something breaks.
+&lt;br /&gt;&lt;br /&gt;&lt;span&gt;*&lt;/span&gt; &lt;small&gt;assuming you’re offloading PCI responsibility to a payment processor by only storing customer tokens on your server instead of raw payment method data. &lt;/small&gt;
+ &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So, what does this recurring work actually include? The most basic flow is this: every month, &lt;strong&gt;determine&lt;/strong&gt; payment amount depending on customer’s subscription plan, &lt;strong&gt;charge&lt;/strong&gt; the amount using their payment method, &lt;strong&gt;update&lt;/strong&gt; their subscription in your application’s database, &lt;strong&gt;send&lt;/strong&gt; an invoice.&lt;/p&gt;
+
+&lt;h2 id=&quot;you-need-to-decide-what-kind-of-billing-mechanics-your-business-needs&quot;&gt;You need to decide what kind of billing mechanics your business needs.&lt;/h2&gt;
+
+&lt;p&gt;&lt;span style=&quot;margin-top: 20px; display: inline-block;&quot;&gt;Let’s compare both ways a little bit more in depth.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Using option 1, you populate the external service with your subscription plans, add-ons, coupons and perhaps configure trial periods. When customers subscribe to your product, your application registers them to the billing service. It takes care of deducting your customers’ money every month/year and sending it to your wallet. For every payment activity (successful charge, declined card, etc), they send an event notification, usually as HTTP requests to your API - also known as “reverse API”. You use these notifications to extend or halt your customers’ subscriptions.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The main benefit here is that you spend very little time developing a billing system.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When you are just starting out, or when you’re certain your billing dynamics aren’t going to be very diverse, implementing your own billing system is most probably a waste of time. This way you usually also get some basic billing analytics with it, which is really useful for monitoring customer and revenue churn rates.&lt;/p&gt;
+
+&lt;h2 id=&quot;as-your-business-grows-things-can-quickly-get-complicated&quot;&gt;As your business grows, things can quickly get complicated.&lt;/h2&gt;
+
+&lt;p&gt;&lt;span style=&quot;margin-top: 20px; display: inline-block;&quot;&gt;Consider diverse subscription plans, coupons and add-ons with variable durations and prices depending on various conditions, multi-currency, multi-tenancy and dunning.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s list some examples.&lt;/p&gt;
+
+&lt;p&gt;What if…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a customer decides to upgrade from a monthly to a yearly subscription in the middle of the month, and you have some custom rules for a pro-rate refund?&lt;/li&gt;
+  &lt;li&gt;a coupon is valid only for an upgrade to a larger subscription?&lt;/li&gt;
+  &lt;li&gt;there is a second trial period for some customers?&lt;/li&gt;
+  &lt;li&gt;an add-on is cheaper on a larger subscription plan?&lt;/li&gt;
+  &lt;li&gt;there is a special discount for people paying with a debit visa card?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;See the pattern?&lt;/p&gt;
+
+&lt;p&gt;In cases like this, you can’t escape having a custom tailored business logic for determining the amount to charge. As your pricing plans become more convoluted with discounting, optional add-ons and conditionals it becomes hard not just to bill, but also to keep track of activities, ordering, and reporting.&lt;/p&gt;
+
+&lt;center&gt;&lt;img src=&quot;http://i.imgur.com/cLU8h3D.png&quot; alt=&quot;RankTrackr Billing&quot; title=&quot;RankTrackr billing&quot; style=&quot;width: 520px; margin-top: 20px;&quot; /&gt;&lt;/center&gt;
+&lt;center&gt;&lt;small&gt;At &lt;a href=&quot;http://ranktrackr.com&quot;&gt;RankTrackr&lt;/a&gt; we built a custom billing service. It runs every day at 10AM and shows the results in Slack. &lt;/small&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;span style=&quot;margin-top: 15px; display: block;&quot;&gt;Subscription payments are one of the most delicate parts of your online business. So do your homework, because migrating to a different subscription payment implementation is distressing and expensive.&lt;/span&gt;&lt;/p&gt;</content><category term="posts" /><summary>Billing is far more complex than people tend to believe, and much more so with subscriptions.</summary></entry><entry><title>Tips for selling your side project</title><link href="/posts/tips-for-selling-your-side-project/" rel="alternate" type="text/html" title="Tips for selling your side project" /><published>2016-08-08T00:00:00+02:00</published><updated>2016-08-08T00:00:00+02:00</updated><id>/posts/tips-for-selling-your-side-project</id><content type="html" xml:base="/posts/tips-for-selling-your-side-project/">&lt;p&gt;Side projects are expressions of creativity, they are tools for fixing frustrations, having fun and brushing up on skills. This is true for all areas of life, not just in software projects, which this post is about.&lt;/p&gt;
 
 &lt;p&gt;Always be doing side projects if you want to stay relevant, especially to yourself.&lt;/p&gt;
 
@@ -58,7 +113,7 @@
 
 &lt;h2 id=&quot;my-lesson&quot;&gt;My lesson&lt;/h2&gt;
 
-&lt;p&gt;There’s a market for even the simplest of things, if you know how to present their value well. I’m giving myself a nice pat on the back for rediscovering the basics of commerce, but if I managed to sell my Sitestalker, and if my friend sold a bot that tweets your crush on Valentines, then what’s stopping you from exchanging your thing that’s just idling there for free beer?&lt;/p&gt;</content><category term="posts" /><summary>Side projects are expressions of creativity, tools for fixing frustrations, having fun and brushing up on skills. Always be doing side-projects if you want to stay relevant, especially to yourself.</summary></entry><entry><title>How to reset Ember applications</title><link href="/posts/how-to-reset-ember-applications/" rel="alternate" type="text/html" title="How to reset Ember applications" /><published>2016-06-12T00:00:00+02:00</published><updated>2016-06-12T00:00:00+02:00</updated><id>/posts/how-to-reset-ember-applications</id><content type="html" xml:base="/posts/how-to-reset-ember-applications/">&lt;p&gt;Usually when the user logs out of your Ember application, we want to clear the state, wipe out every trace of user activity, and unload the store in order to reach a blank state and make the application ready to start a fresh session.&lt;/p&gt;
+&lt;p&gt;There’s a market for even the simplest of things, if you know how to present their value well. I’m giving myself a nice pat on the back for rediscovering the basics of commerce, but if I managed to sell my Sitestalker, and if my friend sold a bot that tweets your crush on Valentines, then what’s stopping you from exchanging your thing that’s just idling there for free beer?&lt;/p&gt;</content><category term="posts" /><summary>All I did was put together a trivial web app to scratch my own itch, and it keeps scratching it, while I drink my free beer.</summary></entry><entry><title>How to reset Ember applications</title><link href="/posts/how-to-reset-ember-applications/" rel="alternate" type="text/html" title="How to reset Ember applications" /><published>2016-06-12T00:00:00+02:00</published><updated>2016-06-12T00:00:00+02:00</updated><id>/posts/how-to-reset-ember-applications</id><content type="html" xml:base="/posts/how-to-reset-ember-applications/">&lt;p&gt;Usually when the user logs out of your Ember application, we want to clear the state, wipe out every trace of user activity, and unload the store in order to reach a blank state and make the application ready to start a fresh session.&lt;/p&gt;
 
 &lt;p&gt;Most of the time we are (totally rightfully) tempted to find the one and only &lt;strong&gt;Ember way&lt;/strong&gt; for each possible action in our application. So, you go surfin’ in the Ember’s &lt;a href=&quot;http://emberjs.com/api/classes/Ember.Application.html&quot;&gt;API docs&lt;/a&gt; and find the &lt;code class=&quot;highlighter-rouge&quot;&gt;Application#reset&lt;/code&gt; method. It says it re-creates the application’s container. Sounds good?&lt;/p&gt;
 

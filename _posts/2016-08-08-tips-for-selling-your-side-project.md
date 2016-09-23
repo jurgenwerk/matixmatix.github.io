@@ -2,7 +2,7 @@
 category: posts
 layout: single
 title: "Tips for selling your side project"
-excerpt: "Side projects are expressions of creativity, tools for fixing frustrations, having fun and brushing up on skills. Always be doing side-projects if you want to stay relevant, especially to yourself."
+excerpt: "All I did was put together a trivial web app to scratch my own itch, and it keeps scratching it, while I drink my free beer."
 ---
 
 Side projects are expressions of creativity, they are tools for fixing frustrations, having fun and brushing up on skills. This is true for all areas of life, not just in software projects, which this post is about.

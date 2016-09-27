@@ -3,6 +3,8 @@ category: posts
 layout: single
 title: "Recurring subscription payments: use external service or make your own?"
 excerpt: "Billing is far more complex than people tend to believe, and much more so with subscriptions."
+header:
+  image: "https://cdn.shopify.com/s/files/1/1061/1924/files/Money_Face_Emoji.png"
 ---
 
 Billing is far more complex than people tend to believe, and much more so with subscriptions.
@@ -20,7 +22,12 @@ After you convinced your customer to enter their payment vehicle (credit card, P
 <br><br><span>*</span> <small>assuming you’re offloading PCI responsibility to a payment processor by only storing customer tokens on your server instead of raw payment method data. </small>
 &nbsp;
 
-So, what does this recurring work actually include? The most basic flow is this: every month, **determine** payment amount depending on customer’s subscription plan, **charge** the amount using their payment method, **update** their subscription in your application's database, **send** an invoice.
+So, what does this recurring work actually include? The most basic flow is this: every month,
+
+- **determine** payment amount depending on customer’s subscription plan,
+- **charge** the amount using their payment method,
+- **update** their subscription in your application's database,
+- **send** an invoice.
 
 ## You need to decide what kind of billing mechanics your business needs.
 

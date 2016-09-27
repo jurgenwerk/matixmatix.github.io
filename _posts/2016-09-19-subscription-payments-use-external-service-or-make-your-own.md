@@ -13,10 +13,10 @@ Billing is far more complex than people tend to believe, and much more so with s
 
 Subscriptions are a common business model in paid online products, especially in SaaS world. That means the customers are charged in a recurring fashion; most commonly monthly or yearly.
 
-After you manage to convince your customer to enter their payment vehicle (credit card, PayPal, etc), there are two ways you can trigger acquiring currency when their payment is due:
+After you convinced your customer to enter their payment vehicle (credit card, PayPal, etc), there are two ways you can trigger acquiring currency when their payment is due:
 
 1. Use an external billing service ([Braintree](https://www.braintreegateway.com/), [Recurly](https://recurly.com/product/), [Stripe](https://stripe.com), [Chedargetter](https://cheddargetter.com/),...) and let it do **all** the billing work. Let it charge your customers on a recurring basis and send you event notifications, which you use to update your system - prolong or expire customers' subscription. Simple, fast, reliable, but severely limited in customization as your business needs grow.
-2. Also use one of the billing services*, but only use it manually - implement your own payment scheduler (usually with a cron job or a run loop) and bill customers using your own server. Periodically use the payment service's API to bill customers, and handle all the results yourself. More complex and bug prone, takes more time to implement, but you’re in complete control and know exactly how your billing system works, especially when something breaks.
+2. Also use one of the billing services*, but only manually - implement your own payment scheduler (usually with a cron job or a run loop) and bill the customers using your own server. Periodically use the payment service's API to bill customers, and handle all the results yourself. It's more complex and bug prone, takes more time to implement, but you’re in complete control and know exactly how your billing system works, especially when something breaks.
 <br><br><span>*</span> <small>assuming you’re offloading PCI responsibility to a payment processor by only storing customer tokens on your server instead of raw payment method data. </small>
 &nbsp;
 
@@ -54,4 +54,4 @@ In cases like this, you can’t escape having a custom tailored business logic f
 <center><small>At <a href="http://ranktrackr.com">RankTrackr</a> we built a custom billing service. It runs every day at 10AM and shows the results in Slack. </small></center>
 
 <br>
-<span style="margin-top: 15px; display: block;">Subscription payments are one of the most delicate parts of your online business. So do your homework, because migrating to a different subscription payment implementation is distressing and expensive.</span>
+<span style="margin-top: 15px; display: block;">Subscription payments are one of the most delicate parts of your online business, so do your homework, because migrating to a different subscription payment implementation is distressing and expensive.</span>

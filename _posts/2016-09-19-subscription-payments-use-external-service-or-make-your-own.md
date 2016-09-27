@@ -4,7 +4,7 @@ layout: single
 title: "Recurring subscription payments: use external service or make your own?"
 excerpt: "Billing is far more complex than people tend to believe, and much more so with subscriptions."
 header:
-  image: "https://cdn.shopify.com/s/files/1/1061/1924/files/Money_Face_Emoji.png"
+  image: "http://dailycaller.com/wp-content/uploads/2015/08/buck-e1447773411150.png"
 ---
 
 Billing is far more complex than people tend to believe, and much more so with subscriptions.

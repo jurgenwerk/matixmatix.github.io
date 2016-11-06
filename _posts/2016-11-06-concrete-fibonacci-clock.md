@@ -60,7 +60,7 @@ Did you know it can take up to 20 years for the concrete to fully harden and set
 
 ## Attach acrylic glass
 
-I cut the covers from acrylic glass sheet with a blade saw, drilled holes for the bolts and attached the nuts:
+With a jig saw, I cut the covers out of an acrylic glass sheet, drilled the holes for the bolts and attached the nuts:
 
 <figure class="half">
     <a href="/images/fibonacci/IMG_7786.jpg"><img src="/images/fibonacci/IMG_7786.jpg"></a>

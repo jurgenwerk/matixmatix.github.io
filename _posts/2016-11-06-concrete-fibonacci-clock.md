@@ -4,7 +4,7 @@ layout: single
 title: "The making of the concrete fibonacci clock"
 excerpt: "Not a practical clock, but the fusion of the curious numerical sequence with a lighting installation aesthetic is just too appealing to look away."
 header:
-  image: "http://dailycaller.com/wp-content/uploads/2015/08/buck-e1447773411150.png"
+  image: "http://codeandtechno.com/images/fibonacci/IMG_8108.jpg"
 ---
 
 The idea of the Fibonacci clock is a brainchild of [Philippe Chrétien](http://basbrun.com/), who names his creation “a clock for nerds with style”. It’s certainly not a very practical clock, but the fusion of the curious numerical sequence with a lighting installation aesthetic is just too appealing to look away.
@@ -38,7 +38,7 @@ Phillipe is offering finished products in pretty wooden casings, but I needed to
 ## Pour the concrete into the mold
 I use a mixture of standard cement, sand, water. Adding reinforcement is crucial, otherwise the concrete brick falls apart and cracks. In this case I used glass fiber, but I’m regretting it, because the fibers make the the surface of the concrete look bad (tiny stripes and scars). I should have just used good old steel reinforcement.
 
-This amount of concrete is surprisingly heavy (weight of a small child), and somehow I didn’t fully account for that during process. As I was pouring the concrete in the mold, the outer walls started to bend. Yikes! I needed a quick way to ensure the walls stay straight using whatever I could find in that moment. Behold the various things holding it together. Bless this mess.
+This amount of concrete is surprisingly heavy (weight of a small child), and somehow I didn’t fully account for that during the process. As I was pouring the concrete in the mold, the outer walls started to bend. Yikes! I needed a quick way to ensure the walls stay straight using whatever I could find in that moment. Behold the various things holding it together.
 
 <figure class="half">
     <a href="/images/fibonacci/IMG_6819.jpg"><img src="/images/fibonacci/IMG_6819.jpg"></a>

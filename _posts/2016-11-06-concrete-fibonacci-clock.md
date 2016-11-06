@@ -7,7 +7,7 @@ header:
   image: "http://codeandtechno.com/images/fibonacci/IMG_8108.jpg"
 ---
 
-The idea of the Fibonacci clock is a brainchild of [Philippe Chrétien](http://basbrun.com/), who names his creation “a clock for nerds with style”. It’s certainly not a very practical clock, but the fusion of the curious numerical sequence with a lighting installation aesthetic is just too appealing to look away.
+The idea of the Fibonacci clock is a brainchild of [Philippe Chrétien](http://basbrun.com/), who calls his creation “a clock for nerds with style”. It’s certainly not a very practical clock, but the fusion of the curious numerical sequence with a lighting installation aesthetic is just too appealing to look away.
 
 <figure class="half">
     <a href="/images/fibonacci/IMG_8108.jpg"><img src="/images/fibonacci/IMG_8108.jpg"></a>

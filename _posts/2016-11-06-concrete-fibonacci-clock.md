@@ -2,7 +2,7 @@
 category: posts
 layout: single
 title: "The making of the concrete fibonacci clock"
-excerpt: "Not a practical clock, but the fusion of the curious numerical sequence with a lighting installation aesthetic is just too appealing to look away."
+excerpt: "Not a very practical clock, but the fusion of the curious numerical sequence with a lighting installation aesthetic is just too appealing to look away."
 header:
   image: "http://codeandtechno.com/images/fibonacci/IMG_8108.jpg"
 ---

@@ -21,7 +21,7 @@
 
   		var url = "https://emberjs-email-sender.herokuapp.com/handle_email?email=" + email + "&from_site=codeandtechno";
   		$('.email-button').text("Subscribing...");
-  		$.post(url, function() {
+  		$.post(url, { page: window.location.href }, function() {
   			$('.email-button').text("Done!");
   		});
   	});

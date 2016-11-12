@@ -59,7 +59,7 @@ But it did. I was amazed by how Ember’s templating engine digests this without
 </figure>
 
 
-## Lesson 2: When you need a dirty workaround, Ember's templating engine can reactively spit out practically any markup a browser can understand
+## Lesson 2: When you need a dirty workaround, Ember's templating engine can reactively spit out practically any markup a browser can understand.
 
 Just be careful not to ruin your site’s performance.
 

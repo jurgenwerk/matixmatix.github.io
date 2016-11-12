@@ -34,7 +34,7 @@ Due to the way these custom checkboxes are implemented, I learned this is not go
     <figcaption>You can't implement pseudo-element declarations using inline CSS.</figcaption>
 </figure>
 
-## Lesson 1: CSS is not designed to accept pseudo styles in the style attribute.
+## Lesson 1: CSS is not designed to accept pseudo-element styles in the style attribute.
 
 What can we do?
 

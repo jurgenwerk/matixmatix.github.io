@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-11-12T13:59:35+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>matic jurglic</name></author><entry><title>Dynamic CSS in Ember templates</title><link href="/posts/dynamic-css-in-ember-templates/" rel="alternate" type="text/html" title="Dynamic CSS in Ember templates" /><published>2016-11-12T00:00:00+01:00</published><updated>2016-11-12T00:00:00+01:00</updated><id>/posts/dynamic-css-in-ember-templates</id><content type="html" xml:base="/posts/dynamic-css-in-ember-templates/">&lt;p&gt;Recently I was challenged with a task to dynamically colorize checkboxes when they are selected. The colors are generated on-the-fly when the select action is triggered:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-11-12T14:00:30+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>matic jurglic</name></author><entry><title>Dynamic CSS in Ember templates</title><link href="/posts/dynamic-css-in-ember-templates/" rel="alternate" type="text/html" title="Dynamic CSS in Ember templates" /><published>2016-11-12T00:00:00+01:00</published><updated>2016-11-12T00:00:00+01:00</updated><id>/posts/dynamic-css-in-ember-templates</id><content type="html" xml:base="/posts/dynamic-css-in-ember-templates/">&lt;p&gt;Recently I was challenged with a task to dynamically colorize checkboxes when they are selected. The colors are generated on-the-fly when the select action is triggered:&lt;/p&gt;
 
 &lt;iframe src=&quot;//giphy.com/embed/qeUvEToKvHGBa&quot; width=&quot;400&quot; height=&quot;250&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -16,7 +16,7 @@
 &lt;span class=&quot;k&quot;&gt;{{/&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;each&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;small&gt;Color is set to the the &lt;code class=&quot;highlighter-rouge&quot;&gt;series.color&lt;/code&gt; property on checkbox change event.&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Random color is set to the the &lt;code class=&quot;highlighter-rouge&quot;&gt;series.color&lt;/code&gt; property on checkbox change event.&lt;/small&gt;&lt;/p&gt;
 
 &lt;p&gt;Due to the way these custom checkboxes are implemented, I learned this is not going to work. The place to define checkbox’s background color is actually in the label’s &lt;code class=&quot;highlighter-rouge&quot;&gt;::before&lt;/code&gt; pseudo selector:&lt;/p&gt;
 
@@ -25,7 +25,7 @@
     &lt;figcaption&gt;You can&#39;t implement pseudo-element declarations using inline CSS.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h2 id=&quot;lesson-1-css-is-not-designed-to-accept-pseudo-styles-in-the-style-attribute&quot;&gt;Lesson 1: CSS is not designed to accept pseudo styles in the style attribute.&lt;/h2&gt;
+&lt;h2 id=&quot;lesson-1-css-is-not-designed-to-accept-pseudo-element-styles-in-the-style-attribute&quot;&gt;Lesson 1: CSS is not designed to accept pseudo-element styles in the style attribute.&lt;/h2&gt;
 
 &lt;p&gt;What can we do?&lt;/p&gt;
 

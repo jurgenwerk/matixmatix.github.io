@@ -25,7 +25,7 @@ Since we generate colors dynamically and thus can’t make predefined CSS classe
   </div>
 {{/each}}{% endraw %}
 ```
-<small>Color is set to the the `series.color` property on checkbox change event.</small>
+<small>Random color is set to the the `series.color` property on checkbox change event.</small>
 
 Due to the way these custom checkboxes are implemented, I learned this is not going to work. The place to define checkbox's background color is actually in the label’s `::before` pseudo selector:
 

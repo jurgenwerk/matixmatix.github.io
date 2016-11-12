@@ -7,7 +7,7 @@ header:
   image: "http://codeandtechno.com/images/dynamic-css-post/series-selector.png"
 ---
 
-Recently I was challenged with a task to dynamically colorize checkboxes when they are selected. The colors are generated on-the-fly when the selecting action is triggered:
+Recently I was challenged with a task to dynamically colorize checkboxes when they are selected. The colors are generated on-the-fly when the select action is triggered:
 
 <iframe src="//giphy.com/embed/qeUvEToKvHGBa" width="400" height="250" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 

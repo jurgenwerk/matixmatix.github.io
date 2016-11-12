@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-11-06T23:23:13+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>matic jurglic</name></author><entry><title>The making of the concrete fibonacci clock</title><link href="/posts/concrete-fibonacci-clock/" rel="alternate" type="text/html" title="The making of the concrete fibonacci clock" /><published>2016-11-06T00:00:00+01:00</published><updated>2016-11-06T00:00:00+01:00</updated><id>/posts/concrete-fibonacci-clock</id><content type="html" xml:base="/posts/concrete-fibonacci-clock/">&lt;p&gt;The idea of the Fibonacci clock is a brainchild of &lt;a href=&quot;http://basbrun.com/&quot;&gt;Philippe Chrétien&lt;/a&gt;, who calls his creation “a clock for nerds with style”. It’s certainly not a very practical clock, but the fusion of the curious numerical sequence with a lighting installation aesthetic is just too appealing to look away.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2016-11-12T13:58:29+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>matic jurglic</name></author><entry><title>Dynamic CSS in Ember templates</title><link href="/posts/dynamic-css-in-ember-templates/" rel="alternate" type="text/html" title="Dynamic CSS in Ember templates" /><published>2016-11-12T00:00:00+01:00</published><updated>2016-11-12T00:00:00+01:00</updated><id>/posts/dynamic-css-in-ember-templates</id><content type="html" xml:base="/posts/dynamic-css-in-ember-templates/">&lt;p&gt;Recently I was challenged with a task to dynamically colorize checkboxes when they are selected. The colors are generated on-the-fly when the selecting action is triggered:&lt;/p&gt;
+
+&lt;iframe src=&quot;//giphy.com/embed/qeUvEToKvHGBa&quot; width=&quot;400&quot; height=&quot;250&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;small&gt;Finished functionality. It’s a selector for chart series.&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;Since we generate colors dynamically and thus can’t make predefined CSS classes that determine the checkbox’s color, I thought it should be enough to simply inline the color style, like so:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;{{#&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;chartSeries&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;series&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;checkbox&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;checkbox&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;html-safe&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;color:&#39;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;series&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;checked=…&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;label&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;for=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;series&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;seriesId&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+      &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;series&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;lt;/label&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;{{/&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;each&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;small&gt;Color is set to the the &lt;code class=&quot;highlighter-rouge&quot;&gt;series.color&lt;/code&gt; property on checkbox change event.&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;Due to the way these custom checkboxes are implemented, I learned this is not going to work. The place to define checkbox’s background color is actually in the label’s &lt;code class=&quot;highlighter-rouge&quot;&gt;::before&lt;/code&gt; pseudo selector:&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+    &lt;a href=&quot;/images/dynamic-css-post/1.jpg&quot;&gt;&lt;img src=&quot;/images/dynamic-css-post/1.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;figcaption&gt;You can&#39;t implement pseudo-element declarations using inline CSS.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;lesson-1-css-is-not-designed-to-accept-pseudo-styles-in-the-style-attribute&quot;&gt;Lesson 1: CSS is not designed to accept pseudo styles in the style attribute.&lt;/h2&gt;
+
+&lt;p&gt;What can we do?&lt;/p&gt;
+
+&lt;p&gt;The only solution that came to my mind is to generate CSS classes dynamically. I naively wrote this piece of code in the template, and for some reason, I didn’t expect it to work:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;{{#&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;chartSeries&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;series&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;
+    input[type=&quot;checkbox&quot;]#&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;series&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;seriesId&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.styled:checked + label:before {
+      background: &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;series&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;
+      border-color: &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;series&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;
+    }
+  &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;{{/&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;each&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;But it did. I was amazed by how Ember’s templating engine digests this without problems, and dynamically adds the necessary CSS declarations to the &lt;code class=&quot;highlighter-rouge&quot;&gt;style&lt;/code&gt; tag when the &lt;code class=&quot;highlighter-rouge&quot;&gt;chartSeries&lt;/code&gt; array changes:&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+    &lt;a href=&quot;/images/dynamic-css-post/2.jpg&quot;&gt;&lt;img src=&quot;/images/dynamic-css-post/2.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;figcaption&gt;The templating engine inserts some whitespace, but we can live with that.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;lesson-2-when-you-need-a-dirty-workaround-embers-templating-engine-can-reactively-spit-out-practically-any-markup-a-browser-can-understand&quot;&gt;Lesson 2: When you need a dirty workaround, Ember’s templating engine can reactively spit out practically any markup a browser can understand&lt;/h2&gt;
+
+&lt;p&gt;Just be careful not to ruin your site’s performance.&lt;/p&gt;
+
+&lt;p&gt;In our case, every time the &lt;code class=&quot;highlighter-rouge&quot;&gt;chartSeries&lt;/code&gt; array changes, the browser needs to recalculate style, which could lead to page clunkiness if we had a lot of elements and a lot of updates in a short amount of time.&lt;/p&gt;</content><category term="posts" /><summary>When you need a dirty workaround, Ember&#39;s templating engine can reactively spit out practically any markup a browser can understand.</summary></entry><entry><title>Making a concrete fibonacci clock</title><link href="/posts/concrete-fibonacci-clock/" rel="alternate" type="text/html" title="Making a concrete fibonacci clock" /><published>2016-11-06T00:00:00+01:00</published><updated>2016-11-06T00:00:00+01:00</updated><id>/posts/concrete-fibonacci-clock</id><content type="html" xml:base="/posts/concrete-fibonacci-clock/">&lt;p&gt;The idea of the Fibonacci clock is a brainchild of &lt;a href=&quot;http://basbrun.com/&quot;&gt;Philippe Chrétien&lt;/a&gt;, who calls his creation “a clock for nerds with style”. It’s certainly not a very practical clock, but the fusion of the curious numerical sequence with a lighting installation aesthetic is just too appealing to look away.&lt;/p&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
     &lt;a href=&quot;/images/fibonacci/IMG_8108.jpg&quot;&gt;&lt;img src=&quot;/images/fibonacci/IMG_8108.jpg&quot; /&gt;&lt;/a&gt;

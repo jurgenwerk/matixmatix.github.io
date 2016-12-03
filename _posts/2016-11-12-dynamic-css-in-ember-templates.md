@@ -1,5 +1,6 @@
 ---
 category: posts
+mainTopic: 'ember'
 layout: single
 title: "Dynamic CSS in Ember templates"
 excerpt: "When you need a dirty workaround, Ember's templating engine can reactively spit out practically any markup a browser can understand."

@@ -3,6 +3,8 @@ category: posts
 layout: single
 title: "Recurring subscription payments: use external service or make your own?"
 excerpt: "Billing is far more complex than people tend to believe, and much more so with subscriptions."
+mainTopic: 'making'
+emoji: 💸
 header:
   image: "http://dailycaller.com/wp-content/uploads/2015/08/buck-e1447773411150.png"
 ---

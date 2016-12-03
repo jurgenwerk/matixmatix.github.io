@@ -2,6 +2,8 @@
 category: posts
 layout: single
 title: "Tips for selling your side project"
+mainTopic: 'making'
+emoji: 💻
 excerpt: "All I did was put together a trivial web app to scratch my own itch, and it keeps scratching it, while I drink my free beer."
 ---
 

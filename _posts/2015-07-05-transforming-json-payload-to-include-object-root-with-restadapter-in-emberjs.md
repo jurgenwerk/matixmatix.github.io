@@ -1,6 +1,7 @@
 ---
 category: posts
 layout: single
+mainTopic: 'ember'
 title: "Transforming JSON payload to include object root with RESTSerializer in Ember.js"  
 ---
 

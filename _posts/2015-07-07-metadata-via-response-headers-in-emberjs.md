@@ -1,6 +1,7 @@
 ---
 category: posts
 layout: single
+mainTopic: 'ember'
 title: "Metadata via HTTP headers in Ember.js"  
 ---
 

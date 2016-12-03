@@ -7,7 +7,15 @@ author_profile: true
 
 <!-- <h3 class="archive__subtitle">recent things</h3> -->
 
-{% for post in paginator.posts %}
+{% assign makingPosts = paginator.posts | where:'mainTopic', 'making' %}
+{% assign emberPosts = paginator.posts | where:'mainTopic', 'ember' %}
+
+{% for post in makingPosts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<hr>
+{% for post in emberPosts %}
   {% include archive-single.html %}
 {% endfor %}
 

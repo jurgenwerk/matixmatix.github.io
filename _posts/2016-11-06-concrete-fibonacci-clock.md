@@ -3,6 +3,8 @@ category: posts
 layout: single
 title: "Making a concrete fibonacci clock"
 excerpt: "Not a very practical clock, but the fusion of the curious numerical sequence with a lighting installation aesthetic is just too appealing to look away."
+mainTopic: 'making'
+emoji: 🔧
 header:
   image: "http://codeandtechno.com/images/fibonacci/IMG_8108.jpg"
 ---

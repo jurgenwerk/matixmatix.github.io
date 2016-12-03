@@ -1,6 +1,7 @@
 ---
 category: posts
 layout: single
+mainTopic: 'ember'
 title: "Import an external library as an ES6 module in your Ember app"  
 ---
 

@@ -1,6 +1,7 @@
 ---
 category: posts
 layout: single
+mainTopic: 'ember'
 title: "Continuous integration for Ember.js apps with Codeship and Divshot"  
 ---
 

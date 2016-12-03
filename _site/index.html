@@ -240,9 +240,23 @@
     max-width: 480px;
   }
 
+  a:hover .archive__item-title {
+    text-decoration: none;
+  }
+
+  hr {
+    width: 70%;
+    border-top: 1px solid #e3e3e3;
+    margin-top: 5px;
+  }
+
   @media (max-width: 650px) {
     .book-ad-navbar {
       display: none;
+    }
+
+    hr {
+      width: 100%;
     }
   }
 
@@ -460,26 +474,7 @@
 <!-- <h3 class="archive__subtitle">recent things</h3> -->
 
 
-  
 
-
-
-<div class="list__item" data-lang="">
-  
-    <a href="/posts/dynamic-css-in-ember-templates/">
-  
-    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-      
-      <h2 class="archive__item-title" itemprop="headline">Dynamic CSS in Ember templates
-</h2>
-      
-      
-        <p class="archive__item-excerpt" itemprop="description">When you need a dirty workaround, Ember’s templating engine can reactively spit out practically any markup a browser can understand.
-</p>
-      
-    </article>
-  </a>
-</div>
 
 
   
@@ -492,8 +487,15 @@
   
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       
-      <h2 class="archive__item-title" itemprop="headline">Making a concrete fibonacci clock
+
+      <h2 class="archive__item-title" itemprop="headline">
+        
+          🔧
+          &nbsp;
+        
+        Making a concrete fibonacci clock
 </h2>
+
       
       
         <p class="archive__item-excerpt" itemprop="description">Not a very practical clock, but the fusion of the curious numerical sequence with a lighting installation aesthetic is just too appealing to look away.
@@ -514,8 +516,15 @@
   
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       
-      <h2 class="archive__item-title" itemprop="headline">Recurring subscription payments: use external service or make your own?
+
+      <h2 class="archive__item-title" itemprop="headline">
+        
+          💸
+          &nbsp;
+        
+        Recurring subscription payments: use external service or make your own?
 </h2>
+
       
       
         <p class="archive__item-excerpt" itemprop="description">Billing is far more complex than people tend to believe, and much more so with subscriptions.
@@ -536,11 +545,47 @@
   
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       
-      <h2 class="archive__item-title" itemprop="headline">Tips for selling your side project
+
+      <h2 class="archive__item-title" itemprop="headline">
+        
+          💻
+          &nbsp;
+        
+        Tips for selling your side project
 </h2>
+
       
       
         <p class="archive__item-excerpt" itemprop="description">All I did was put together a trivial web app to scratch my own itch, and it keeps scratching it, while I drink my free beer.
+</p>
+      
+    </article>
+  </a>
+</div>
+
+
+
+<hr>
+
+  
+
+
+
+<div class="list__item" data-lang="">
+  
+    <a href="/posts/dynamic-css-in-ember-templates/">
+  
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+      
+
+      <h2 class="archive__item-title" itemprop="headline">
+        
+        Dynamic CSS in Ember templates
+</h2>
+
+      
+      
+        <p class="archive__item-excerpt" itemprop="description">When you need a dirty workaround, Ember’s templating engine can reactively spit out practically any markup a browser can understand.
 </p>
       
     </article>
@@ -558,8 +603,12 @@
   
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       
-      <h2 class="archive__item-title" itemprop="headline">How to reset Ember applications
+
+      <h2 class="archive__item-title" itemprop="headline">
+        
+        How to reset Ember applications
 </h2>
+
       
       
         <p class="archive__item-excerpt" itemprop="description">Usually when the user logs out of your Ember application, we want to clear the state, wipe out every trace of user activity, and unload the store in order to...</p>
@@ -579,8 +628,12 @@
   
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       
-      <h2 class="archive__item-title" itemprop="headline">Import an external library as an ES6 module in your Ember app
+
+      <h2 class="archive__item-title" itemprop="headline">
+        
+        Import an external library as an ES6 module in your Ember app
 </h2>
+
       
       
         <p class="archive__item-excerpt" itemprop="description">Consuming 3rd party libraries from the browser’s global window scope is nowadays considered as outrageous, egregious, preposterous.
@@ -602,8 +655,12 @@
   
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       
-      <h2 class="archive__item-title" itemprop="headline">Metadata via HTTP headers in Ember.js
+
+      <h2 class="archive__item-title" itemprop="headline">
+        
+        Metadata via HTTP headers in Ember.js
 </h2>
+
       
       
         <p class="archive__item-excerpt" itemprop="description">In your ambitious web app, there’s a very high probability you’ll want to pass some metadata from your store along with the actual data, e.g. total count of ...</p>
@@ -623,8 +680,12 @@
   
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       
-      <h2 class="archive__item-title" itemprop="headline">Transforming JSON payload to include object root with RESTSerializer in Ember.js
+
+      <h2 class="archive__item-title" itemprop="headline">
+        
+        Transforming JSON payload to include object root with RESTSerializer in Ember.js
 </h2>
+
       
       
         <p class="archive__item-excerpt" itemprop="description">If you find yourself using Ember Data combined with a backend that doesn’t conform to JSON API specs, you just might be in a bit of a trouble. As always, Emb...</p>
@@ -644,8 +705,12 @@
   
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       
-      <h2 class="archive__item-title" itemprop="headline">Continuous integration for Ember.js apps with Codeship and Divshot
+
+      <h2 class="archive__item-title" itemprop="headline">
+        
+        Continuous integration for Ember.js apps with Codeship and Divshot
 </h2>
+
       
       
         <p class="archive__item-excerpt" itemprop="description">[DEPRECATED] I guess pretty much everyone agrees there is no better thing in life than to see your app get deployed automatically after you push some code to...</p>

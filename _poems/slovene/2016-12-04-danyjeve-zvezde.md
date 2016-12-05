@@ -25,7 +25,7 @@ v kartah Danny je prebral,
 
 kar je tebi nedosegljivo,
 
-Danny je močno zaznal.
+Danny v srcu je zaznal.
 
 
 &nbsp;

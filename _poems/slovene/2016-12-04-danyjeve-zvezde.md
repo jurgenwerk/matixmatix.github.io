@@ -59,4 +59,4 @@ Pred stekleno kroglo,
 
 Danny gručo cekinov obrača:
 
-Čarobni vid, to je služba, ki se splača!
+Čarobni vid, to je posel, ki se splača!

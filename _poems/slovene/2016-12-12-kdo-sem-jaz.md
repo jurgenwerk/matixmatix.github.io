@@ -31,4 +31,4 @@ ne bi rad umrl,
 
 rad bi ne razmišljal,
 
-- kot rečna postrv.
+{% raw %}—{% endraw %} kot rečna postrv.

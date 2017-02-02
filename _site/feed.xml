@@ -1,4 +1,185 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-01-23T22:26:01+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>matic jurglic</name></author><entry><title>Dynamic CSS in Ember templates</title><link href="/posts/dynamic-css-in-ember-templates/" rel="alternate" type="text/html" title="Dynamic CSS in Ember templates" /><published>2016-11-12T00:00:00+01:00</published><updated>2016-11-12T00:00:00+01:00</updated><id>/posts/dynamic-css-in-ember-templates</id><content type="html" xml:base="/posts/dynamic-css-in-ember-templates/">&lt;p&gt;Recently I was challenged with a task to dynamically colorize checkboxes when they are selected. The colors are generated on-the-fly when the select action is triggered:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-02-02T20:49:41+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>matic jurglic</name></author><entry><title>Tips for writing an indie e-book</title><link href="/posts/tips-for-writing-an-indie-ebook/" rel="alternate" type="text/html" title="Tips for writing an indie e-book" /><published>2017-01-29T00:00:00+01:00</published><updated>2017-01-29T00:00:00+01:00</updated><id>/posts/tips-for-writing-an-indie-ebook</id><content type="html" xml:base="/posts/tips-for-writing-an-indie-ebook/">&lt;p&gt;With the advent of solopreneurship, &lt;a href=&quot;https://www.indiehackers.com&quot;&gt;indie hacking&lt;/a&gt; and side hustling, writing and self-publishing niche e-books became a well recognized source of passive income, and, more importantly, an effective sales funnel to your main business - be it a personal brand, consulting gigs, or various services.&lt;/p&gt;
+
+&lt;p&gt;A bit less than a year ago, I set myself up for my first serious writing adventure. Out of appreciation and internal need to evangelize the coolness of &lt;a href=&quot;http://emberjs.com/&quot;&gt;Ember.js&lt;/a&gt; (a web programming framework), a technical e-book &lt;a href=&quot;http://emberjs-book.com/&quot;&gt;Front-end revolution with Ember.js&lt;/a&gt; was born.&lt;/p&gt;
+
+&lt;p&gt;I extracted some valuable tips from my experience of writing and successfully delivering it to the target audience. I call it a success, because, with a marketing budget of €0.00, it helped more than 250 web developers learn to make web apps more efficiently. In addition to that, it still brings me passive revenue every month, and it grew my professional network and consulting business.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-prerequisites-for-writing-an-e-book&quot;&gt;The prerequisites for writing an e-book&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Know your field in depth&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;All humbleness aside, one ought to grow up and become an expert first. Know your stuff.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Have a knack for writing, form and story-telling&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Reading poor language and grammar destroys the experience. Nobody likes dull writing and genericism.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Be good at explaining&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;It’s easy to overestimate your mentoring abilites. Great tutoring is extremely hard.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Know your audience&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Do you know a community where there are at least 5 people who will buy your book right off the bat, or at least be very interested in? And I don’t mean your family. It’s the same as any other business. Do your market research.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Know your competitors&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Has your book already been written by somebody else? In that case, do you know its drawbacks and have constructed a plan how your e-book will address that?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Do it for the greater good&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;There is too much bullshit out there. Write material because you genuinely like doing it and because it will help people. Quick dollar and recognition should be treated as happy side-effects.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;center&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Just found out some company is building a web thing for US Paralympics and they’re using my book to learn &lt;a href=&quot;https://twitter.com/hashtag/emberjs?src=hash&quot;&gt;#emberjs&lt;/a&gt;! 🤗&lt;a href=&quot;https://t.co/tv4BuDz1fF&quot;&gt;https://t.co/tv4BuDz1fF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Matic Jurglič (@matixmatix) &lt;a href=&quot;https://twitter.com/matixmatix/status/794460016602468352&quot;&gt;November 4, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/center&gt;
+
+&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
+
+&lt;p&gt;Find an electronic book writing software that suits your needs. For example, if your book is about coding and includes computer code snippets, find something with a nice code syntax highlighter. Try to envision all the media material types that will be included, and choose accordingly.&lt;/p&gt;
+
+&lt;p&gt;It’s very important the software you chose is able to export to a variety of formats. Of course, &lt;code class=&quot;highlighter-rouge&quot;&gt;.pdf&lt;/code&gt; is standard. A lot of people read on their e-readers, so make sure your writing software can spit out &lt;code class=&quot;highlighter-rouge&quot;&gt;.epub&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;.mobi&lt;/code&gt; formats. Don’t make the same rookie mistake as I did and write it in Pages (or MS Word). It will be an unmaintainable mess, and hard to export to a number of formats.&lt;/p&gt;
+
+&lt;p&gt;If you don’t need anything special in that regards, there are some helpful e-book-creating services available, which can also act as a marketplace for your e-book. This is super helpful in case you don’t have an established following yet.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://leanpub.com/&quot;&gt;Leanpub&lt;/a&gt; offers integrated tooling for the whole journey: writing, publishing, marketing. Personally, I had great success with Leanpub, so I heavily recommend it. They’re promoting the books they think have potential (hint, hint: don’t be afraid to ask them to feature your e-book on their front page. You just might experience a spike in your sales on that day 🤑 ).&lt;/p&gt;
+
+&lt;p&gt;There are other options, like &lt;a href=&quot;https://reedsy.com&quot;&gt;Reedsy&lt;/a&gt;, and &lt;a href=&quot;https://www.softcover.io/&quot;&gt;Softcover&lt;/a&gt;, which is more technical and needs more marketing setup.&lt;/p&gt;
+
+&lt;h2 id=&quot;aesthetics-matter&quot;&gt;Aesthetics matter&lt;/h2&gt;
+
+&lt;p&gt;The only popular books that can pull off a boring look is the Bible and O’Reilly books. So make sure to give your book an exciting cover.&lt;/p&gt;
+
+&lt;p&gt;Here are some examples of rather boring e-book covers (that could make a potential reader wonder if the inside is equally dull 🤔):&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;https://leanpub.com/dowhatyoulove&quot;&gt;
+    &lt;img src=&quot;/images/book-post/boring-book3.jpg&quot; /&gt;
+    &lt;figcaption&gt;I can&#39;t even read the title.&lt;/figcaption&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://leanpub.com/whatsnewinjava8&quot;&gt;
+	 &lt;img src=&quot;/images/book-post/boring-book2.jpg&quot; /&gt;
+   &lt;figcaption&gt;Dry weed. Sounds much better than this depicted here.&lt;/figcaption&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://leanpub.com/cstips&quot;&gt;
+	 &lt;img src=&quot;/images/book-post/boring-book1.jpg&quot; /&gt;
+   &lt;figcaption&gt;At least I can read the title.&lt;/figcaption&gt;
+  &lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Here are some examples of appealing e-book covers that make you wanna read it even though you have no idea what are they about:&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;https://leanpub.com/grumpy-phpunit&quot;&gt;
+	 &lt;img src=&quot;/images/book-post/cool-cover1.jpg&quot; /&gt;
+   &lt;figcaption&gt;Ha! Look at this frustrated elephant!&lt;/figcaption&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://leanpub.com/trailblazer&quot;&gt;
+	 &lt;img src=&quot;/images/book-post/cool-cover2.jpg&quot; /&gt;
+   &lt;figcaption&gt;Whoah, a crazy ride!&lt;/figcaption&gt;
+  &lt;/a&gt;
+  &lt;a href=&quot;https://leanpub.com/manualjornalismodigital&quot;&gt;
+	 &lt;img src=&quot;/images/book-post/cool-cover3.jpg&quot; /&gt;
+   &lt;figcaption&gt;So many cool looking things in shapes!&lt;/figcaption&gt;
+  &lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;If you’re not a designing type, don’t worry. Pick some examples you like and ask your pixel savvy friend to help you out. Or, go to &lt;a href=&quot;https://www.fiverr.com/&quot;&gt;Fiverr&lt;/a&gt; and get one for 5 bucks.&lt;/p&gt;
+
+&lt;h2 id=&quot;writing-tactics-for-upselling-and-getting-subscribers&quot;&gt;Writing tactics for upselling and getting subscribers&lt;/h2&gt;
+
+&lt;p&gt;The point is to to get your readers’ attention for a longer time period than just the duration of reading your e-book. To do that, introduce a few hooks in different sections of your e-book. Some ideas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you have a mailing list, Twitter, or a blog, pick the most interesting sections of your book and next to them, offer your readers to follow you there if they want to know more.&lt;/li&gt;
+  &lt;li&gt;If you have another product (some other e-book, videos, a course,…), try to touch its topic in one of your sections, and paste the link.&lt;/li&gt;
+  &lt;li&gt;Offer extra content your readers can unlock if they award you with your email and subscribe to your stuff.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You’re providing your readers with extra value, so don’t be afraid to throw a couple of these tricks inside your e-book.&lt;/p&gt;
+
+&lt;h2 id=&quot;dedicated-website&quot;&gt;Dedicated website&lt;/h2&gt;
+
+&lt;p&gt;If you’re serious about your indie e-book, it deserves to have &lt;a href=&quot;http://emberjs-book&quot;&gt;its own website&lt;/a&gt;, or its own section as a part of your existing website. This way, you’re in complete control of its SEO (and independent from other book markets, in case you chose to sell your book in any of them).&lt;/p&gt;
+
+&lt;p&gt;Again, if your right brain hemisphere is underdeveloped, fear not. There is a big collection of good looking e-book website templates available on template markets. You can get one for cheap, fill in the copywriting and price, and you’re almost good to go. Include some real reader testimonials if you can.&lt;/p&gt;
+
+&lt;p&gt;The only thing you need is a middleman that implements the payment infrastructure so you don’t have to deal with that. Probably the most popular service for that is &lt;a href=&quot;gumroad.com&quot;&gt;Gumroad&lt;/a&gt;. There you can upload your material and link it from your website. They take care of charging your reader and releasing them your material. You can configure coupons, promo codes, etc.&lt;/p&gt;
+
+&lt;p&gt;Make sure to offer a chapter or two of your book for free. Let the reader input their email, and send them a free preview.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot; style=&quot;text-align: center&quot;&gt;
+    &lt;a href=&quot;http://emberjs-book.com&quot; style=&quot;margin: 0 auto&quot;&gt;&lt;img src=&quot;/images/book-post/free-pdf.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;figcaption&gt;Put this on your website.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I like this as I can ask people who decided not to buy the book what exactly turned them off.&lt;/p&gt;
+
+&lt;h2 id=&quot;setting-the-price&quot;&gt;Setting the price&lt;/h2&gt;
+
+&lt;p&gt;Pricing your e-book is tricky.&lt;/p&gt;
+
+&lt;p&gt;Is it better to sell more copies for a cheaper price, or fewer for more? Finding a sweet spot in between not being perceived as cheap and not making your potential readers have second thoughts could be compared to predicting the stock market.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://signalvnoise.com/posts/3394-how-to-price-something&quot;&gt;Jason Fried&lt;/a&gt; made a fortune selling products online, and his advice is:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  You can make up a number and see if it works.
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s good enough for a starting point, and you can always adjust it if you feel like you need it.&lt;/p&gt;
+
+&lt;p&gt;Offering multiple price brackets can increase conversions. It all depends on what you can offer together with your book. Have some videos, screencasts, or other material that could go with your book? Bundle it up and charge more than the price of your e-book alone.&lt;/p&gt;
+
+&lt;p&gt;If you don’t have anything else to offer, you can sell your consulting. In my case, everything I could offer is my e-book and my knowledge, so I had to get a bit creative:&lt;/p&gt;
+
+&lt;figure class=&quot;single&quot; style=&quot;text-align: center&quot;&gt;
+    &lt;a href=&quot;http://emberjs-book.com&quot;&gt;&lt;img src=&quot;/images/book-post/pricing.png&quot; /&gt;&lt;/a&gt;
+    &lt;figcaption style=&quot;width: 100%&quot;&gt;Come up with different packages.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In my case, offering &lt;strong&gt;team licences&lt;/strong&gt; proved to be a good selling tactic.&lt;/p&gt;
+
+&lt;p&gt;What I learned is that a lot of companies have money and want to do what is right. I never believed anybody will buy the third bracket, and I felt a bit sleazy adding it. It’s essentially the same thing, just with one small hour of my time added. It turned out I made quite a few of these &lt;strong&gt;“Extra”&lt;/strong&gt; package sales. What’s even better, a lot of them didn’t ask for any consulting. And the best thing is that those few who asked for consulting, wanted to keep me around for extra help at a premium rate.&lt;/p&gt;
+
+&lt;p&gt;Another lesson I learned is that people will buy your e-book even when then there are free alternatives available, but you have to convince them that your material is superior and provides better value. It’s also in human nature to assign more value and worth to purchaseable products, compared to the free ones.&lt;/p&gt;
+
+&lt;h2 id=&quot;launch-many-times&quot;&gt;Launch many times&lt;/h2&gt;
+
+&lt;p&gt;After you launch your e-book, create many micro-launches.&lt;/p&gt;
+
+&lt;p&gt;Added something new to the book? Create a fuss and share it all over. Holiday season? Offer a special holiday deal and let everybody know about it. This way you can push your sales and let people know your book is still up to date.&lt;/p&gt;
+
+&lt;h2 id=&quot;team-up&quot;&gt;Team up&lt;/h2&gt;
+
+&lt;p&gt;Another useful tactic is to team up with another author and sell your e-books combined for a discounted price. “Get more for less”, they say.&lt;/p&gt;
+
+&lt;p&gt;In my case, I discovered that &lt;a href=&quot;http://thejsguy.com/&quot;&gt;David&lt;/a&gt; wrote a similar, but even more specialized &lt;a href=&quot;https://leanpub.com/emberdatainthewild&quot;&gt;e-book&lt;/a&gt;, and reached out to ask him if we can put our e-books in a bundle to sell them together for a lower price. Luckily, he was up for it, and after a few clicks on Leanpub, a new &lt;a href=&quot;https://leanpub.com/b/ember-bundle&quot;&gt;Ember Bundle&lt;/a&gt; was born. Apparently, readers like the combo, and the sales went up again 😎.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot; style=&quot;text-align: center&quot;&gt;
+    &lt;a href=&quot;https://leanpub.com/b/ember-bundle&quot; style=&quot;margin: 0 auto&quot;&gt;&lt;img src=&quot;/images/book-post/bundle.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;figcaption&gt;Our bundle on Leanpub.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;its-hard&quot;&gt;It’s hard&lt;/h2&gt;
+
+&lt;p&gt;Niche e-books usually reach hit or fad popularity, which means a low chance of on-going revenue after you are finished, especially in tech and marketing, where things move quickly. So, given how much work you’re planning to sink into it, you need to decide if it’s worth it.&lt;/p&gt;
+
+&lt;p&gt;While writing it, I found myself so caught up in the details that I could &lt;strong&gt;no longer imagine how anybody could find my e-book useful&lt;/strong&gt;. The mental burden of delivering valuable and correct educational stuff nearly eradicated my will to finish it. When inspiration diminished, grit and discipline helped me push through.&lt;/p&gt;
+
+&lt;p&gt;In the end, it was all worth it.&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt; Special thanks to &lt;a href=&quot;https://twitter.com/artto&quot;&gt;@artto&lt;/a&gt; for designing the e-book’s cover, &lt;a href=&quot;https://twitter.com/gandalfar&quot;&gt;@gandalfar&lt;/a&gt; for upselling tips and Katherine from Russia for reviewing this article. &lt;/small&gt;&lt;/p&gt;</content><category term="posts" /><summary>Write material because you genuinely like doing it and because it will help people. Quick dollar should be treated as a happy side-effect.</summary></entry><entry><title>Dynamic CSS in Ember templates</title><link href="/posts/dynamic-css-in-ember-templates/" rel="alternate" type="text/html" title="Dynamic CSS in Ember templates" /><published>2016-11-12T00:00:00+01:00</published><updated>2016-11-12T00:00:00+01:00</updated><id>/posts/dynamic-css-in-ember-templates</id><content type="html" xml:base="/posts/dynamic-css-in-ember-templates/">&lt;p&gt;Recently I was challenged with a task to dynamically colorize checkboxes when they are selected. The colors are generated on-the-fly when the select action is triggered:&lt;/p&gt;
 
 &lt;iframe src=&quot;//giphy.com/embed/qeUvEToKvHGBa&quot; width=&quot;400&quot; height=&quot;250&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 

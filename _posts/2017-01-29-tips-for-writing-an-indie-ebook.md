@@ -65,7 +65,7 @@ Here are some examples of rather boring e-book covers (that could make a potenti
   </a>
   <a href="https://leanpub.com/whatsnewinjava8">
 	 <img src="/images/book-post/boring-book2.jpg">
-   <figcaption>Dry weed. Sounds much better than this depicted here.</figcaption>
+   <figcaption>Dry weed. Sounds good, right until you see this cover.</figcaption>
   </a>
   <a href="https://leanpub.com/cstips">
 	 <img src="/images/book-post/boring-book1.jpg">

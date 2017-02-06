@@ -133,7 +133,7 @@ Is it better to sell more copies for a cheaper price, or fewer for more? Finding
 
 It’s good enough for a starting point, and you can always adjust it if you feel like you need it.
 
-Offering multiple price brackets can increase conversions. It all depends on what you can offer together with your book. Have some videos, screencasts, or other material that could go with your book? Bundle it up and charge more than the price of your e-book alone.
+Enabling multiple price brackets can increase conversions. It all depends on what you can offer together with your book. Have some videos, screencasts, or other material that could go with your book? Bundle it up and charge more than the price of your e-book alone.
 
 If you don’t have anything else to offer, you can sell your consulting. In my case, everything I could offer is my e-book and my knowledge, so I had to get a bit creative:
 
@@ -142,7 +142,7 @@ If you don’t have anything else to offer, you can sell your consulting. In my 
     <figcaption style="width: 100%">Come up with different packages.</figcaption>
 </figure>
 
-In my case, offering <strong>team licences</strong> proved to be a good selling tactic.
+Offering <strong>team licences</strong> proved to be a good selling tactic.
 
 What I learned is that a lot of companies have money and want to do what is right. I never believed anybody will buy the third bracket, and I felt a bit sleazy adding it. It’s essentially the same thing, just with one small hour of my time added. It turned out I made quite a few of these <strong>“Extra”</strong> package sales. What’s even better, a lot of them didn’t ask for any consulting. And the best thing is that those few who asked for consulting, wanted to keep me around for extra help at a premium rate.
 

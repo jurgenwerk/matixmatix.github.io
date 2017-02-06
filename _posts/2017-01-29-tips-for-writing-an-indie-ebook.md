@@ -174,4 +174,4 @@ While writing it, I found myself so caught up in the details that I could <stron
 
 In the end, it was all worth it.
 
-<small> Special thanks to [@artto](https://twitter.com/artto) for designing the e-book's cover, [@gandalfar](https://twitter.com/gandalfar) for upselling tips and Katherine from Russia for reviewing this article. </small>
+<small> Special thanks to [@artto](https://twitter.com/artto) for designing the e-book's cover and Katherine from Russia for reviewing this article. </small>

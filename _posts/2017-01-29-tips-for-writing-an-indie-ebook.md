@@ -146,7 +146,7 @@ Offering <strong>team licences</strong> proved to be a good selling tactic.
 
 What I learned is that a lot of companies have money and want to do what is right. I never believed anybody will buy the third bracket, and I felt a bit sleazy adding it. It’s essentially the same thing, just with one small hour of my time added. It turned out I made quite a few of these <strong>“Extra”</strong> package sales. What’s even better, a lot of them didn’t ask for any consulting. And the best thing is that those few who asked for consulting, wanted to keep me around for extra help at a premium rate.
 
-Another lesson I learned is that people will buy your e-book even when then there are free alternatives available, but you have to convince them that your material is superior and provides better value. It’s also in human nature to assign more value and worth to purchaseable products, compared to the free ones.
+Another lesson I learned is that people will buy your e-book even when there are free alternatives available, but you have to convince them that your material is superior and provides better value. It’s also in human nature to assign more value and worth to purchaseable products, compared to the free ones.
 
 ## Launch many times
 

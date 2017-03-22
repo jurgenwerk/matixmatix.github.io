@@ -7,12 +7,17 @@ author_profile: true
 
 {% assign makingPosts = paginator.posts | where:'mainTopic', 'making' %}
 {% assign emberPosts = paginator.posts | where:'mainTopic', 'ember' %}
+{% assign programmingPosts = paginator.posts | where:'mainTopic', 'programming' %}
 
 {% for post in makingPosts %}
   {% include archive-single.html %}
 {% endfor %}
 
 <hr>
+{% for post in programmingPosts %}
+  {% include archive-single.html %}
+{% endfor %}
+
 {% for post in emberPosts %}
   {% include archive-single.html %}
 {% endfor %}

@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-02-02T22:34:17+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>matic jurglic</name></author><entry><title>Tips for writing an indie e-book</title><link href="/posts/tips-for-writing-an-indie-ebook/" rel="alternate" type="text/html" title="Tips for writing an indie e-book" /><published>2017-01-29T00:00:00+01:00</published><updated>2017-01-29T00:00:00+01:00</updated><id>/posts/tips-for-writing-an-indie-ebook</id><content type="html" xml:base="/posts/tips-for-writing-an-indie-ebook/">&lt;p&gt;With the advent of solopreneurship, &lt;a href=&quot;https://www.indiehackers.com&quot;&gt;indie hacking&lt;/a&gt; and side hustling, writing and self-publishing niche e-books became a well recognized source of passive income, and, more importantly, an effective sales funnel to your main business - be it a personal brand, consulting gigs, or various services.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-22T22:55:40+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>matic jurglic</name></author><entry><title>List and download Dropbox files with Ruby</title><link href="/posts/download-dropbox-files-ruby/" rel="alternate" type="text/html" title="List and download Dropbox files with Ruby" /><published>2017-03-12T00:00:00+01:00</published><updated>2017-03-12T00:00:00+01:00</updated><id>/posts/download-dropbox-files-ruby</id><content type="html" xml:base="/posts/download-dropbox-files-ruby/">&lt;p&gt;If you find yourself in a need download contents from Dropbox (or whole folders), a sane and quick way would be
+to visit their web interface and select to download (compressed) files.&lt;/p&gt;
+
+&lt;p&gt;But what about when you don’t have a password to access the interface, but you have an API access token?&lt;/p&gt;
+
+&lt;p&gt;I put together a small script to help you with that. Here it goes.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;fileutils&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;dropbox_sdk&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# dropbox-sdk-ruby gem&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;DropboxClient&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;access_token&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Recursively traverse the contents in dir_path&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;list_files&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;metadata&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dir_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;contents&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;flat_map&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;is_dir&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;list_files&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;path&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;path&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# A folder on your local machine where contents will be downloaded to&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;dump_folder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;dropbox_dump&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# List files for the root path (&#39;/&#39;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;file_paths&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list_files&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now we have the paths of all the files in the folder we provided (root folder). Let’s download all.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;download_file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dump_folder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;full_file_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dump_folder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;exist?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;full_file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;File &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;full_file_path&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; already exists&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;contents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;metadata&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;get_file_and_metadata&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;full_folder_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;dirname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;full_file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;no&quot;&gt;FileUtils&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;mkdir_p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;full_folder_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;full_file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;wb&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contents&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Download every file in file_paths to specified local dump folder&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;file_paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each_with_index&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Downloading &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; ...&quot;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;download_file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dump_folder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; to go&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><category term="posts" /><summary>How to use Ruby Dropbox SDK to download files.</summary></entry><entry><title>Tips for writing an indie e-book</title><link href="/posts/tips-for-writing-an-indie-ebook/" rel="alternate" type="text/html" title="Tips for writing an indie e-book" /><published>2017-01-29T00:00:00+01:00</published><updated>2017-01-29T00:00:00+01:00</updated><id>/posts/tips-for-writing-an-indie-ebook</id><content type="html" xml:base="/posts/tips-for-writing-an-indie-ebook/">&lt;p&gt;With the advent of solopreneurship, &lt;a href=&quot;https://www.indiehackers.com&quot;&gt;indie hacking&lt;/a&gt; and side hustling, writing and self-publishing niche e-books became a well recognized source of passive income, and, more importantly, an effective sales funnel to your main business - be it a personal brand, consulting gigs, or various services.&lt;/p&gt;
 
 &lt;p&gt;A bit less than a year ago, I set myself up for my first serious writing adventure. Out of appreciation and internal need to evangelize the coolness of &lt;a href=&quot;http://emberjs.com/&quot;&gt;Ember.js&lt;/a&gt; (a web programming framework), a technical e-book &lt;a href=&quot;http://emberjs-book.com/&quot;&gt;Front-end revolution with Ember.js&lt;/a&gt; was born.&lt;/p&gt;
 
@@ -69,7 +123,7 @@
   &lt;/a&gt;
   &lt;a href=&quot;https://leanpub.com/whatsnewinjava8&quot;&gt;
 	 &lt;img src=&quot;/images/book-post/boring-book2.jpg&quot; /&gt;
-   &lt;figcaption&gt;Dry weed. Sounds good until you see this cover.&lt;/figcaption&gt;
+   &lt;figcaption&gt;Dry weed. Sounds good, right until you see this cover.&lt;/figcaption&gt;
   &lt;/a&gt;
   &lt;a href=&quot;https://leanpub.com/cstips&quot;&gt;
 	 &lt;img src=&quot;/images/book-post/boring-book1.jpg&quot; /&gt;
@@ -699,19 +753,4 @@ cd ember-chartist-shim
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;With this code, we’ve robustly extended RESTSerializer to be able to add root objects to responses when they’re missing.&lt;/p&gt;</content><category term="posts" /><summary>If you find yourself using Ember Data combined with a backend that doesn’t conform to JSON API specs, you just might be in a bit of a trouble. As always, Ember comes with a few assumptions.</summary></entry><entry><title>Continuous integration for Ember.js apps with Codeship and Divshot</title><link href="/posts/continuous-integration-for-emberjs-apps-with-codeship-and-divshot/" rel="alternate" type="text/html" title="Continuous integration for Ember.js apps with Codeship and Divshot" /><published>2015-06-06T00:00:00+02:00</published><updated>2015-06-06T00:00:00+02:00</updated><id>/posts/continuous-integration-for-emberjs-apps-with-codeship-and-divshot</id><content type="html" xml:base="/posts/continuous-integration-for-emberjs-apps-with-codeship-and-divshot/">&lt;p&gt;[DEPRECATED] I guess pretty much everyone agrees there is no better thing in life than to see your app get deployed automatically after you push some code to your repository.&lt;/p&gt;
-
-&lt;p&gt;Since Ember build is a fully static web assets bundle, it’s possible to serve it via a CDN so you can take some load off your app servers. While the pros and cons of serving your JavaScript app either via CDN or your server are heavily debatable, let’s spare this essay for another time.&lt;/p&gt;
-
-&lt;p&gt;For my continuous delivery system I chose &lt;a href=&quot;http://codeship.com&quot;&gt;Codeship&lt;/a&gt;, and &lt;a href=&quot;http://divshot.com&quot;&gt;Divshot&lt;/a&gt; for CDN. Once you set up your account on both platforms (repository push hook on Codeship, Divshot token), all it’s left to do is to write a simple custom deploy script on Codeship - this case demonstrates deploy to staging environment:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install -g bower
-npm install -g divshot-cli
-npm i &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; bower i
-ember build --environment&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;staging
-ember &lt;span class=&quot;nb&quot;&gt;test&lt;/span&gt; //if you have tests
-divshot push staging --token &lt;span class=&quot;nv&quot;&gt;$DIVSHOT_TOKEN&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Same script could most probably also be used in other popular continuous integration platforms, such as CircleCI and others.&lt;/p&gt;</content><category term="posts" /><summary>[DEPRECATED] I guess pretty much everyone agrees there is no better thing in life than to see your app get deployed automatically after you push some code to your repository.</summary></entry></feed>
+&lt;p&gt;With this code, we’ve robustly extended RESTSerializer to be able to add root objects to responses when they’re missing.&lt;/p&gt;</content><category term="posts" /><summary>If you find yourself using Ember Data combined with a backend that doesn’t conform to JSON API specs, you just might be in a bit of a trouble. As always, Ember comes with a few assumptions.</summary></entry></feed>

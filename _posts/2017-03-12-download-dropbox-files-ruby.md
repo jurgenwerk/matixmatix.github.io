@@ -38,7 +38,7 @@ dump_folder = "dropbox_dump"
 file_paths = list_files(client, "/")
 ```
 
-Now we have the paths of all the files in the folder we provided (root folder). Let's download all.
+Now we have the paths of all the files in the folder we provided (root folder). Let's download them all.
 
 ```ruby
 def download_file(client, dump_folder, file_path)

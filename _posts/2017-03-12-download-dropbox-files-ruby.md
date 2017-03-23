@@ -9,7 +9,7 @@ excerpt: "How to use Ruby Dropbox SDK to download files."
 If you find yourself in a need for downloading contents from Dropbox (or whole folders), a sane and quick way would be
 to visit their web interface and select to download (compressed) files.
 
-But what about when you don't have a password to access the interface, but you have an API access token?
+But what about when you don't have a password to access the interface, but you do have an API access token?
 
 I put together a small script to help you with that. Here it goes.
 

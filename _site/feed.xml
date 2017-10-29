@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-22T22:55:40+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>matic jurglic</name></author><entry><title>List and download Dropbox files with Ruby</title><link href="/posts/download-dropbox-files-ruby/" rel="alternate" type="text/html" title="List and download Dropbox files with Ruby" /><published>2017-03-12T00:00:00+01:00</published><updated>2017-03-12T00:00:00+01:00</updated><id>/posts/download-dropbox-files-ruby</id><content type="html" xml:base="/posts/download-dropbox-files-ruby/">&lt;p&gt;If you find yourself in a need download contents from Dropbox (or whole folders), a sane and quick way would be
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-22T22:57:36+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>matic jurglic</name></author><entry><title>List and download Dropbox files with Ruby</title><link href="/posts/download-dropbox-files-ruby/" rel="alternate" type="text/html" title="List and download Dropbox files with Ruby" /><published>2017-03-12T00:00:00+01:00</published><updated>2017-03-12T00:00:00+01:00</updated><id>/posts/download-dropbox-files-ruby</id><content type="html" xml:base="/posts/download-dropbox-files-ruby/">&lt;p&gt;If you find yourself in a need download contents from Dropbox (or whole folders), a sane and quick way would be
 to visit their web interface and select to download (compressed) files.&lt;/p&gt;
 
 &lt;p&gt;But what about when you don’t have a password to access the interface, but you have an API access token?&lt;/p&gt;
@@ -193,7 +193,7 @@ to visit their web interface and select to download (compressed) files.&lt;/p&gt
 
 &lt;p&gt;It’s good enough for a starting point, and you can always adjust it if you feel like you need it.&lt;/p&gt;
 
-&lt;p&gt;Offering multiple price brackets can increase conversions. It all depends on what you can offer together with your book. Have some videos, screencasts, or other material that could go with your book? Bundle it up and charge more than the price of your e-book alone.&lt;/p&gt;
+&lt;p&gt;Enabling multiple price brackets can increase conversions. It all depends on what you can offer together with your book. Have some videos, screencasts, or other material that could go with your book? Bundle it up and charge more than the price of your e-book alone.&lt;/p&gt;
 
 &lt;p&gt;If you don’t have anything else to offer, you can sell your consulting. In my case, everything I could offer is my e-book and my knowledge, so I had to get a bit creative:&lt;/p&gt;
 
@@ -202,11 +202,11 @@ to visit their web interface and select to download (compressed) files.&lt;/p&gt
     &lt;figcaption style=&quot;width: 100%&quot;&gt;Come up with different packages.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;In my case, offering &lt;strong&gt;team licences&lt;/strong&gt; proved to be a good selling tactic.&lt;/p&gt;
+&lt;p&gt;Offering &lt;strong&gt;team licences&lt;/strong&gt; proved to be a good selling tactic.&lt;/p&gt;
 
 &lt;p&gt;What I learned is that a lot of companies have money and want to do what is right. I never believed anybody will buy the third bracket, and I felt a bit sleazy adding it. It’s essentially the same thing, just with one small hour of my time added. It turned out I made quite a few of these &lt;strong&gt;“Extra”&lt;/strong&gt; package sales. What’s even better, a lot of them didn’t ask for any consulting. And the best thing is that those few who asked for consulting, wanted to keep me around for extra help at a premium rate.&lt;/p&gt;
 
-&lt;p&gt;Another lesson I learned is that people will buy your e-book even when then there are free alternatives available, but you have to convince them that your material is superior and provides better value. It’s also in human nature to assign more value and worth to purchaseable products, compared to the free ones.&lt;/p&gt;
+&lt;p&gt;Another lesson I learned is that people will buy your e-book even when there are free alternatives available, but you have to convince them that your material is superior and provides better value. It’s also in human nature to assign more value and worth to purchaseable products, compared to the free ones.&lt;/p&gt;
 
 &lt;h2 id=&quot;launch-many-times&quot;&gt;Launch many times&lt;/h2&gt;
 
@@ -233,7 +233,7 @@ to visit their web interface and select to download (compressed) files.&lt;/p&gt
 
 &lt;p&gt;In the end, it was all worth it.&lt;/p&gt;
 
-&lt;p&gt;&lt;small&gt; Special thanks to &lt;a href=&quot;https://twitter.com/artto&quot;&gt;@artto&lt;/a&gt; for designing the e-book’s cover, &lt;a href=&quot;https://twitter.com/gandalfar&quot;&gt;@gandalfar&lt;/a&gt; for upselling tips and Katherine from Russia for reviewing this article. &lt;/small&gt;&lt;/p&gt;</content><category term="posts" /><summary>Write material because you genuinely like doing it and because it will help people. Quick dollar should be treated as a happy side-effect.</summary></entry><entry><title>Dynamic CSS in Ember templates</title><link href="/posts/dynamic-css-in-ember-templates/" rel="alternate" type="text/html" title="Dynamic CSS in Ember templates" /><published>2016-11-12T00:00:00+01:00</published><updated>2016-11-12T00:00:00+01:00</updated><id>/posts/dynamic-css-in-ember-templates</id><content type="html" xml:base="/posts/dynamic-css-in-ember-templates/">&lt;p&gt;Recently I was challenged with a task to dynamically colorize checkboxes when they are selected. The colors are generated on-the-fly when the select action is triggered:&lt;/p&gt;
+&lt;p&gt;&lt;small&gt; Special thanks to &lt;a href=&quot;https://twitter.com/artto&quot;&gt;@artto&lt;/a&gt; for designing the e-book’s cover and Katherine from Russia for reviewing this article. &lt;/small&gt;&lt;/p&gt;</content><category term="posts" /><summary>Write material because you genuinely like doing it and because it will help people. Quick dollar should be treated as a happy side-effect.</summary></entry><entry><title>Dynamic CSS in Ember templates</title><link href="/posts/dynamic-css-in-ember-templates/" rel="alternate" type="text/html" title="Dynamic CSS in Ember templates" /><published>2016-11-12T00:00:00+01:00</published><updated>2016-11-12T00:00:00+01:00</updated><id>/posts/dynamic-css-in-ember-templates</id><content type="html" xml:base="/posts/dynamic-css-in-ember-templates/">&lt;p&gt;Recently I was challenged with a task to dynamically colorize checkboxes when they are selected. The colors are generated on-the-fly when the select action is triggered:&lt;/p&gt;
 
 &lt;iframe src=&quot;//giphy.com/embed/qeUvEToKvHGBa&quot; width=&quot;400&quot; height=&quot;250&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 

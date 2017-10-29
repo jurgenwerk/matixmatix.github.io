@@ -17,9 +17,9 @@ Jaz sem nič,
 
 in ker sem nič,
 
-lahko postanem
+vsak dan postanem
 
-kdorkoli drug.
+nekdo drug.
 
 
 &nbsp;

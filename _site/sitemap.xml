@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>/posts/cloudfront-redirections-lambda/</loc>
+<lastmod>2017-09-10T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>/posts/download-dropbox-files-ruby/</loc>
 <lastmod>2017-03-12T00:00:00+01:00</lastmod>
 </url>
@@ -139,5 +143,8 @@
 </url>
 <url>
 <loc>/poems/slovene/2016-12-12-kdo-sem-jaz/</loc>
+</url>
+<url>
+<loc>/poems/slovene/2017-10-29-slama/</loc>
 </url>
 </urlset>

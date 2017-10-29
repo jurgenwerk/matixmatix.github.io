@@ -11,7 +11,7 @@ The drawback of this application/server architecture is that your JavaScript app
 
 One of these cases is showing a “maintenance site”. You know - those “We’ll be back shortly.” notices, when engineers are either sweatingly salvaging a botched back-end or just performing regular, scheduled maintenance.
 
-A popular technique in SPAs is to detect these adversities by listening for 5xx responses from the API server and rendering a “Maintenance” messages. It’s a valid approach, but this comes with a couple of assumptions which make the problem detection unreliable. Two major assumptions:
+A popular technique in SPAs is to detect these adversities by listening for 5xx responses from the API server and rendering a “Maintenance” message. It’s a valid approach, but this comes with a couple of assumptions which make the problem detection unreliable. Two major assumptions:
 
 - JavaScript application works OK,
 - Server is responding with HTTP code `5xx`.

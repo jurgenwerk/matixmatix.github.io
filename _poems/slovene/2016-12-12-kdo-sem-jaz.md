@@ -12,10 +12,7 @@ kot prazen kalup.
 
 &nbsp;
 
-
-Jaz sem nič,
-
-in ker sem nič,
+Ker sem nič,
 
 vsak dan postanem
 

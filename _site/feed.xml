@@ -1,47 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-10-29T20:26:09+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title>CloudFront redirections (A/B testing, maintenance page) for your SPA using AWS Lambda</title><link href="/posts/cloudfront-redirections-lambda/" rel="alternate" type="text/html" title="CloudFront redirections (A/B testing, maintenance page) for your SPA using AWS Lambda" /><published>2017-09-10T00:00:00+02:00</published><updated>2017-09-10T00:00:00+02:00</updated><id>/posts/cloudfront-redirections-lambda</id><content type="html" xml:base="/posts/cloudfront-redirections-lambda/">&lt;p&gt;For many people, the stack of choice for deploying a JavaScript application (SPA) or other assets is to save them to S3 and serve it to the world over CloudFront CDN. With its cached edges around the world, it makes sure the users’ browsers are able to download your application in the most efficient way possible.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-10-30T22:07:27+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title>CloudFront redirections (A/B testing, maintenance page) for your SPA using AWS Lambda</title><link href="/posts/cloudfront-redirections-lambda/" rel="alternate" type="text/html" title="CloudFront redirections (A/B testing, maintenance page) for your SPA using AWS Lambda" /><published>2017-09-10T00:00:00+02:00</published><updated>2017-09-10T00:00:00+02:00</updated><id>/posts/cloudfront-redirections-lambda</id><content type="html" xml:base="/posts/cloudfront-redirections-lambda/">&lt;p&gt;For many people, the stack of choice for deploying a JavaScript application (SPA) or other assets is to save them to Amazon S3 and serve it to the world over Amazon CloudFront CDN. With its cached edges around the world, it makes sure the users’ browsers are able to download your application in the most efficient way possible.&lt;/p&gt;
 
-&lt;p&gt;The drawback of this application/server architecture is that your JavaScript application or other content is cached in various cache servers placed globally, and that seems problematic in cases where you want to suddenly place a redirection switch - serving your users something else, depending on some condition or request. You’re not in complete control of your server(s), and cache invalidations and DNS changes take forever, especially in urgencies.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;a href=&quot;/images/lambda-post/cloudfront-map.png&quot;&gt;&lt;img src=&quot;/images/lambda-post/cloudfront-map.png&quot; /&gt;&lt;/a&gt;
+    &lt;center&gt;
+    &lt;figcaption&gt;At the time of writing, CloudFront offers around 100 edge locations around the globe.&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;A possible drawback of this application/server architecture is that your JavaScript application or other content is cached in various cache servers placed globally, and that seems problematic in cases where you want to suddenly place a redirection switch - serving your users something else, depending on some condition or request. You’re not in complete control of your server(s), and cache invalidations and DNS changes could take forever, especially in urgencies.&lt;/p&gt;
 
 &lt;p&gt;One of these cases is showing a “maintenance site”. You know - those “We’ll be back shortly.” notices, when engineers are either sweatingly salvaging a botched back-end or just performing regular, scheduled maintenance.&lt;/p&gt;
 
-&lt;p&gt;A popular technique in SPAs is to detect these adversities by listening for 5xx responses from the API server and rendering a “Maintenance” message. It’s a valid approach, but this comes with a couple of assumptions which make the problem detection unreliable. Two major assumptions:&lt;/p&gt;
+&lt;p&gt;A popular technique in SPAs is to detect these adversities by listening for 5xx responses from the API server and rendering a “Maintenance” message. It’s a valid approach, but this comes with a couple of assumptions which make the problem detection unreliable.&lt;/p&gt;
+
+&lt;p&gt;Two major assumptions:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;JavaScript application works OK,&lt;/li&gt;
   &lt;li&gt;Server is responding with HTTP code &lt;code class=&quot;highlighter-rouge&quot;&gt;5xx&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;But, what if your build system produces a broken bundle which doesn’t work in a browser anymore (or maybe it breaks only in specific browsers)? What if your async API requests are timeouting and you don’t get any response?&lt;/p&gt;
+&lt;p&gt;But, what if your build system deploys a broken bundle which doesn’t work in a browser anymore (or maybe it breaks only in specific browsers)? What if your async API requests are timeouting and you don’t get any response?&lt;/p&gt;
 
 &lt;p&gt;In these cases it’s best to have a manual switch &lt;strong&gt;on the server level&lt;/strong&gt; that puts your website into maintenance mode while you do the fixing.&lt;/p&gt;
 
-&lt;p&gt;With CloudFront you’re able to achieve this by using Lambda@Edge functions (an extension of AWS Lambda) in the Viewer Request trigger, which triggers BEFORE the CloudFront cache is checked and returned. Within this function you could do many different things, for example:&lt;/p&gt;
+&lt;p&gt;With CloudFront you’re able to achieve this by using &lt;a href=&quot;http://docs.aws.amazon.com/lambda/latest/dg/lambda-edge.html&quot;&gt;Lambda@Edge&lt;/a&gt; functions (an extension of AWS Lambda) in the Viewer Request trigger, which triggers BEFORE the CloudFront cache is checked and returned. Within this function you could do many different things, for example:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Inspect cookies, User-Agent, headers,…&lt;/li&gt;
-  &lt;li&gt;Do HTTP redirections and generate responses depending on various criteria,&lt;/li&gt;
+  &lt;li&gt;Do HTTP redirections, personalize and generate responses depending on location and various other criteria,&lt;/li&gt;
   &lt;li&gt;Make network calls to external resources (e.g., authorization).&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Returning to the maintenance page switch, we could write a Lambda function like this:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;handler&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;302&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;statusDescription&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Found&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;na&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[{&lt;/span&gt;
-                &lt;span class=&quot;na&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Location&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;na&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;https://my-site.com/maintenance.html&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;p&quot;&gt;}],&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;302&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;statusDescription&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Found&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[{&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Location&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;https://my-site.com/maintenance.html&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}],&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;When we want to put this redirection to work, we just assign its ARN to our CloudFront distribution in its behaviour settings:&lt;/p&gt;
+&lt;p&gt;When we want to put this redirection to work, we simply assign its ARN to our CloudFront distribution in its behaviour settings:&lt;/p&gt;
 
 &lt;figure&gt;
     &lt;a href=&quot;/images/lambda-post/cloudfront-lambda-redirect.png&quot;&gt;&lt;img src=&quot;/images/lambda-post/cloudfront-lambda-redirect.png&quot; /&gt;&lt;/a&gt;
@@ -50,7 +58,7 @@
 
 &lt;p&gt;… and remove it once you don’t want the redirection anymore. The change is usually processed within a very short period of time (which is usually not the case when saving adjustments in CloudFront distributions).&lt;/p&gt;
 
-&lt;p&gt;This mechanism can be used for a lot of other practical implementations, like A/B testing redirections, logging and handling web client specifics.&lt;/p&gt;</content><category term="posts" /><summary>For many people, the stack of choice for deploying a JavaScript application (SPA) or other assets is to save them to S3 and serve it to the world over CloudFront CDN. With its cached edges around the world, it makes sure the users’ browsers are able to download your application in the most efficient way possible.</summary></entry><entry><title>List and download Dropbox files with Ruby</title><link href="/posts/download-dropbox-files-ruby/" rel="alternate" type="text/html" title="List and download Dropbox files with Ruby" /><published>2017-03-12T00:00:00+01:00</published><updated>2017-03-12T00:00:00+01:00</updated><id>/posts/download-dropbox-files-ruby</id><content type="html" xml:base="/posts/download-dropbox-files-ruby/">&lt;p&gt;If you find yourself in a need for downloading contents from Dropbox (or whole folders), a sane and quick way would be
+&lt;p&gt;This mechanism can be used for a lot of other practical implementations, like A/B testing redirections, logging and handling web client specifics.&lt;/p&gt;</content><category term="posts" /><summary>For many people, the stack of choice for deploying a JavaScript application (SPA) or other assets is to save them to Amazon S3 and serve it to the world over Amazon CloudFront CDN. With its cached edges around the world, it makes sure the users’ browsers are able to download your application in the most efficient way possible.</summary></entry><entry><title>List and download Dropbox files with Ruby</title><link href="/posts/download-dropbox-files-ruby/" rel="alternate" type="text/html" title="List and download Dropbox files with Ruby" /><published>2017-03-12T00:00:00+01:00</published><updated>2017-03-12T00:00:00+01:00</updated><id>/posts/download-dropbox-files-ruby</id><content type="html" xml:base="/posts/download-dropbox-files-ruby/">&lt;p&gt;If you find yourself in a need for downloading contents from Dropbox (or whole folders), a sane and quick way would be
 to visit their web interface and select to download (compressed) files.&lt;/p&gt;
 
 &lt;p&gt;But what about when you don’t have a password to access the interface, but you do have an API access token?&lt;/p&gt;

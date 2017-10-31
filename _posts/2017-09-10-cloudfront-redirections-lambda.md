@@ -2,7 +2,7 @@
 category: posts
 layout: single
 mainTopic: 'programming'
-title: "CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page)"
+title: "CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page,...)"
 header:
   image: "http://codeandtechno.com/lambda-post/cloudfront-map.png"
 ---

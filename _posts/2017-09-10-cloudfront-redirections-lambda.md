@@ -4,7 +4,7 @@ layout: single
 mainTopic: 'programming'
 title: "CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page,...)"
 header:
-  image: "http://codeandtechno.com/lambda-post/cloudfront-map.png"
+  image: "http://codeandtechno.com/images/lambda-post/cloudfront-map.png"
 ---
 
 For many people, the stack of choice for deploying a JavaScript application (SPA) or other assets is to save them to Amazon S3 and serve it to the world over Amazon CloudFront CDN. With its cached edges around the world, it makes sure the users’ browsers are able to download your application in the most efficient way possible.

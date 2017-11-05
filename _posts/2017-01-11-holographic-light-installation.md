@@ -6,7 +6,7 @@ excerpt: "It's baffling to experience that a simple structure is able to lull th
 mainTopic: 'making'
 emoji: 🔮
 header:
-  image: "http://codeandtechno.com/images/fibonacci/IMG_8108.jpg"
+  image: "http://codeandtechno.com/images/projekcija-hologram-formaviva.jpg"
 ---
 
 A while ago my associates and I at [Formaviva](https://www.facebook.com/Formaviva/) set out to create something visually special to put on the stage for electronic music events that [we host](https://www.residentadvisor.net/promoter.aspx?id=47286). What we had in mind was a visual installation to complement the show of audio brilliance accompanied by mind-provokingly themed messages we carry out on these events.

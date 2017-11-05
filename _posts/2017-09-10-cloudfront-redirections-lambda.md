@@ -33,7 +33,7 @@ In these cases it’s best to have a manual switch **on the server level** that 
 With CloudFront you’re able to achieve this by using [Lambda@Edge](http://docs.aws.amazon.com/lambda/latest/dg/lambda-edge.html) functions (an extension of AWS Lambda) in the Viewer Request trigger, which triggers BEFORE the CloudFront cache is checked and returned. Within this function you could do many different things, for example:
 
 - Inspect cookies, User-Agent, headers,...
-- Do HTTP redirections, personalize and generate responses depending on location and various other criteria,
+- Do HTTP redirections, personalize and generate responses depending on location and various other criteria, serve different content for crawler bots,
 - Make network calls to external resources (e.g., authorization).
 
 Returning to the maintenance page switch, we could write a Lambda function like this:

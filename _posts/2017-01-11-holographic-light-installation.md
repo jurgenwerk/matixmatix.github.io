@@ -2,7 +2,7 @@
 category: posts
 layout: single
 title: "Making a holographic light installation"
-excerpt: "It's baffling to experience that a simple structure like that is able to lull the viewer in and out of virtual reality."
+excerpt: "It's baffling to experience that a simple structure like this is able to lull the viewer in and out of virtual reality."
 mainTopic: 'making'
 emoji: 🔮
 header:

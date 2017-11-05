@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-11-05T14:48:55+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title>CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page,…)</title><link href="/posts/cloudfront-redirections-lambda/" rel="alternate" type="text/html" title="CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page,...)" /><published>2017-09-10T00:00:00+02:00</published><updated>2017-09-10T00:00:00+02:00</updated><id>/posts/cloudfront-redirections-lambda</id><content type="html" xml:base="/posts/cloudfront-redirections-lambda/">&lt;p&gt;For many people, the stack of choice for deploying a JavaScript application (SPA) or other assets is to save them to Amazon S3 and serve it to the world over Amazon CloudFront CDN. With its cached edges around the world, it makes sure the users’ browsers are able to download your application in the most efficient way possible.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-11-05T22:23:51+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title>CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page,…)</title><link href="/posts/cloudfront-redirections-lambda/" rel="alternate" type="text/html" title="CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page,...)" /><published>2017-09-10T00:00:00+02:00</published><updated>2017-09-10T00:00:00+02:00</updated><id>/posts/cloudfront-redirections-lambda</id><content type="html" xml:base="/posts/cloudfront-redirections-lambda/">&lt;p&gt;For many people, the stack of choice for deploying a JavaScript application (SPA) or other assets is to save them to Amazon S3 and serve it to the world over Amazon CloudFront CDN. With its cached edges around the world, it makes sure the users’ browsers are able to download your application in the most efficient way possible.&lt;/p&gt;
 
 &lt;figure&gt;
     &lt;a href=&quot;/images/lambda-post/cloudfront-map.png&quot;&gt;&lt;img src=&quot;/images/lambda-post/cloudfront-map.png&quot; /&gt;&lt;/a&gt;
@@ -293,125 +293,7 @@ to visit their web interface and select to download (compressed) files.&lt;/p&gt
 
 &lt;p&gt;In the end, it was all worth it.&lt;/p&gt;
 
-&lt;p&gt;&lt;small&gt; Special thanks to &lt;a href=&quot;https://twitter.com/artto&quot;&gt;@artto&lt;/a&gt; for designing the e-book’s cover and Katherine from Russia for reviewing this article. &lt;/small&gt;&lt;/p&gt;</content><category term="posts" /><summary>Write material because you genuinely like doing it and because it will help people. Quick dollar should be treated as a happy side-effect.</summary></entry><entry><title>Making a holographic light installation</title><link href="/posts/holographic-light-installation/" rel="alternate" type="text/html" title="Making a holographic light installation" /><published>2017-01-11T00:00:00+01:00</published><updated>2017-01-11T00:00:00+01:00</updated><id>/posts/holographic-light-installation</id><content type="html" xml:base="/posts/holographic-light-installation/">&lt;p&gt;A while ago my associates and I at &lt;a href=&quot;https://www.facebook.com/Formaviva/&quot;&gt;Formaviva&lt;/a&gt; set out to create something visually special to put on the stage for electronic music events that &lt;a href=&quot;https://www.residentadvisor.net/promoter.aspx?id=47286&quot;&gt;we host&lt;/a&gt;. What we had in mind was a visual installation to complement the show of audio brilliance accompanied by mind-provokingly themed messages we carry out on these events.&lt;/p&gt;
-
-&lt;p&gt;After searching and brainstorming we came across an example of an installation whose concept we could closely relate to:&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;a href=&quot;/images/projection-post/nonotak-projection.jpg&quot;&gt;&lt;img src=&quot;/images/projection-post/nonotak-projection.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;center&gt;
-    &lt;figcaption&gt;Light installation by &lt;a href=&quot;http://www.nonotak.com/&quot;&gt;NONOTAK studio.&lt;/a&gt;&lt;/figcaption&gt;&lt;/center&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Installations that mess with our perception and tend to skew the dimensions of space and reality is something that is truly close to us.&lt;/p&gt;
-
-&lt;p&gt;We decided to replicate it.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-it-works&quot;&gt;How It Works&lt;/h2&gt;
-
-&lt;p&gt;At a first glance this installation may seem like a complicated lightning composition of LED planes, but in fact it’s just a clever demonstration of how a projector emits light throughout space.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-    &lt;a href=&quot;/images/projection-post/projection-sketch.jpg&quot;&gt;&lt;img src=&quot;/images/projection-post/projection-sketch.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;figcaption&gt;A quick sketch of how the projection works.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The projector is projecting light rays onto the screens from behind. The further we push it away, the larger image it will project onto the screen. What we want to do with this installation is to place semi-transparent screens on the rays’ path to catch the projected image in different lengths away from the projector. This way we’ll be able to observe the same image several times, making an illusion of a hologram.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-frames&quot;&gt;The Frames&lt;/h2&gt;
-
-&lt;p&gt;Frames (8 of them) are required to be easily transportable by a car. They are assembled from 32 🌲 spruce bars, measuring &lt;code class=&quot;highlighter-rouge&quot;&gt;140 x 2 x 2cm&lt;/code&gt; each.&lt;/p&gt;
-
-&lt;p&gt;I had these done at my local carpenter, and he cut them at an angle so they can easily be assembled perpendicularly. Because that’s how squares should be, right?&lt;/p&gt;
-
-&lt;p&gt;I tried to explain to him what project I’m about to do, but I think I just got a strange look. I promised to him I’m going to show him once it’s done, so, dear carpenter, I hope you’re reading this now and not think of me as a weirdo anymore.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-    &lt;a href=&quot;/images/projection-post/spruce-bars.JPG&quot;&gt;&lt;img src=&quot;/images/projection-post/spruce-bars.JPG&quot; /&gt;&lt;/a&gt;
-    &lt;figcaption&gt;Wooden bars.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Now comes the part when we screw these bad boys together. After a visit in the hardware store I came home with a pile of nuts, bolts, washers and steel corners.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-    &lt;a href=&quot;/images/projection-post/nuts-bolts-1.jpg&quot;&gt;&lt;img src=&quot;/images/projection-post/nuts-bolts-1.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;a href=&quot;/images/projection-post/nuts-bolts-2.jpg&quot;&gt;&lt;img src=&quot;/images/projection-post/nuts-bolts-2.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;figcaption&gt;Screwing around.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Roaming in large hardware stores is really therapeutic. I like to walk around the aisles for hours, imagining how would I use construction and composite materials, sometimes in completely different ways they are meant for.&lt;/p&gt;
-
-&lt;p&gt;To support the squares and hold them vertically, simple corner stands were made.&lt;/p&gt;
-
-&lt;p&gt;Alright, time for a quick test fit, and then applying black paint. Looking good!&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-    &lt;a href=&quot;/images/projection-post/rack-natural.jpg&quot;&gt;&lt;img src=&quot;/images/projection-post/rack-natural.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;a href=&quot;/images/projection-post/rack-painted.jpg&quot;&gt;&lt;img src=&quot;/images/projection-post/rack-painted.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;figcaption&gt;The squares are hanging on horizontal bars. There is around 5cm of space between the floor and the bottom edge of a square.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I’m unhappy with my tiny workshop. It’s so small and cram-full. Can’t wait to get a larger one.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-fabric&quot;&gt;The Fabric&lt;/h2&gt;
-
-&lt;p&gt;The next step was to find a textile fabric to stretch over the frames. This material needs a unique property of:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Capturing enough light so a shape can be seen while projecting an image from the projector,&lt;/li&gt;
-  &lt;li&gt;Passing enough light through for the light to get projected on the next frame(s).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Sounds like some kind of a semi-transparent cloth could to the job. I paid a visit to the cloth &amp;amp; fabric store and explained what I needed. Needless to say, I got some strange looks there as well. After some searching in their warehouse, they provided me with polyamide mesh fabric, which proved to work fine.&lt;/p&gt;
-
-&lt;p&gt;The fabric was streched over frames and attached with pushpins. Here’s a test fit:&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-    &lt;a href=&quot;/images/projection-post/fabric-1.jpg&quot;&gt;&lt;img src=&quot;/images/projection-post/fabric-1.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;a href=&quot;/images/projection-post/fabric-2.jpg&quot;&gt;&lt;img src=&quot;/images/projection-post/fabric-2.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;At this point all the parts were ready for transport and (dis)assembly.&lt;/p&gt;
-
-&lt;h2 id=&quot;animation-software&quot;&gt;Animation software&lt;/h2&gt;
-
-&lt;p&gt;For projection, video clips of simple geometrical shapes work best as they produce the clearest looking holographic silhouettes.&lt;/p&gt;
-
-&lt;p&gt;To control the projection and apply various morphing effects to it we used &lt;a href=&quot;http://vidvox.net&quot;&gt;VDMX&lt;/a&gt;, which is a simple yet amazingly capable software that offers a plethora of knobs and whistles. Its parameters were connected to an external midi controller. Thanks Katarina and Aljaz for help on this area.&lt;/p&gt;
-
-&lt;h2 id=&quot;on-stage&quot;&gt;On Stage&lt;/h2&gt;
-
-&lt;p&gt;The image below is showing the assembled installation on the party event stage. Notice the squares are surrounded by vertical bars? This is actually a separate light installation that my friend Aljaz made using LED stripes (and lots of soldering and programming) - &lt;a href=&quot;https://vimeo.com/201412571&quot;&gt;check out his installation here&lt;/a&gt; - a must see!&lt;/p&gt;
-
-&lt;p&gt;We joined both installations and their effects complement each other wonderfully.&lt;/p&gt;
-
-&lt;figure class=&quot;&quot;&gt;
-    &lt;a href=&quot;/images/projection-post/on-stage.jpg&quot;&gt;&lt;img src=&quot;/images/projection-post/on-stage.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;figcaption&gt;In the back (left side of the image) is the projector and in the front is the DJ deck.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;in-action&quot;&gt;In Action&lt;/h2&gt;
-
-&lt;p&gt;Clips below are taken from the audience standpoint in the &lt;a href=&quot;https://www.facebook.com/events/1750452514987702/&quot;&gt;Za Narodov Blagor&lt;/a&gt; event that took place in a former bicycle factory &lt;a href=&quot;https://www.culture.si/en/Tovarna_Rog&quot;&gt;Rog Factory&lt;/a&gt; in Ljubljana, Slovenia.&lt;/p&gt;
-
-&lt;div style=&quot;width:100%;height:0;padding-bottom:56%;position:relative;&quot;&gt;&lt;iframe src=&quot;https://giphy.com/embed/3ohjV169qsCWvlpYwE&quot; width=&quot;100%&quot; height=&quot;100%&quot; style=&quot;position:absolute&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-
-&lt;div style=&quot;width:100%;height:0;padding-bottom:56%;position:relative;&quot;&gt;&lt;iframe src=&quot;https://giphy.com/embed/3o6nUSQD5BihF2e5pe&quot; width=&quot;100%&quot; height=&quot;100%&quot; style=&quot;position:absolute&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-
-&lt;div style=&quot;width:100%;height:0;padding-bottom:56%;position:relative;&quot;&gt;&lt;iframe src=&quot;https://giphy.com/embed/l4EphObppF00scPGE&quot; width=&quot;100%&quot; height=&quot;100%&quot; style=&quot;position:absolute&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-
-&lt;div style=&quot;width:100%;height:0;padding-bottom:57%;position:relative;&quot;&gt;&lt;iframe src=&quot;https://giphy.com/embed/3ohjURDHMgxDqMVKcE&quot; width=&quot;100%&quot; height=&quot;100%&quot; style=&quot;position:absolute&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;the-verdict&quot;&gt;The Verdict&lt;/h2&gt;
-
-&lt;p&gt;There is a lot of room for improvement, especially in the video department and reactivity to dynamics of music.&lt;/p&gt;
-
-&lt;p&gt;Nevertheless, it’s baffling to experience that a simple structure like this, combined with cleverly projected light, is able to lull the viewer in and out of virtual reality while getting caught between multiple dimensions.&lt;/p&gt;</content><category term="posts" /><summary>It&#39;s baffling to experience that a simple structure is able to lull the viewer in and out of virtual reality.</summary></entry><entry><title>Dynamic CSS in Ember templates</title><link href="/posts/dynamic-css-in-ember-templates/" rel="alternate" type="text/html" title="Dynamic CSS in Ember templates" /><published>2016-11-12T00:00:00+01:00</published><updated>2016-11-12T00:00:00+01:00</updated><id>/posts/dynamic-css-in-ember-templates</id><content type="html" xml:base="/posts/dynamic-css-in-ember-templates/">&lt;p&gt;Recently I was challenged with a task to dynamically colorize checkboxes when they are selected. The colors are generated on-the-fly when the select action is triggered:&lt;/p&gt;
+&lt;p&gt;&lt;small&gt; Special thanks to &lt;a href=&quot;https://twitter.com/artto&quot;&gt;@artto&lt;/a&gt; for designing the e-book’s cover and Katherine from Russia for reviewing this article. &lt;/small&gt;&lt;/p&gt;</content><category term="posts" /><summary>Write material because you genuinely like doing it and because it will help people. Quick dollar should be treated as a happy side-effect.</summary></entry><entry><title>Dynamic CSS in Ember templates</title><link href="/posts/dynamic-css-in-ember-templates/" rel="alternate" type="text/html" title="Dynamic CSS in Ember templates" /><published>2016-11-12T00:00:00+01:00</published><updated>2016-11-12T00:00:00+01:00</updated><id>/posts/dynamic-css-in-ember-templates</id><content type="html" xml:base="/posts/dynamic-css-in-ember-templates/">&lt;p&gt;Recently I was challenged with a task to dynamically colorize checkboxes when they are selected. The colors are generated on-the-fly when the select action is triggered:&lt;/p&gt;
 
 &lt;iframe src=&quot;//giphy.com/embed/qeUvEToKvHGBa&quot; width=&quot;400&quot; height=&quot;250&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -834,4 +716,29 @@ cd ember-chartist-shim
 
 &lt;p&gt;If you want to read more on this topic, read this &lt;a href=&quot;http://discuss.emberjs.com/t/best-practices-shimming-libraries-which-use-global-variables/7922&quot;&gt;shimming best practices&lt;/a&gt; post.&lt;/p&gt;
 
-&lt;p&gt;P.S. Are you fresh in Ember land? I wrote a great book for you: &lt;a href=&quot;http://emberjs-book.com/&quot;&gt;Front-end revolution with Ember.js&lt;/a&gt;. Check it out!&lt;/p&gt;</content><category term="posts" /><summary>Consuming 3rd party libraries from the browser’s global window scope is nowadays considered as outrageous, egregious, preposterous.</summary></entry></feed>
+&lt;p&gt;P.S. Are you fresh in Ember land? I wrote a great book for you: &lt;a href=&quot;http://emberjs-book.com/&quot;&gt;Front-end revolution with Ember.js&lt;/a&gt;. Check it out!&lt;/p&gt;</content><category term="posts" /><summary>Consuming 3rd party libraries from the browser’s global window scope is nowadays considered as outrageous, egregious, preposterous.</summary></entry><entry><title>Metadata via HTTP headers in Ember.js</title><link href="/posts/metadata-via-response-headers-in-emberjs/" rel="alternate" type="text/html" title="Metadata via HTTP headers in Ember.js" /><published>2015-07-07T00:00:00+02:00</published><updated>2015-07-07T00:00:00+02:00</updated><id>/posts/metadata-via-response-headers-in-emberjs</id><content type="html" xml:base="/posts/metadata-via-response-headers-in-emberjs/">&lt;p&gt;In your ambitious web app, there’s a very high probability you’ll want to pass some metadata from your store along with the actual data, e.g. total count of all records when using pagination, various descriptions and whatnot.&lt;/p&gt;
+
+&lt;p&gt;By default, Ember Data’s JSON deserializer looks for a meta key in received response. But wait! What if your API delivers juicy metadata via HTTP response headers? We need to extend the adapter for specific record type, override handleResponse, intercept stuff we need from headers and manually declare them as metadata with the meta key. Simple stuff. Say we’re loading some bonsais:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// app/adapters/bonsai.js&lt;/span&gt;
+&lt;span class=&quot;kr&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;DS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;RESTAdapter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;extend&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+ &lt;span class=&quot;na&quot;&gt;handleResponse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;payload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;meta&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+     &lt;span class=&quot;na&quot;&gt;total&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;X-Total-Count&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+     &lt;span class=&quot;na&quot;&gt;pages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;X-Page-Count&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+   &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+   &lt;span class=&quot;nx&quot;&gt;payload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;meta&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;meta&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+   &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;_super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;payload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Adapter then automatically picks up things we’ve set as meta. This allows us to access the metadata like so:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{bonsais.meta.total&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;templates&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;this.get(&#39;bonsais.meta.total&#39;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;everywhere&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Happy computering!&lt;/p&gt;</content><category term="posts" /><summary>In your ambitious web app, there’s a very high probability you’ll want to pass some metadata from your store along with the actual data, e.g. total count of all records when using pagination, various descriptions and whatnot.</summary></entry></feed>

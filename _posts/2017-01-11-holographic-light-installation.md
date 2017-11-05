@@ -121,6 +121,6 @@ Clips below are taken from the audience standpoint in the [Za Narodov Blagor](ht
 
 There is a lot of room for improvement, especially in the video department and reactivity to dynamics of music.
 
-Nevertheless, it's baffling to experience that a simple structure like this, combined with cleverly projected light, is able to lull the viewer in and out of virtual reality while getting caught between multiple dimensions.
+Nevertheless, it's baffling to experience that a simple structure like this, combined with cleverly projected light, is able to lull the viewer in and out of virtual reality while getting caught between multiple dimensions on the dancefloor.
 
 

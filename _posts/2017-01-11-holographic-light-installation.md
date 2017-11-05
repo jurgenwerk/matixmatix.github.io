@@ -78,7 +78,7 @@ The next step was to find a textile fabric to stretch over the frames. This mate
 
 Sounds like some kind of a semi-transparent cloth could to the job. I paid a visit to the cloth & fabric store and explained what I needed. Needless to say, I got some strange looks there as well. After some searching in their warehouse, they provided me with polyamide mesh fabric, which proved to work fine.
 
-The fabric was streched over frames and attached with pushpins. Here’s a test fit:
+The fabric is stretched over frames and attached with pushpins. Here’s a test fit:
 
 <figure class="half">
     <a href="/images/projection-post/fabric-1.jpg"><img src="/images/projection-post/fabric-1.jpg"></a>

@@ -88,9 +88,6 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
-<script>
-  // $('masthead__menu-item /lines/').attr('disabled', true);
-</script>
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
 
@@ -337,6 +334,15 @@
               
                 <button onclick="location.href='/'" class="nav-button">
                   posts
+                </button>
+              
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              
+                <button onclick="location.href='/lines/'" class="nav-button">
+                  lines
                 </button>
               
             </li>
@@ -654,6 +660,7 @@
 
 <script>
   $(document).ready(function(){
+    $('button:contains("lines")').hide();
     $('[data-lang=slo]').hide();
   });
 

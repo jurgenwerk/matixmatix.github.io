@@ -72,7 +72,7 @@ With a jig saw, I cut the covers out of an acrylic glass sheet, drilled the hole
 
 ## Sand and color
 
-Time to sand this fucker down and make it smooth. The amount of dust generated while sanding concrete is colossal and disgusting. The brick was then coated with a protective waterproofer.
+Time to sand this sucker down and make it smooth. The amount of dust generated while sanding concrete is colossal and disgusting. The brick was then coated with a protective waterproofer.
 
 <figure class="half">
     <a href="/images/fibonacci/IMG_7937.jpg"><img src="/images/fibonacci/IMG_7937.jpg"></a>

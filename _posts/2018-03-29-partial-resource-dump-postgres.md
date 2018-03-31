@@ -7,9 +7,9 @@ title: "Partial, resource-related dumps in PostgreSQL"
 #   image: "http://codeandtechno.com/images/lambda-post/cloudfront-map.png"
 ---
 
-Sometimes we find ourselves in a need to copy and restore a specific set of data belonging to a common parent resource. For example, we want to connect to the production server, pull down fresh data related only to the specified user and restore it to our development database to debug an issue or just develop new features. When your database is tiny, you could just restore the whole thing, but once it grows up, the complete restoration is out of the question, especially when you need to do it often.
+Sometimes we find ourselves in a need for copying and restoring a specific set of data belonging to a common parent resource. For example, we want to connect to the production server, pull down fresh data related only to the specified user and restore it to our development database to debug an issue or just develop new features. When your database is tiny, you could just restore the whole thing, but once it grows up, the complete restoration is out of the question, especially when you need to do it often.
 
-Here’s a bash script I wrote that downloads everything belonging to the application user from the production database, deletes stale user data from the local development database and replaces it with the fresh data.
+Here’s a simplified bash script I wrote that downloads everything belonging to the application user from the production database, deletes stale user data from the local development database and replaces it with the fresh data.
 
 ```bash
 #!/bin/sh
@@ -78,4 +78,5 @@ rm ${SQL_FILENAME}
 echo "-- Done. Enjoy."
 ```
 
-Since this is only a partial dump related to a common resource or ancestor (application user, in this case), we need to make sure we also have all other data in our development database that the application needs to run and doesn't belong to the user. Depending on your setup, you could easily restore those tables using `pg_dump` command where you explicitly specify the tables. But when you need to refresh only a subset of local data, a script like this comes in really handy.
+Since this is only a partial dump related to a common resource or ancestor (application user, in this case), we need to make sure we also have all other data in our development database that the application needs to run and doesn't belong to the user. Depending on your setup, you could easily restore those tables using `pg_dump` command where you explicitly specify the tables.
+But when you need to refresh only a subset of local data, a script like this comes in really handy.

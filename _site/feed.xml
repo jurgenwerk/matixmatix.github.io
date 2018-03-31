@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-11-05T22:28:05+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title>CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page,…)</title><link href="/posts/cloudfront-redirections-lambda/" rel="alternate" type="text/html" title="CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page,...)" /><published>2017-09-10T00:00:00+02:00</published><updated>2017-09-10T00:00:00+02:00</updated><id>/posts/cloudfront-redirections-lambda</id><content type="html" xml:base="/posts/cloudfront-redirections-lambda/">&lt;p&gt;For many people, the stack of choice for deploying a JavaScript application (SPA) or other assets is to save them to Amazon S3 and serve it to the world over Amazon CloudFront CDN. With its cached edges around the world, it makes sure the users’ browsers are able to download your application in the most efficient way possible.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-03-31T14:39:00+02:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title>Partial, resource-related dumps in PostgreSQL</title><link href="/posts/partial-resource-dump-postgres/" rel="alternate" type="text/html" title="Partial, resource-related dumps in PostgreSQL" /><published>2018-03-29T00:00:00+02:00</published><updated>2018-03-29T00:00:00+02:00</updated><id>/posts/partial-resource-dump-postgres</id><content type="html" xml:base="/posts/partial-resource-dump-postgres/">&lt;p&gt;Sometimes we find ourselves in a need to copy and restore a specific set of data belonging to a common parent resource. For example, we want to connect to the production server, pull down fresh data related only to the specified user and restore it to our development database to debug an issue or just develop new features. When your database is tiny, you could just restore the whole thing, but once it grows up, the complete restoration is out of the question, especially when you need to do it often.&lt;/p&gt;
+
+&lt;p&gt;Here’s a bash script I wrote that downloads everything belonging to the application user from the production database, deletes stale user data from the local development database and replaces it with the fresh data.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Usage: ./script/restore_user 100&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;USER_ID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;DATE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;date +%Y-%m-%d&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;SQL_FILENAME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;data_user_&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;USER_ID&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;_&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;DATE&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;.sql
+
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;-- Preparing a data dump file for the specified user...&quot;&lt;/span&gt;
+ssh admin@db.myapp.com /bin/sh &lt;span class=&quot;sh&quot;&gt;&amp;lt;&amp;lt;EOT &amp;gt; $SQL_FILENAME
+  echo &quot;Copying user...&quot; &amp;gt;&amp;amp;2
+  echo &quot;COPY users FROM STDIN;&quot;
+  psql -h db.myapp.com -U myusername mydatabase -c &quot;COPY (
+    SELECT users.*
+    FROM users
+    WHERE id = ${USER_ID}
+  ) TO STDOUT;&quot;
+  echo &quot;\\.&quot;
+
+  echo &quot;Copying user’s posts...&quot; &amp;gt;&amp;amp;2
+  echo &quot;COPY posts FROM STDIN;&quot;
+  psql -h db.myapp.com -U myusername mydatabase -c &quot;COPY (
+    SELECT posts.*
+    FROM posts
+    WHERE user_id = ${user_id}
+  ) TO STDOUT;&quot;
+  echo &quot;\\.&quot;
+
+  echo &quot;Copying post’s tags ...&quot; &amp;gt;&amp;amp;2
+  echo &quot;COPY tags FROM STDIN;&quot;
+  psql -h db.myapp.com -U myusername mydatabase -c &quot;COPY (
+    SELECT tags.*
+    FROM tags
+    INNER JOIN posts ON posts.id = tags.post_id
+    WHERE posts.user_id = ${user_id}
+  ) TO STDOUT;&quot;
+  echo &quot;\\.&quot;
+EOT
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Let’s comment on what’s happening here. What we’re doing is essentially using Postgres’s &lt;code class=&quot;highlighter-rouge&quot;&gt;COPY&lt;/code&gt; function which is useful for moving data around tables. Usually it’s used to produce individual CSV files separately for each table, which are then individually restored using &lt;code class=&quot;highlighter-rouge&quot;&gt;COPY FROM&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;p&gt;Since this function is also able to read from the &lt;code class=&quot;highlighter-rouge&quot;&gt;STDIN&lt;/code&gt;, we bundle all &lt;code class=&quot;highlighter-rouge&quot;&gt;COPY&lt;/code&gt; commands together (using the  &lt;code class=&quot;highlighter-rouge&quot;&gt;.\&lt;/code&gt; which indicates the end of the input). Local PostgreSQL will then see sequences of &lt;code class=&quot;highlighter-rouge&quot;&gt;COPY FROM STDIN&lt;/code&gt;, then data, then &lt;code class=&quot;highlighter-rouge&quot;&gt;.\&lt;/code&gt;, indicating it’s done. We do this to avoid making multiple table-specific CSV files. Instead, we just put everything into one big SQL file.&lt;/p&gt;
+
+&lt;p&gt;This was just the first part of the script. Now that we have the necessary data in an SQL file, we have to make place for it and restore it to our local database.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;-- Deleting old user data...&quot;&lt;/span&gt;
+psql -d mydb_dev -c &lt;span class=&quot;s2&quot;&gt;&quot;
+  DELETE FROM tags WHERE tags.id IN (
+    SELECT tags.id
+    FROM tags
+    INNER join posts ON posts.id = tags.post_id
+    WHERE user_id = &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;user_id&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
+  );
+
+  DELETE FROM posts where user_id = &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;user_id&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;;
+  DELETE FROM users where id = &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;user_id&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;;
+
+echo &quot;&lt;/span&gt;-- Restoring fresh user data...&lt;span class=&quot;s2&quot;&gt;&quot;
+psql -d mydb_dev &amp;lt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;SQL_FILENAME&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
+
+echo &quot;&lt;/span&gt;-- Deleting temp data...&lt;span class=&quot;s2&quot;&gt;&quot;
+rm &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;SQL_FILENAME&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
+
+echo &quot;&lt;/span&gt;-- Done. Enjoy.&lt;span class=&quot;s2&quot;&gt;&quot;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Since this is only a partial dump related to a common resource or ancestor (application user, in this case), we need to make sure we also have all other data in our development database that the application needs to run and doesn’t belong to the user. Depending on your setup, you could easily restore those tables using &lt;code class=&quot;highlighter-rouge&quot;&gt;pg_dump&lt;/code&gt; command where you explicitly specify the tables. But when you need to refresh only a subset of local data, a script like this comes in really handy.&lt;/p&gt;</content><category term="posts" /><summary>Sometimes we find ourselves in a need to copy and restore a specific set of data belonging to a common parent resource. For example, we want to connect to the production server, pull down fresh data related only to the specified user and restore it to our development database to debug an issue or just develop new features. When your database is tiny, you could just restore the whole thing, but once it grows up, the complete restoration is out of the question, especially when you need to do it often.</summary></entry><entry><title>CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page,…)</title><link href="/posts/cloudfront-redirections-lambda/" rel="alternate" type="text/html" title="CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page,...)" /><published>2017-09-10T00:00:00+02:00</published><updated>2017-09-10T00:00:00+02:00</updated><id>/posts/cloudfront-redirections-lambda</id><content type="html" xml:base="/posts/cloudfront-redirections-lambda/">&lt;p&gt;For many people, the stack of choice for deploying a JavaScript application (SPA) or other assets is to save them to Amazon S3 and serve it to the world over Amazon CloudFront CDN. With its cached edges around the world, it makes sure the users’ browsers are able to download your application in the most efficient way possible.&lt;/p&gt;
 
 &lt;figure&gt;
     &lt;a href=&quot;/images/lambda-post/cloudfront-map.png&quot;&gt;&lt;img src=&quot;/images/lambda-post/cloudfront-map.png&quot; /&gt;&lt;/a&gt;
@@ -410,7 +481,7 @@ to visit their web interface and select to download (compressed) files.&lt;/p&gt
 
 &lt;h2 id=&quot;sand-and-color&quot;&gt;Sand and color&lt;/h2&gt;
 
-&lt;p&gt;Time to sand this fucker down and make it smooth. The amount of dust generated while sanding concrete is colossal and disgusting. The brick was then coated with a protective waterproofer.&lt;/p&gt;
+&lt;p&gt;Time to sand this sucker down and make it smooth. The amount of dust generated while sanding concrete is colossal and disgusting. The brick was then coated with a protective waterproofer.&lt;/p&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
     &lt;a href=&quot;/images/fibonacci/IMG_7937.jpg&quot;&gt;&lt;img src=&quot;/images/fibonacci/IMG_7937.jpg&quot; /&gt;&lt;/a&gt;
@@ -716,29 +787,4 @@ cd ember-chartist-shim
 
 &lt;p&gt;If you want to read more on this topic, read this &lt;a href=&quot;http://discuss.emberjs.com/t/best-practices-shimming-libraries-which-use-global-variables/7922&quot;&gt;shimming best practices&lt;/a&gt; post.&lt;/p&gt;
 
-&lt;p&gt;P.S. Are you fresh in Ember land? I wrote a great book for you: &lt;a href=&quot;http://emberjs-book.com/&quot;&gt;Front-end revolution with Ember.js&lt;/a&gt;. Check it out!&lt;/p&gt;</content><category term="posts" /><summary>Consuming 3rd party libraries from the browser’s global window scope is nowadays considered as outrageous, egregious, preposterous.</summary></entry><entry><title>Metadata via HTTP headers in Ember.js</title><link href="/posts/metadata-via-response-headers-in-emberjs/" rel="alternate" type="text/html" title="Metadata via HTTP headers in Ember.js" /><published>2015-07-07T00:00:00+02:00</published><updated>2015-07-07T00:00:00+02:00</updated><id>/posts/metadata-via-response-headers-in-emberjs</id><content type="html" xml:base="/posts/metadata-via-response-headers-in-emberjs/">&lt;p&gt;In your ambitious web app, there’s a very high probability you’ll want to pass some metadata from your store along with the actual data, e.g. total count of all records when using pagination, various descriptions and whatnot.&lt;/p&gt;
-
-&lt;p&gt;By default, Ember Data’s JSON deserializer looks for a meta key in received response. But wait! What if your API delivers juicy metadata via HTTP response headers? We need to extend the adapter for specific record type, override handleResponse, intercept stuff we need from headers and manually declare them as metadata with the meta key. Simple stuff. Say we’re loading some bonsais:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// app/adapters/bonsai.js&lt;/span&gt;
-&lt;span class=&quot;kr&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;DS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;RESTAdapter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;extend&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
- &lt;span class=&quot;na&quot;&gt;handleResponse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;payload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-   &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;meta&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-     &lt;span class=&quot;na&quot;&gt;total&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;X-Total-Count&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-     &lt;span class=&quot;na&quot;&gt;pages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;X-Page-Count&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-   &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-   &lt;span class=&quot;nx&quot;&gt;payload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;meta&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;meta&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-   &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;_super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;payload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Adapter then automatically picks up things we’ve set as meta. This allows us to access the metadata like so:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{bonsais.meta.total&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;templates&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;this.get(&#39;bonsais.meta.total&#39;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;everywhere&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Happy computering!&lt;/p&gt;</content><category term="posts" /><summary>In your ambitious web app, there’s a very high probability you’ll want to pass some metadata from your store along with the actual data, e.g. total count of all records when using pagination, various descriptions and whatnot.</summary></entry></feed>
+&lt;p&gt;P.S. Are you fresh in Ember land? I wrote a great book for you: &lt;a href=&quot;http://emberjs-book.com/&quot;&gt;Front-end revolution with Ember.js&lt;/a&gt;. Check it out!&lt;/p&gt;</content><category term="posts" /><summary>Consuming 3rd party libraries from the browser’s global window scope is nowadays considered as outrageous, egregious, preposterous.</summary></entry></feed>

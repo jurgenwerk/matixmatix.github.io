@@ -7,7 +7,7 @@ title: "Partial, resource-related dumps in PostgreSQL"
 #   image: "http://codeandtechno.com/images/lambda-post/cloudfront-map.png"
 ---
 
-Sometimes we find ourselves in a need for copying and restoring a specific set of data belonging to a common parent resource. For example, we want to connect to the production server, pull down fresh data related only to the specified user and restore it to our development database to debug an issue or just develop new features. When your database is tiny, you could just restore the whole thing, but once it grows up, the complete restoration is out of the question, especially when you need to do it often.
+Sometimes we find ourselves in a need for copying and restoring a specific set of data belonging to a common parent resource. For example, we want to connect to the production server, pull down fresh data related only to the specified user and restore it to our development database to debug an issue or just develop new features. When your database is tiny, you could just restore the whole thing, but once it grows, the complete restoration is out of the question, especially when you need to do it often.
 
 Here’s a simplified bash script I wrote that downloads everything belonging to the application user from the production database, deletes stale user data from the local development database and replaces it with the fresh data.
 
@@ -67,7 +67,7 @@ psql -d mydb_dev -c "
   );
 
   DELETE FROM posts where user_id = ${user_id};
-  DELETE FROM users where id = ${user_id};
+  DELETE FROM users where id = ${user_id};"
 
 echo "-- Restoring fresh user data..."
 psql -d mydb_dev < ${SQL_FILENAME}

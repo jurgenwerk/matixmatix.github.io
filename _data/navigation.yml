@@ -6,8 +6,11 @@ main:
   - title: "lines"
     url: /lines/
 
-  - title: "pieces"
-    url: /pieces/
+  # - title: "pieces"
+  #  url: /pieces/
+
+  - title: "art"
+    url: /art/
 
   - title: "bio"
     url: /about/

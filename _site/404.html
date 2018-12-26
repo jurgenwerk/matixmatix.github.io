@@ -350,8 +350,8 @@
             
             <li class="masthead__menu-item">
               
-                <button onclick="location.href='/pieces/'" class="nav-button">
-                  pieces
+                <button onclick="location.href='/art/'" class="nav-button">
+                  art
                 </button>
               
             </li>
@@ -394,7 +394,7 @@
 <div id="main" role="main">
   
 
-
+<!--  -->
 
 
   <div class="sidebar sticky">
@@ -521,7 +521,7 @@
   		}
 
   		var url = "https://emberjs-email-sender.herokuapp.com/handle_email?email=" + email + "&from_site=codeandtechno";
-  		$('.email-button').text("Subscribing...");
+  		$('.email-button').text("Subscribing... This will take 5 seconds, please don't navigate away.");
   		$.post(url, { from_url: window.location.href }, function() {
   			$('.email-button').text("Done!");
   		});

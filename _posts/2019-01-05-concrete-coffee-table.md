@@ -4,7 +4,7 @@ layout: single
 mainTopic: 'concrete'
 title: "Making a concrete coffee table"
 header:
-  image: "http://localhost:4000/images/coffeetable-post/concrete-coffee-table-final.JPG"
+  image: "http://localhost:4000/images/coffeetable-post/concrete-coffee-table-final.jpg"
 ---
 
 
@@ -22,9 +22,9 @@ After some napkin math, I decided on the measures. The calculation was I needed 
 ## Mold assembly
 
 <figure class="third">
-    <a href="/images/coffeetable-post/concrete-coffee-table-saw.JPG"><img src="/images/coffeetable-post/concrete-coffee-table-saw.JPG"></a>
-    <a href="/images/coffeetable-post/concrete-coffee-table-mold.JPG"><img src="/images/coffeetable-post/concrete-coffee-table-mold.JPG"></a>
-    <a href="/images/coffeetable-post/concrete-coffee-table-mold-complete.JPG"><img src="/images/coffeetable-post/concrete-coffee-table-mold-complete.JPG"></a>
+    <a href="/images/coffeetable-post/concrete-coffee-table-saw.jpg"><img src="/images/coffeetable-post/concrete-coffee-table-saw.jpg"></a>
+    <a href="/images/coffeetable-post/concrete-coffee-table-mold.jpg"><img src="/images/coffeetable-post/concrete-coffee-table-mold.jpg"></a>
+    <a href="/images/coffeetable-post/concrete-coffee-table-mold-complete.jpg"><img src="/images/coffeetable-post/concrete-coffee-table-mold-complete.jpg"></a>
     <figcaption>Putting some stuff together.</figcaption>
 </figure>
 
@@ -41,9 +41,9 @@ Action time.
 I used a cement mix (with sand aggregate already added) and poured it into the wooden enclosure.
 
 <figure class="third">
-    <a href="/images/coffeetable-post/concrete-coffee-table-mold-concrete-1.JPG"><img src="/images/coffeetable-post/concrete-coffee-table-mold-concrete-1.JPG"></a>
-    <a href="/images/coffeetable-post/concrete-coffee-table-mold-concrete-2.JPG"><img src="/images/coffeetable-post/concrete-coffee-table-mold-concrete-2.JPG"></a>
-    <a href="/images/coffeetable-post/concrete-coffee-table-mold-concrete-3.JPG"><img src="/images/coffeetable-post/concrete-coffee-table-mold-concrete-3.JPG"></a>
+    <a href="/images/coffeetable-post/concrete-coffee-table-mold-concrete-1.jpg"><img src="/images/coffeetable-post/concrete-coffee-table-mold-concrete-1.jpg"></a>
+    <a href="/images/coffeetable-post/concrete-coffee-table-mold-concrete-2.jpg"><img src="/images/coffeetable-post/concrete-coffee-table-mold-concrete-2.jpg"></a>
+    <a href="/images/coffeetable-post/concrete-coffee-table-mold-concrete-3.jpg"><img src="/images/coffeetable-post/concrete-coffee-table-mold-concrete-3.jpg"></a>
     <figcaption>With concrete, clamps are your friends. Always.</figcaption>
 </figure>
 
@@ -56,9 +56,9 @@ After two days it was time to take the mold apart. I didn't do a particular good
 Slurry is a term for cement paste mixed with a chemical that helps it bond with the already dry concrete.
 
 <figure class="third">
-    <a href="/images/coffeetable-post/concrete-coffee-table-dismantling-1.JPG"><img src="/images/coffeetable-post/concrete-coffee-table-dismantling-1.JPG"></a>
-    <a href="/images/coffeetable-post/concrete-coffee-table-dismantling-2.JPG"><img src="/images/coffeetable-post/concrete-coffee-table-dismantling-2.JPG"></a>
-    <a href="/images/coffeetable-post/concrete-coffee-table-dismantling-3.JPG"><img src="/images/coffeetable-post/concrete-coffee-table-dismantling-3.JPG"></a>
+    <a href="/images/coffeetable-post/concrete-coffee-table-dismantling-1.jpg"><img src="/images/coffeetable-post/concrete-coffee-table-dismantling-1.jpg"></a>
+    <a href="/images/coffeetable-post/concrete-coffee-table-dismantling-2.jpg"><img src="/images/coffeetable-post/concrete-coffee-table-dismantling-2.jpg"></a>
+    <a href="/images/coffeetable-post/concrete-coffee-table-dismantling-3.jpg"><img src="/images/coffeetable-post/concrete-coffee-table-dismantling-3.jpg"></a>
     <figcaption></figcaption>
 </figure>
 
@@ -68,9 +68,9 @@ Slurry is a term for cement paste mixed with a chemical that helps it bond with 
 For the purpose of polishing I got myself a simple wet concrete polisher from eBay. The polisher uses diamond pads with different grits (you switch them from lower to higher numbers).
 
 <figure class="third">
-    <a href="/images/coffeetable-post/concrete-coffee-table-polishing-1.JPG"><img src="/images/coffeetable-post/concrete-coffee-table-polishing-1.JPG"></a>
-    <a href="/images/coffeetable-post/concrete-coffee-table-polishing-2.JPG"><img src="/images/coffeetable-post/concrete-coffee-table-polishing-2.JPG"></a>
-    <a href="/images/coffeetable-post/concrete-coffee-table-polishing-3.JPG"><img src="/images/coffeetable-post/concrete-coffee-table-polishing-3.JPG"></a>
+    <a href="/images/coffeetable-post/concrete-coffee-table-polishing-1.jpg"><img src="/images/coffeetable-post/concrete-coffee-table-polishing-1.jpg"></a>
+    <a href="/images/coffeetable-post/concrete-coffee-table-polishing-2.jpg"><img src="/images/coffeetable-post/concrete-coffee-table-polishing-2.jpg"></a>
+    <a href="/images/coffeetable-post/concrete-coffee-table-polishing-3.jpg"><img src="/images/coffeetable-post/concrete-coffee-table-polishing-3.jpg"></a>
     <figcaption></figcaption>
 </figure>
 
@@ -83,8 +83,8 @@ After polishing, this is how the table looked.
 At this point the table needs to be stained with a protective liquid that prevents the concrete from soaking up spilled wine and whisky.
 
 <figure class="half">
-    <a href="/images/coffeetable-post/concrete-coffee-table-pre-stain.JPG"><img src="/images/coffeetable-post/concrete-coffee-table-pre-stain.JPG"></a>
-    <a href="/images/coffeetable-post/concrete-coffee-table-staining.JPG"><img src="/images/coffeetable-post/concrete-coffee-table-staining.JPG"></a>
+    <a href="/images/coffeetable-post/concrete-coffee-table-pre-stain.jpg"><img src="/images/coffeetable-post/concrete-coffee-table-pre-stain.jpg"></a>
+    <a href="/images/coffeetable-post/concrete-coffee-table-staining.jpg"><img src="/images/coffeetable-post/concrete-coffee-table-staining.jpg"></a>
 </figure>
 
 It was a bad decision to stain it with a brush, because brushmarks are seen under some angles in bright light. For mark-less coating, it's better to use a dense roller.

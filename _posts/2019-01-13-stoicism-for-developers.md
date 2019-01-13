@@ -9,7 +9,7 @@ header:
 
 As a practitioner of stoicism, one of my favourite teachings is an adage from Marcus Aurelius’s [Meditations](https://en.wikipedia.org/wiki/Meditations), which speaks about setting the stoic mindset the minute one wakes up in the morning.
 
-Being a software developer, I've recently been entertaining an idea of transforming Marcus's words of wisdom into developer lingo. By taking this general philosophy and narrow it down it to my professional environment, I helped myself to strengthen my virtue at work.
+Living a life of a software developer, I've recently been entertaining an idea of transforming Marcus's words of wisdom into developer lingo. By taking this general philosophy and narrow it down it to my professional environment, I helped myself to strengthen my virtue at work.
 
 Let's first take a look at the original:
 

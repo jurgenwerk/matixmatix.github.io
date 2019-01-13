@@ -7,7 +7,7 @@ header:
   image: "http://codeandtechno.com/images/marcus-aurelius.jpg"
 ---
 
-As a practitioner of stoicism, one of my favourite teachings is an adage from Marcus Aurelius’ Meditations that speaks about setting the stoic mindset the minute one wakes up in the morning.
+As a practitioner of stoicism, one of my favourite teachings is an adage from Marcus Aurelius’s [Meditations](https://en.wikipedia.org/wiki/Meditations) that speaks about setting the stoic mindset the minute one wakes up in the morning.
 
 Being a software developer, I've recently been entertaining an idea of transforming Marcus's words of wisdom into developer lingo. By taking this general philosophy and narrow it down it to my professional environment, I helped myself to strengthen my virtue at work.
 

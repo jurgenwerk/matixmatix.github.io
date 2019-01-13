@@ -4,7 +4,7 @@ layout: single
 mainTopic: 'concrete'
 title: "Making a concrete coffee table"
 header:
-  image: "http://localhost:4000/images/coffeetable-post/concrete-coffee-table-final.jpg"
+  image: "http://codeandtechno.com/images/coffeetable-post/concrete-coffee-table-final.jpg"
 ---
 
 

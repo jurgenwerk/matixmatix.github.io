@@ -30,10 +30,7 @@ After some napkin math, I decided on the measures. The calculation was I needed 
 
 For projects like this you usually want to go with melamine wood (white boards on the upper pictures). It’s not really wood though, it’s just diced wooden garbage mashed back together into a solid shape and covered with a smooth layer. It’s cheap, easy to cut, and most importantly, doesn’t bend when wet.
 
-I didn’t have enough 
-
-
-mine, so I used some other, “normal" wood that was laying around. I knew this wood would bend after getting in contact with wet concrete. I was just hoping the concrete would harden fast enough, which fortunately it did.
+I didn’t have enough melamine, so I used some other, “normal" wood that was laying around. I knew this wood would bend after getting in contact with wet concrete. I was just hoping the concrete would harden fast enough, which fortunately it did.
 
 If you plan on making a reusable mold like this, make sure to use melamine wood only.
 

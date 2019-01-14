@@ -14,8 +14,10 @@ Living a life of a software developer, I've recently been entertaining the idea 
 Let's first take a look at the original:
 
 > When you wake up in the morning, tell yourself: the people I deal with today will be meddling, ungrateful, arrogant, dishonest, jealous and surly. They are like this because they can't tell good from evil. But I have seen the beauty of good, and the ugliness of evil, and have recognized that the wrongdoer has a nature related to my own - not of the same blood and birth, but the same mind, and possessing a share of the divine. And so none of them can hurt me. No one can implicate me in ugliness. Nor can I feel angry at my relative, or hate him. We were born to work together like feet, hands and eyes, like the two rows of teeth, upper and lower. To obstruct each other is unnatural. To feel anger at someone, to turn your back on him: these are unnatural.
+> <cite>Marcus Aurelius, Meditations</cite>
 
-Now let's see how we could adapt this for stoic developers.
+
+Now let's see how we could adapt this for the modern age, as a morning thought exercise for stoic developers.
 
 ### When you wake up in the morning, tell yourself:
 

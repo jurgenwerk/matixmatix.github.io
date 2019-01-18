@@ -13,7 +13,7 @@ Always be doing side projects if you want to stay relevant, especially to yourse
 
 <!-- Sometimes, side projects actually grow into something that other people could use too. You have something to show. That’s incredible! Perhaps you published it and have a few people using it. You managed to ship the damn thing, but then… It’s just sitting there. You lose interest. You think your project has potential, but you leave it standing, because you find yourself caught up in another project and can find a better use of your time.   -->
 
-This is a story of how I managed to sell my simple project to a guy from the internet and earned an amount of cash equivalent to my yearly supply of beer, and trust me, I REALLY like beer. All I did was put together a trivial web app to scratch my own itch, and it keeps scratching it, while I drink my free beer.
+This is a story of how I managed to sell my simple project to a guy from the internet and earned an amount of cash equivalent to my yearly supply of beer, and trust me, I really like beer. All I did was put together a trivial web app to scratch my own itch, and it keeps scratching it, while I drink my free beer.
 
 Here’s the project: [Sitestalker](http://sitestalker.net). I made it because I needed to buy a car and grew sick of checking used car ads every day. At first it was just a simple script. I built an interface around it. A few hours of work.
 
@@ -38,6 +38,7 @@ The most popular markets for selling side projects are:
 - [Flippa](http://flippa.com)
 - [SideProjectors](https://www.sideprojectors.com)
 - [Empire Flippers](https://empireflippers.com/)
+- [Transferslot](https://transferslot.com/)
 
 Often there are also discussions on Reddit and Hacker News where people discuss selling their projects: [example 1](https://news.ycombinator.com/item?id=7656154), [example 2](https://news.ycombinator.com/item?id=7656154).
 

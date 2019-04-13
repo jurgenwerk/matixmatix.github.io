@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>/posts/user-impersonation-ember-simple-auth-doorkeeper/</loc>
+<lastmod>2019-04-12T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>/posts/stoicism-for-developers/</loc>
 <lastmod>2019-01-13T00:00:00+01:00</lastmod>
 </url>
@@ -78,9 +82,6 @@
 </url>
 <url>
 <loc>/pieces/</loc>
-</url>
-<url>
-<loc>/page2/</loc>
 </url>
 <url>
 <loc>/poems/english/2014-05-14-haiku1/</loc>

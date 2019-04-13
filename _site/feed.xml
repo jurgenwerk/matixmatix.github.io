@@ -1,4 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-01-14T08:27:59+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title>If Marcus Aurelius were a software developer</title><link href="/posts/stoicism-for-developers/" rel="alternate" type="text/html" title="If Marcus Aurelius were a software developer" /><published>2019-01-13T00:00:00+01:00</published><updated>2019-01-13T00:00:00+01:00</updated><id>/posts/stoicism-for-developers</id><content type="html" xml:base="/posts/stoicism-for-developers/">&lt;p&gt;As a practitioner of stoicism, one of my favourite teachings is an adage from Marcus Aurelius’s &lt;a href=&quot;https://en.wikipedia.org/wiki/Meditations&quot;&gt;Meditations&lt;/a&gt;, which speaks about setting the stoic mindset the minute one wakes up in the morning.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2019-04-13T10:53:47+02:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title>User impersonation in SaaS with Ember.js and Ruby on Rails</title><link href="/posts/user-impersonation-ember-simple-auth-doorkeeper/" rel="alternate" type="text/html" title="User impersonation in SaaS with Ember.js and Ruby on Rails" /><published>2019-04-12T00:00:00+02:00</published><updated>2019-04-12T00:00:00+02:00</updated><id>/posts/user-impersonation-ember-simple-auth-doorkeeper</id><content type="html" xml:base="/posts/user-impersonation-ember-simple-auth-doorkeeper/">&lt;p&gt;When developing SaaS, it’s very convenient, and arguably even urgent, to be able to log in as your users and see exactly what they see. This is especially important when debugging an issue or enabling your support team to check for bugs without looking into error logs.&lt;/p&gt;
+
+&lt;p&gt;I’m going to show you how you can do it using the following technologies:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ember.js (with &lt;a href=&quot;https://ember-simple-auth.com/&quot;&gt;Ember Simple Auth&lt;/a&gt; add-on)&lt;/li&gt;
+  &lt;li&gt;Ruby on Rails (with &lt;a href=&quot;https://github.com/doorkeeper-gem/doorkeeper&quot;&gt;Doorkeeper&lt;/a&gt; gem for OAuth2)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how-should-this-work&quot;&gt;How should this work?&lt;/h2&gt;
+
+&lt;p&gt;When the client is exchanging username and password for an access token, we call this OAuth 2.0 Password Grant flow.&lt;/p&gt;
+
+&lt;p&gt;If we wanted to impersonate a user, we need to create a new token by bypassing the part where password is used and ask Doorkeeper to issue a new token for the provided user, directly.&lt;/p&gt;
+
+&lt;p&gt;Then, when we have the token, we need a way to pass it to the Ember app that uses the Ember Simple Auth add-on.&lt;/p&gt;
+
+&lt;h2 id=&quot;creating-a-new-authenticator&quot;&gt;Creating a new authenticator&lt;/h2&gt;
+
+&lt;p&gt;We take the existing &lt;code class=&quot;highlighter-rouge&quot;&gt;oauth2&lt;/code&gt; authorizer and extend its &lt;code class=&quot;highlighter-rouge&quot;&gt;authenticate&lt;/code&gt; method. Originally it accepts username and password, and gets the token by issuing a request to your OAuth endpoint.&lt;/p&gt;
+
+&lt;p&gt;We modify this so we can pass &lt;code class=&quot;highlighter-rouge&quot;&gt;tokenData&lt;/code&gt; directly, which logs us in:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// app/authenticators/oauth2-custom-inject.js&lt;/span&gt;
+
+&lt;span class=&quot;kr&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;OAuth2&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;./oauth2&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kr&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;isEmpty&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;@ember/utils&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kr&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;RSVP&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;rsvp&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kr&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;OAuth2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;extend&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// tokenData is { access_token: &#39;asd&#39;, refreshToken: &#39;asdf&#39;, ... }&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;authenticate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tokenData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;RSVP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Promise&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;resolve&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;expiresAt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;_absolutizeExpirationTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tokenData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;expires_in&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;_scheduleAccessTokenRefresh&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;tokenData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;expires_in&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;expiresAt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;tokenData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;refresh_token&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+      &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;isEmpty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;expiresAt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;tokenData&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;assign&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tokenData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;expires_at&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;expiresAt&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+      &lt;span class=&quot;nx&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tokenData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We also need to add the accompanying authorizer:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// app/authorizers/oauth2-custom-inject.js&lt;/span&gt;
+
+&lt;span class=&quot;kr&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;OAuth2&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;./oauth2&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kr&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;OAuth2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;extend&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now, where should we call this new custom authenticator? One way is to do it in the &lt;code class=&quot;highlighter-rouge&quot;&gt;application&lt;/code&gt; route, where we receive the token data in a form of a query parameter when the app loads.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// app/routes/application.js&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;beforeModel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;transition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;uit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;transition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;queryParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;userImpersonationToken&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;uit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tryLoginWithProvidedToken&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;uit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;_loadCurrentUser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tryLoginWithProvidedToken&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;uit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;RSVP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Promise&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;resolve&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tokenObj&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;decodeURIComponent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;uit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;session&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;authenticate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;s2&quot;&gt;&quot;authenticator:oauth2-custom-inject&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;tokenObj&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This enables us to send the token data to our Ember app via &lt;code class=&quot;highlighter-rouge&quot;&gt;userImpersonationToken&lt;/code&gt; query parameter.&lt;/p&gt;
+
+&lt;h2 id=&quot;generating-a-token-for-any-user&quot;&gt;Generating a token for any user&lt;/h2&gt;
+
+&lt;p&gt;Use the following code for generating a URL that gets you logged in as any user.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;access_token&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Doorkeeper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;AccessToken&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;create!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;resource_owner_id: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;scopes: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;all&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;expires_in: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Doorkeeper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;configuration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;access_token_expires_in&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;use_refresh_token: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Doorkeeper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;configuration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;refresh_token_enabled?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;token_response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Doorkeeper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;OAuth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;TokenResponse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;access_token&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_json&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;user_impersonation_url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Rails&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;configuration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;web_app_url&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;/?userImpersonationToken=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;token_response&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A good place to use this code and redirect to the &lt;code class=&quot;highlighter-rouge&quot;&gt;user_impersonation_url&lt;/code&gt; is in your admin app, for example Rails Active Admin.&lt;/p&gt;
+
+&lt;h2 id=&quot;things-to-watch-out-for&quot;&gt;Things to watch out for&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;This keeps you logged in with another user when you reopen the browser. You might want to find a way to nullify the session after you are done impersonating.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you have some kind of user behaviour tracking set up (e.g. Mixpanel), you might want to disable it while you are impersonating.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><category term="posts" /><summary>When developing SaaS, it’s very convenient, and arguably even urgent, to be able to log in as your users and see exactly what they see. This is especially important when debugging an issue or enabling your support team to check for bugs without looking into error logs.</summary></entry><entry><title>If Marcus Aurelius were a software developer</title><link href="/posts/stoicism-for-developers/" rel="alternate" type="text/html" title="If Marcus Aurelius were a software developer" /><published>2019-01-13T00:00:00+01:00</published><updated>2019-01-13T00:00:00+01:00</updated><id>/posts/stoicism-for-developers</id><content type="html" xml:base="/posts/stoicism-for-developers/">&lt;p&gt;As a practitioner of stoicism, one of my favourite teachings is an adage from Marcus Aurelius’s &lt;a href=&quot;https://en.wikipedia.org/wiki/Meditations&quot;&gt;Meditations&lt;/a&gt;, which speaks about setting the stoic mindset the minute one wakes up in the morning.&lt;/p&gt;
 
 &lt;p&gt;Living a life of a software developer, I’ve recently been entertaining the idea of transforming Marcus’s words of wisdom into developer lingo. By taking this general philosophy and narrow it down it to my professional environment, I helped myself to strengthen my virtue at work.&lt;/p&gt;
 
@@ -679,66 +791,4 @@ to visit their web interface and select to download (compressed) files.&lt;/p&gt
 
 &lt;p&gt;The clock also comes with a secret mode that continuously flashes through a vast spectre of colors. A real feast for the eyes.&lt;/p&gt;
 
-&lt;iframe src=&quot;//giphy.com/embed/DkghEwh3sVz6E&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><category term="posts" /><summary>Not a very practical clock, but the fusion of the curious numerical sequence with a lighting installation aesthetic is just too appealing to look away.</summary></entry><entry><title>Recurring subscription payments: use external service or make your own?</title><link href="/posts/subscription-payments-use-external-service-or-make-your-own/" rel="alternate" type="text/html" title="Recurring subscription payments: use external service or make your own?" /><published>2016-09-19T00:00:00+02:00</published><updated>2016-09-19T00:00:00+02:00</updated><id>/posts/subscription-payments-use-external-service-or-make-your-own</id><content type="html" xml:base="/posts/subscription-payments-use-external-service-or-make-your-own/">&lt;p&gt;Billing is far more complex than people tend to believe, and much more so with subscriptions.&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Remind me to never make a subscription service again.&lt;/p&gt;&amp;mdash; Jeffrey Biles (@JeffreyBiles) &lt;a href=&quot;https://twitter.com/JeffreyBiles/status/775371558768390144&quot;&gt;September 12, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;center&gt;&lt;small&gt;I feel your pain, Jeffrey. It&#39;s hard to get it right.&lt;/small&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Subscriptions are a common business model in paid online products, especially in SaaS world. That means the customers are charged in a recurring fashion; most commonly monthly or yearly.&lt;/p&gt;
-
-&lt;p&gt;After you convinced your customer to enter their payment vehicle (credit card, PayPal, etc), there are two ways you can trigger acquiring currency when their payment is due:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Use an external billing service (&lt;a href=&quot;https://www.braintreegateway.com/&quot;&gt;Braintree&lt;/a&gt;, &lt;a href=&quot;https://recurly.com/product/&quot;&gt;Recurly&lt;/a&gt;, &lt;a href=&quot;https://stripe.com&quot;&gt;Stripe&lt;/a&gt;, &lt;a href=&quot;https://cheddargetter.com/&quot;&gt;Chedargetter&lt;/a&gt;,…) and let it do &lt;strong&gt;all&lt;/strong&gt; the billing work. Let it charge your customers on a recurring basis and send you event notifications, which you use to update your system - prolong or expire customers’ subscription. Simple, fast, reliable, but severely limited in customization as your business needs grow.&lt;/li&gt;
-  &lt;li&gt;Also use one of the billing services*, but only manually - implement your own payment scheduler (usually with a cron job or a run loop) and bill the customers using your own server. Periodically use the payment service’s API to bill customers, and handle all the results yourself. It’s more complex and bug prone, takes more time to implement, but you’re in complete control and know exactly how your billing system works, especially when something breaks.
-&lt;br /&gt;&lt;br /&gt;&lt;span&gt;*&lt;/span&gt; &lt;small&gt;assuming you’re offloading PCI responsibility to a payment processor by only storing customer tokens on your server instead of raw payment method data. &lt;/small&gt;
- &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;So, what does this recurring work actually include? The most basic flow is this: every month,&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;determine&lt;/strong&gt; payment amount depending on customer’s subscription plan,&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;charge&lt;/strong&gt; the amount using their payment method,&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;update&lt;/strong&gt; their subscription in your application’s database,&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;send&lt;/strong&gt; an invoice.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;you-need-to-decide-what-kind-of-billing-mechanics-your-business-needs&quot;&gt;You need to decide what kind of billing mechanics your business needs.&lt;/h2&gt;
-
-&lt;p&gt;&lt;span style=&quot;margin-top: 20px; display: inline-block;&quot;&gt;Let’s compare both ways a little bit more in depth.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Using option 1, you populate the external service with your subscription plans, add-ons, coupons and perhaps configure trial periods. When customers subscribe to your product, your application registers them to the billing service. It takes care of deducting your customers’ money every month/year and sending it to your wallet. For every payment activity (successful charge, declined card, etc), they send an event notification, usually as HTTP requests to your API - also known as “reverse API”. You use these notifications to extend or halt your customers’ subscriptions.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The main benefit here is that you spend very little time developing a billing system.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;When you are just starting out, or when you’re certain your billing dynamics aren’t going to be very diverse, implementing your own billing system is most probably a waste of time. This way you usually also get some basic billing analytics with it, which is really useful for monitoring customer and revenue churn rates.&lt;/p&gt;
-
-&lt;h2 id=&quot;as-your-business-grows-things-can-quickly-get-complicated&quot;&gt;As your business grows, things can quickly get complicated.&lt;/h2&gt;
-
-&lt;p&gt;&lt;span style=&quot;margin-top: 20px; display: inline-block;&quot;&gt;Consider diverse subscription plans, coupons and add-ons with variable durations and prices depending on various conditions, multi-currency, multi-tenancy and dunning.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Let’s list some examples.&lt;/p&gt;
-
-&lt;p&gt;What if…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;a customer decides to upgrade from a monthly to a yearly subscription in the middle of the month, and you have some custom rules for a pro-rate refund?&lt;/li&gt;
-  &lt;li&gt;a coupon is valid only for an upgrade to a larger subscription?&lt;/li&gt;
-  &lt;li&gt;there is a second trial period for some customers?&lt;/li&gt;
-  &lt;li&gt;an add-on is cheaper on a larger subscription plan?&lt;/li&gt;
-  &lt;li&gt;there is a special discount for people paying with a debit visa card?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;See the pattern?&lt;/p&gt;
-
-&lt;p&gt;In cases like this, you can’t escape having a custom tailored business logic for determining the amount to charge. As your pricing plans become more convoluted with discounting, optional add-ons and conditionals it becomes hard not just to bill, but also to keep track of activities, ordering, and reporting.&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;http://i.imgur.com/cLU8h3D.png&quot; alt=&quot;RankTrackr Billing&quot; title=&quot;RankTrackr billing&quot; style=&quot;width: 520px; margin-top: 20px;&quot; /&gt;&lt;/center&gt;
-&lt;center&gt;&lt;small&gt;At &lt;a href=&quot;http://ranktrackr.com&quot;&gt;RankTrackr&lt;/a&gt; we built a custom billing service. It runs every day at 10AM and shows the results in Slack. &lt;/small&gt;&lt;/center&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;span style=&quot;margin-top: 15px; display: block;&quot;&gt;Subscription payments are one of the most delicate parts of your online business, so do your homework, because migrating to a different subscription payment implementation is distressing and expensive.&lt;/span&gt;&lt;/p&gt;</content><category term="posts" /><summary>Billing is far more complex than people tend to believe, and much more so with subscriptions.</summary></entry></feed>
+&lt;iframe src=&quot;//giphy.com/embed/DkghEwh3sVz6E&quot; width=&quot;480&quot; height=&quot;270&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><category term="posts" /><summary>Not a very practical clock, but the fusion of the curious numerical sequence with a lighting installation aesthetic is just too appealing to look away.</summary></entry></feed>

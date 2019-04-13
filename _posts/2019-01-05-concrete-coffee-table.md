@@ -88,3 +88,5 @@ At this point the table needs to be stained with a protective liquid that preven
 </figure>
 
 It was a bad decision to stain it with a brush, because brushmarks are seen under some angles in bright light. For mark-less coating, it's better to use a dense roller.
+
+P.S: While concrete is the best material for making furniture, wood comes as a close second. Make sure to check out my friends' [height adjustable work desks](https://ergochord.com/).

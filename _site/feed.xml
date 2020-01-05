@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-01-05T23:51:19+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title>2019 Year Review</title><link href="/posts/year-review-2019/" rel="alternate" type="text/html" title="2019 Year Review" /><published>2020-01-04T00:00:00+01:00</published><updated>2020-01-04T00:00:00+01:00</updated><id>/posts/year-review-2019</id><content type="html" xml:base="/posts/year-review-2019/">&lt;p&gt;I like reading people’s year reviews so I decided to write mine as well, albeit a couple days late.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-01-06T00:40:01+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title>2019 Year Review</title><link href="/posts/year-review-2019/" rel="alternate" type="text/html" title="2019 Year Review" /><published>2020-01-04T00:00:00+01:00</published><updated>2020-01-04T00:00:00+01:00</updated><id>/posts/year-review-2019</id><content type="html" xml:base="/posts/year-review-2019/">&lt;p&gt;I like reading people’s year reviews so I decided to write mine as well, albeit a couple days late.&lt;/p&gt;
 
 &lt;p&gt;People tend to include the goals they set in the previous year, compare it to reality and set the goals for the next year.&lt;/p&gt;
 
@@ -30,7 +30,9 @@ The truth is that I achieved none of this.&lt;/p&gt;
 
 &lt;p&gt;Goal planning and strictly sticking to it is an act of making ourselves blind to the infinite options which are not part of the original plan.&lt;/p&gt;
 
-&lt;p&gt;I want to try, make and build things. I want to make things better as they were yesterday wherever I set my foot it. This is continuous, non-linear progress, but goals are just stops in between, and they make you miserable when you miss them.&lt;/p&gt;
+&lt;p&gt;I want to try, make and build things. I want to make things better as they were yesterday. This is a continuous, non-linear progress. Goals are just stops in between, and they make you miserable when you miss them.&lt;/p&gt;
+
+&lt;p&gt;This year I learned a lot about optionality. To take advantage of it, we need to recognize the option when it reveals itself. If our eyes are too centered on the goals we have for ourselves, we may miss what is right in front of us.&lt;/p&gt;
 
 &lt;!-- Following this notion, I did manage to achieve a couple of unexpected things and capitalize on them. --&gt;
 
@@ -43,7 +45,21 @@ I launched quite a couple of new side-projects this year so I will only mention 
 
 &lt;h2 id=&quot;jurgenstudio&quot;&gt;jurgenstudio&lt;/h2&gt;
 
-&lt;p&gt;Since my &lt;a href=&quot;https://www.etsy.com/listing/710735227/concrete-berghain-model-replica&quot;&gt;Berghain replica&lt;/a&gt; unexpectely started selling well after a couple of marketing stunts (I posted it online “just for the lols”) I’ve seen there’s money to be made in this space. I decided to focus on growing my one-man-band &lt;a href=&quot;https://jurgenstudio.com/&quot;&gt;creative studio&lt;/a&gt; that produces niche products from concrete. I created a couple new products and will continue to do so this year. And perhaps expand the business with a friend who does 3D design.&lt;/p&gt;
+&lt;p&gt;Since my &lt;a href=&quot;https://www.etsy.com/listing/710735227/concrete-berghain-model-replica&quot;&gt;Berghain replica&lt;/a&gt; unexpectely started selling well after a couple of marketing stunts (I posted it online “just for the lols”) I’ve seen there’s money to be made in this space.&lt;/p&gt;
+
+&lt;p&gt;That made me decide to put some focus on growing my one-man-band &lt;a href=&quot;https://jurgenstudio.com/&quot;&gt;creative studio&lt;/a&gt; that produces niche products from concrete.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+    &lt;a href=&quot;/images/2019-review-post/jurgenstudio.png&quot;&gt;&lt;img src=&quot;/images/2019-review-post/jurgenstudio.png&quot; /&gt;&lt;/a&gt;
+    &lt;center&gt;
+    &lt;figcaption&gt;
+
+    &lt;/figcaption&gt;
+    &lt;/center&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;I created a couple new products and will continue to do so this year. And perhaps expand the business with a friend who does 3D design.&lt;/p&gt;
 
 &lt;h2 id=&quot;windows-95-jewellery&quot;&gt;Windows 95 Jewellery&lt;/h2&gt;
 
@@ -81,66 +97,87 @@ I launched quite a couple of new side-projects this year so I will only mention 
 
 &lt;h2 id=&quot;gitfuck&quot;&gt;Gitfuck&lt;/h2&gt;
 
-&lt;p&gt;I like software development, and I like complaining about it. I like the tragicomedy of it. So I built a program which scans for swearing on GitHub, adds a meme-esque picture and &lt;a href=&quot;https://instagram.com/gitfuck&quot;&gt;posts it on Instagram&lt;/a&gt;. Completely automated. It’s hilarous!&lt;/p&gt;
+&lt;p&gt;I like software development, and I like complaining about it. I like the tragicomedy of it. So I built an automated program which scans for swearing on GitHub, adds a meme-esque picture in the background and &lt;a href=&quot;https://instagram.com/gitfuck&quot;&gt;posts it on Instagram&lt;/a&gt;. It’s hilarous!&lt;/p&gt;
 
-&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-permalink=&quot;https://www.instagram.com/p/B60WqcPnYnI/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;12&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/B60WqcPnYnI/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewbox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt; View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/p/B60WqcPnYnI/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;A post shared by @gitfuck&lt;/a&gt; on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2020-01-02T12:55:39+00:00&quot;&gt;Jan 2, 2020 at 4:55am PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-permalink=&quot;https://www.instagram.com/p/B60WqcPnYnI/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;12&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; margin-bottom: 40px; margin-bottom: 40px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/B60WqcPnYnI/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewbox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt; View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/p/B60WqcPnYnI/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;A post shared by @gitfuck&lt;/a&gt; on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2020-01-02T12:55:39+00:00&quot;&gt;Jan 2, 2020 at 4:55am PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;
 
 &lt;h1 id=&quot;art&quot;&gt;Art&lt;/h1&gt;
 
-&lt;p&gt;My main art direction are &lt;a href=&quot;https://jurgenstudio.com/artworks&quot;&gt;concrete sculptures&lt;/a&gt;, but recently I started exploring a new direction: concrete paintings. I really like doing them and I’m receiving wonderful feedback. Will continue exploring this direction.&lt;/p&gt;
+&lt;style&gt;
+  .instagram-media {
+    margin-bottom: 40px !important;
+  }
+&lt;/style&gt;
+
+&lt;p&gt;My main artworks that I do are still &lt;a href=&quot;https://jurgenstudio.com/artworks&quot;&gt;concrete sculptures&lt;/a&gt;, but recently I started exploring a new direction: concrete “paintings”.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+    &lt;a href=&quot;/images/2019-review-post/wall-art.jpg&quot;&gt;&lt;img src=&quot;/images/2019-review-post/wall-art.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;center&gt;
+    &lt;figcaption&gt;
+
+    &lt;/figcaption&gt;
+    &lt;/center&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;I’m really drawn to creating them and I’m receiving wonderful feedback. Will continue exploring this direction.&lt;/p&gt;
 
 &lt;p&gt;I want to have an exhibition this year.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
 &lt;h1 id=&quot;life&quot;&gt;Life&lt;/h1&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;In July, it was my 30th birthday.&lt;/p&gt;
 
-&lt;p&gt;I reached 30 years in July.&lt;/p&gt;
+&lt;p&gt;I don’t know what to think of it.&lt;/p&gt;
 
-&lt;p&gt;I don’t know what to think of it. I think I’ve actually just started living.&lt;/p&gt;
+&lt;p&gt;I think I’ve actually just started living.&lt;/p&gt;
 
-&lt;p&gt;Friends put up an ornamented dead tree for me.&lt;/p&gt;
+&lt;p&gt;Friends put up an ornamented dead tree for me on that day.&lt;/p&gt;
 
-&lt;h2 id=&quot;dietary-adjustment&quot;&gt;Dietary adjustment&lt;/h2&gt;
+&lt;figure class=&quot;half&quot;&gt;
+    &lt;a href=&quot;/images/2019-review-post/30-birthday.jpg&quot;&gt;&lt;img src=&quot;/images/2019-review-post/30-birthday.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;center&gt;
+    &lt;figcaption&gt;
 
-&lt;p&gt;Last couple of years I suffered from a weird condition where I was experiencing random brain fog and fatigue throughout the day. I thought my body was severely broken.&lt;/p&gt;
+    &lt;/figcaption&gt;
+    &lt;/center&gt;
+
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;important-dietary-adjustment&quot;&gt;Important dietary adjustment&lt;/h2&gt;
+
+&lt;p&gt;Last couple of years I suffered from a weird condition where I was experiencing random brain fog and fatigue throughout the day.&lt;/p&gt;
+
+&lt;p&gt;I thought my body was severely broken.&lt;/p&gt;
 
 &lt;p&gt;Unrelated, I’ve seen some friends doing keto, so I decided to give it try (to lose some weight). I discovered my hormonal (?) mood swings stopped completely.&lt;/p&gt;
 
 &lt;p&gt;I accidentally cured myself.&lt;/p&gt;
 
-&lt;h2 id=&quot;travelling&quot;&gt;Travelling&lt;/h2&gt;
-
-&lt;p&gt;Did some travels this year, but I wish to do more this year.&lt;/p&gt;
-
-&lt;p&gt;I went to:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Bali&lt;/li&gt;
-  &lt;li&gt;Berlin, twice&lt;/li&gt;
-  &lt;li&gt;Sailboat trip in the Adriatic, twice&lt;/li&gt;
-  &lt;li&gt;Spent a lot of time in Croatia in the summer&lt;/li&gt;
-  &lt;li&gt;Venice&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And somehow I added 30.000 kilometers to my car’s odometer, even though I work from home. 🤔&lt;/p&gt;
-
 &lt;h2 id=&quot;books&quot;&gt;Books&lt;/h2&gt;
 
-&lt;p&gt;I always kinda struggled to read books, so I only read a couple per year. This year I discovered audio books. They fit my lifestyle much better. I really went at it and listened to more than 20 books. My favorite was &lt;a href=&quot;https://www.goodreads.com/book/show/13530973-antifragile&quot;&gt;Antifragile&lt;/a&gt; by Nicolas Taleb. It made a big impact on me.&lt;/p&gt;
+&lt;p&gt;I always kinda struggled to focus and read books, so I only read a couple per year. This year I discovered audio books and was very delighted by this medium.&lt;/p&gt;
+
+&lt;p&gt;They fit my lifestyle much better. I really went at it and listened to more than 20 books.&lt;/p&gt;
+
+&lt;p&gt;My favorite was &lt;a href=&quot;https://www.goodreads.com/book/show/13530973-antifragile&quot;&gt;Antifragile&lt;/a&gt; by Nicolas Taleb. It made a big impact on me.&lt;/p&gt;
 
 &lt;h2 id=&quot;physical-activity&quot;&gt;Physical activity&lt;/h2&gt;
 
-&lt;p&gt;I continued visiting the gym 3 times per week. I started skateboarding again, which is a big pleasure.&lt;/p&gt;
+&lt;p&gt;I continued lifting weights 3 times per week as per usual.&lt;/p&gt;
 
-&lt;p&gt;I’ve never felt so physically strong and fit before.&lt;/p&gt;
+&lt;p&gt;I’ve never felt so physically strong and fit before in my life.&lt;/p&gt;
+
+&lt;p&gt;I also started skateboarding again, which is a big pleasure for me.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The other day I got a little bit spiritless so I stopped at the skateboard shop and got myself a new board. Last time I skated was 6 years ago. It seems that once you know how to do dope kickflips, it stays in your blood. 👇 &lt;a href=&quot;https://t.co/pRFUgG2m2S&quot;&gt;pic.twitter.com/pRFUgG2m2S&lt;/a&gt;&lt;/p&gt;&amp;mdash; Matic Jurglič (@matixmatix) &lt;a href=&quot;https://twitter.com/matixmatix/status/1158395300538724352?ref_src=twsrc%5Etfw&quot;&gt;August 5, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
 &lt;h2 id=&quot;relationships&quot;&gt;Relationships&lt;/h2&gt;
 
-&lt;p&gt;What I particularly liked this year is how much deeper my relationships with my friends and family have gotten. It didn’t happen on its own - I continuously exhibit effort through random acts of kindness and appreciation, which made a big difference.&lt;/p&gt;
+&lt;p&gt;What I particularly liked this year is how much deeper my relationships with my friends and family have gotten. It didn’t happen on its own - I continuously try to exhibit effort through random acts of kindness and appreciation, which made a big difference.&lt;/p&gt;
 
 &lt;p&gt;Still single, though. 😒&lt;/p&gt;
 
@@ -152,7 +189,7 @@ I launched quite a couple of new side-projects this year so I will only mention 
 
 &lt;p&gt;I was the co-founder and built a considerate portion of the company. It was my baby, it was my life, it was my identity.&lt;/p&gt;
 
-&lt;p&gt;But things happen. People grow apart.&lt;/p&gt;
+&lt;p&gt;But things happen. People grow apart. Only intrinsic motivation lasts.&lt;/p&gt;
 
 &lt;p&gt;I decided to start afresh.&lt;/p&gt;</content><category term="posts" /><summary>Goals make us blind.</summary></entry><entry><title>User impersonation in SaaS with Ember.js and Ruby on Rails</title><link href="/posts/user-impersonation-ember-simple-auth-doorkeeper/" rel="alternate" type="text/html" title="User impersonation in SaaS with Ember.js and Ruby on Rails" /><published>2019-04-12T00:00:00+02:00</published><updated>2019-04-12T00:00:00+02:00</updated><id>/posts/user-impersonation-ember-simple-auth-doorkeeper</id><content type="html" xml:base="/posts/user-impersonation-ember-simple-auth-doorkeeper/">&lt;p&gt;When developing SaaS, it’s very convenient, and arguably even urgent, to be able to log in as your users and see exactly what they see. This is especially important when debugging an issue or enabling your support team to check for bugs without looking into error logs.&lt;/p&gt;
 

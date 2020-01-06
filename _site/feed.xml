@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-01-06T00:40:17+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title>2019 Year Review</title><link href="/posts/year-review-2019/" rel="alternate" type="text/html" title="2019 Year Review" /><published>2020-01-04T00:00:00+01:00</published><updated>2020-01-04T00:00:00+01:00</updated><id>/posts/year-review-2019</id><content type="html" xml:base="/posts/year-review-2019/">&lt;p&gt;I like reading people’s year reviews so I decided to write mine as well, albeit a couple days late.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-01-06T00:59:47+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title>2019 Year Review</title><link href="/posts/year-review-2019/" rel="alternate" type="text/html" title="2019 Year Review" /><published>2020-01-04T00:00:00+01:00</published><updated>2020-01-04T00:00:00+01:00</updated><id>/posts/year-review-2019</id><content type="html" xml:base="/posts/year-review-2019/">&lt;p&gt;I like reading people’s year reviews so I decided to write mine as well, albeit a couple days late.&lt;/p&gt;
 
 &lt;p&gt;People tend to include the goals they set in the previous year, compare it to reality and set the goals for the next year.&lt;/p&gt;
 
@@ -17,7 +17,7 @@ The truth is that I achieved none of this.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;Didn’t even try since my artwork portfolio hasn’t grew as big as I wanted to.&lt;/li&gt;
 &lt;li&gt;I threw together some numbers and discovered it’s impossible to earn a good living with a weightlifting gym in a small town.&lt;/li&gt;
-&lt;li&gt;I chickened out. I really like how all my limbs function 100% right now and want to keep it that way. I concluded this sport is too dangerous. &lt;/li&gt;
+&lt;li&gt;I chickened out. I really like how right now all my limbs function 100% and want to keep it that way. I concluded this sport is too dangerous. &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -185,13 +185,13 @@ I launched quite a couple of new side-projects this year so I will only mention 
 
 &lt;p&gt;Perhaps the largest update in this year’s review is that I decided to part ways with &lt;a href=&quot;https://nightwatch.io&quot;&gt;Nightwatch&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;This was the toughest decision I had to do in my life. I was in a dark and depressed place, and I’ve recognized choosing this option is the only way to snap out of it.&lt;/p&gt;
+&lt;p&gt;This was the toughest decision I had to do in my life.&lt;/p&gt;
 
 &lt;p&gt;I was the co-founder and built a considerate portion of the company. It was my baby, it was my life, it was my identity.&lt;/p&gt;
 
 &lt;p&gt;But things happen. People grow apart. Only intrinsic motivation lasts.&lt;/p&gt;
 
-&lt;p&gt;I decided to start afresh.&lt;/p&gt;</content><category term="posts" /><summary>Goals make us blind.</summary></entry><entry><title>User impersonation in SaaS with Ember.js and Ruby on Rails</title><link href="/posts/user-impersonation-ember-simple-auth-doorkeeper/" rel="alternate" type="text/html" title="User impersonation in SaaS with Ember.js and Ruby on Rails" /><published>2019-04-12T00:00:00+02:00</published><updated>2019-04-12T00:00:00+02:00</updated><id>/posts/user-impersonation-ember-simple-auth-doorkeeper</id><content type="html" xml:base="/posts/user-impersonation-ember-simple-auth-doorkeeper/">&lt;p&gt;When developing SaaS, it’s very convenient, and arguably even urgent, to be able to log in as your users and see exactly what they see. This is especially important when debugging an issue or enabling your support team to check for bugs without looking into error logs.&lt;/p&gt;
+&lt;p&gt;I decided to start afresh and find something else to work on.&lt;/p&gt;</content><category term="posts" /><summary>Goals make us blind.</summary></entry><entry><title>User impersonation in SaaS with Ember.js and Ruby on Rails</title><link href="/posts/user-impersonation-ember-simple-auth-doorkeeper/" rel="alternate" type="text/html" title="User impersonation in SaaS with Ember.js and Ruby on Rails" /><published>2019-04-12T00:00:00+02:00</published><updated>2019-04-12T00:00:00+02:00</updated><id>/posts/user-impersonation-ember-simple-auth-doorkeeper</id><content type="html" xml:base="/posts/user-impersonation-ember-simple-auth-doorkeeper/">&lt;p&gt;When developing SaaS, it’s very convenient, and arguably even urgent, to be able to log in as your users and see exactly what they see. This is especially important when debugging an issue or enabling your support team to check for bugs without looking into error logs.&lt;/p&gt;
 
 &lt;p&gt;I’m going to show you how you can do it using the following technologies:&lt;/p&gt;
 

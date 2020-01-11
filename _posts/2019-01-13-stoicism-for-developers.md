@@ -7,9 +7,9 @@ header:
   image: "http://codeandtechno.com/images/marcus-aurelius.jpg"
 ---
 
-Let’s face it; working with people is hard, even more so when you feel like people in your organization are incompetent, sloppy, holding you back, or even working against you.
+Working with people is hard when you feel like people in your organization are incompetent, sloppy, holding you back, or even working against you.
 
-Your manager is a dick. Your back-end team keeps making APIs you don’t like. The new guy who was supposed to be a senior developer broke down production and you were paged while watching the game. Perhaps you’re dealing with a [client from hell](https://clientsfromhell.net/).
+Your manager is a dick. Your back-end team keeps making APIs you don’t like. The new guy who was supposed to be a senior developer broke production and you were paged while watching the game. Perhaps you’re dealing with a [client from hell](https://clientsfromhell.net/).
 
 It makes you upset. If it were up to you, you would never choose to work with these people. You feel angry, and want to punch through a drywall. You find yourself morphing into Clint Eastwood in the movie Gran Torino.
 

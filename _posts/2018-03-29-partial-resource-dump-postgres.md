@@ -1,10 +1,10 @@
 ---
 category: posts
 layout: single
-mainTopic: 'programming'
+mainTopic: "programming"
 title: "Partial, resource-related dumps in PostgreSQL"
 # header:
-#   image: "http://codeandtechno.com/images/lambda-post/cloudfront-map.png"
+#   image: "http://jurgen.si/images/lambda-post/cloudfront-map.png"
 ---
 
 Sometimes we find ourselves in a need for copying and restoring a specific set of data belonging to a common parent resource. For example, we want to connect to the production server, pull down fresh data related only to the specified user and restore it to our development database to debug an issue or just develop new features. When your database is tiny, you could just restore the whole thing, but once it grows, the complete restoration is out of the question, especially when you need to do it often.
@@ -52,7 +52,7 @@ EOT
 
 Let’s comment on what’s happening here. What we’re doing is essentially using Postgres’s `COPY` function which is useful for moving data around tables. Usually it’s used to produce individual CSV files separately for each table, which are then individually restored using `COPY FROM` command.
 
-Since this function is also able to read from the `STDIN`, we bundle all `COPY` commands together (using the  `.\` which indicates the end of the input). Local PostgreSQL will then see sequences of `COPY FROM STDIN`, then data, then `.\`, indicating it’s done. We do this to avoid making multiple table-specific CSV files. Instead, we just put everything into one big SQL file.
+Since this function is also able to read from the `STDIN`, we bundle all `COPY` commands together (using the `.\` which indicates the end of the input). Local PostgreSQL will then see sequences of `COPY FROM STDIN`, then data, then `.\`, indicating it’s done. We do this to avoid making multiple table-specific CSV files. Instead, we just put everything into one big SQL file.
 
 This was just the first part of the script. Now that we have the necessary data in an SQL file, we have to make place for it and restore it to our local database.
 

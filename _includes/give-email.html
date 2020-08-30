@@ -1,30 +1,41 @@
 {% include base_path %}
 
-<section class="page__share" style="border-top: none; margin-top: 0px;">
-  <br>
-  <img src="/images/notepad.png" style="width: 20px">
-  <span style="font-weight: bold">Subscribe here to keep up with posts that I publish:</span>
+<section class="page__share" style="border-top: none; margin-top: 0px">
   <br />
-  <input class="email-input" style="width: 220px; height: 37px; margin-top: 10px; font-size: 19px;" placeholder="Your e-mail" />
-  <button class="email-button"> &nbsp;  &nbsp; ok &nbsp;  &nbsp;</button>
+  <img src="/images/notepad.png" style="width: 20px" />
+  <span style="font-weight: bold"
+    >Subscribe here to keep up with posts that I publish:</span
+  >
+  <br />
+  <input
+    class="email-input"
+    style="width: 220px; height: 37px; margin-top: 10px; font-size: 19px"
+    placeholder="Your e-mail"
+  />
+  <button class="email-button">&nbsp; &nbsp; ok &nbsp; &nbsp;</button>
 </section>
 
 <script>
   function setupGiveEmail() {
-    $('.email-button').click(function(e) {
-  		e.preventDefault();
-  		var email = $('.email-input').val();
+    $(".email-button").click(function (e) {
+      e.preventDefault();
+      var email = $(".email-input").val();
 
-  		if (String(email) === "") {
-  			$('.email-input').focus();
-  			return;
-  		}
+      if (String(email) === "") {
+        $(".email-input").focus();
+        return;
+      }
 
-  		var url = "https://emberjs-email-sender.herokuapp.com/handle_email?email=" + email + "&from_site=codeandtechno";
-  		$('.email-button').text("Subscribing... This will take 5 seconds, please don't navigate away.");
-  		$.post(url, { from_url: window.location.href }, function() {
-  			$('.email-button').text("Done!");
-  		});
-  	});
+      var url =
+        "https://emberjs-email-sender.herokuapp.com/handle_email?email=" +
+        email +
+        "&from_site=jurgen";
+      $(".email-button").text(
+        "Subscribing... This will take 5 seconds, please don't navigate away."
+      );
+      $.post(url, { from_url: window.location.href }, function () {
+        $(".email-button").text("Done!");
+      });
+    });
   }
 </script>

@@ -1,19 +1,17 @@
 ---
 category: posts
 layout: single
-mainTopic: 'programming'
+mainTopic: "programming"
 title: "What is SaaS white labeling and how to do it?"
 header:
-  image: "http://codeandtechno.com/images/whitelabel-post/whitelabeled-bottles.jpg"
+  image: "http://jurgen.si/images/whitelabel-post/whitelabeled-bottles.jpg"
 ---
-
 
 Depending on your online business, white labeling can turn out to be a fantastic business model. This applies especially when your target customers are actually <b>customers who have their own customers</b>, for example agencies, consultancies and client-oriented businesses.
 
 In this case there is a real chance that adding support for white labeling in your product will improve your chances of attracting advanced users and position your product higher in the eyes of corporate customers (i.e. those who can pay top dollar).
 
 ### But what exactly is white labeling?
-
 
 White labeling means taking a blank product and slapping a label for another company on it.
 
@@ -27,7 +25,7 @@ It means other companies can take your (online, in this case) product and brand 
 
 ### White labeled SaaS example
 
-Let's imagine you built a website performance tracker that makes reports of websites' speed. On one hand, you have individual customers that use your service to track their own websites. On the other hand, there are many web performance consultancies and agencies who make a living tuning *other* people’s (i.e. their customers') websites. To deliver reports, they have 3 options:
+Let's imagine you built a website performance tracker that makes reports of websites' speed. On one hand, you have individual customers that use your service to track their own websites. On the other hand, there are many web performance consultancies and agencies who make a living tuning _other_ people’s (i.e. their customers') websites. To deliver reports, they have 3 options:
 
 1. Build their own website tracking solution. This is expensive to build, and expensive to maintain. Not all businesses are in a position to afford and maintain it.
 2. Use a 3rd party solution (like yours). Their clients will notice they are relying on an external service, which may impair their trust.
@@ -45,16 +43,15 @@ Here is an example of how we did these settings at <a href="https://nightwatch.i
     <figcaption></figcaption></center>
 </figure>
 
-
 ### White label (sub)domain
 
 This is the entry point to a white labeled SaaS product.
 
 Your customers who wish to offer your product branded as their own will want to customize its URL.
 
-The DNS part is easy, usually solved with a *CNAME* record. Returning to our previous example, let's suppose that your SaaS product URL is *WebPerformanceTracking.com*. Let's suppose that one of your customers, who runs their consultancy at WebPerfCompany.com wants to white label your service and make it accessible at *tracker.WebPerfCompany.com*.
+The DNS part is easy, usually solved with a _CNAME_ record. Returning to our previous example, let's suppose that your SaaS product URL is _WebPerformanceTracking.com_. Let's suppose that one of your customers, who runs their consultancy at WebPerfCompany.com wants to white label your service and make it accessible at _tracker.WebPerfCompany.com_.
 
-What you can do is set up a *whitelabel.WebPerformanceTracking.com*, point it to your server and instruct your customer to set up a CNAME record on their *tracker.webperfcompany.com* subdomain. This will route the requests to their white labeled service back to your server.
+What you can do is set up a _whitelabel.WebPerformanceTracking.com_, point it to your server and instruct your customer to set up a CNAME record on their _tracker.webperfcompany.com_ subdomain. This will route the requests to their white labeled service back to your server.
 
 ### There’s a problem though
 

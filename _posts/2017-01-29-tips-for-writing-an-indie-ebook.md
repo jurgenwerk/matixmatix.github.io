@@ -2,11 +2,11 @@
 category: posts
 layout: single
 title: "Tips for writing an indie e-book"
-mainTopic: 'making'
+mainTopic: "making"
 excerpt: "Write material because you genuinely like doing it and because it will help people. Quick dollar should be treated as a happy side-effect."
 emoji: 📖
 header:
-  image: "http://codeandtechno.com/images/book-post/ebook-tips.jpg"
+  image: "http://jurgen.si/images/book-post/ebook-tips.jpg"
 ---
 
 With the advent of solopreneurship, [indie hacking](https://www.indiehackers.com) and side hustling, writing and self-publishing niche e-books became a well recognized source of passive income, and, more importantly, an effective sales funnel to your main business - be it a personal brand, consulting gigs, or various services.
@@ -18,21 +18,27 @@ I extracted some valuable tips from my experience of writing and successfully de
 ## The prerequisites for writing an e-book
 
 1. <strong>Know your field in depth</strong>
+
 - All humbleness aside, one ought to grow up and become an expert first. Know your stuff.
 
 2. <strong>Have a knack for writing, form and story-telling</strong>
+
 - Reading poor language and grammar destroys the experience. Nobody likes dull writing and genericism.
 
 3. <strong>Be good at explaining</strong>
+
 - It's easy to overestimate your mentoring abilites. Great tutoring is extremely hard.
 
 4. <strong>Know your audience</strong>
+
 - Do you know a community where there are at least 5 people who will buy your book right off the bat, or at least be very interested in? And I don’t mean your family. It’s the same as any other business. Do your market research.
 
 5. <strong>Know your competitors</strong>
+
 - Has your book already been written by somebody else? In that case, do you know its drawbacks and have constructed a plan how your e-book will address that?
 
 6. <strong>Do it for the greater good</strong>
+
 - There is too much bullshit out there. Write material because you genuinely like doing it and because it will help people. Quick dollar and recognition should be treated as happy side-effects.
 
 <center>
@@ -117,7 +123,7 @@ Make sure to offer a chapter or two of your book for free. Let the reader input 
     <figcaption>Put this on your website.</figcaption>
 </figure>
 
-I like this as I can ask people who decided not to buy the book what exactly turned them off.  
+I like this as I can ask people who decided not to buy the book what exactly turned them off.
 
 ## Setting the price
 
@@ -164,7 +170,6 @@ In my case, I discovered that [David](http://thejsguy.com/) wrote a similar, but
     <a href="https://leanpub.com/b/ember-bundle" style="margin: 0 auto"><img src="/images/book-post/bundle.jpg"></a>
     <figcaption>Our bundle on Leanpub.</figcaption>
 </figure>
-
 
 ## It's hard
 

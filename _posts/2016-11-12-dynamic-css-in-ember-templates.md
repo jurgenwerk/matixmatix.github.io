@@ -1,11 +1,11 @@
 ---
 category: posts
-mainTopic: 'ember'
+mainTopic: "ember"
 layout: single
 title: "Dynamic CSS in Ember templates"
 excerpt: "When you need a dirty workaround, Ember's templating engine can reactively spit out practically any markup a browser can understand."
 header:
-  image: "http://codeandtechno.com/images/dynamic-css-post/series-selector.png"
+  image: "http://jurgen.si/images/dynamic-css-post/series-selector.png"
 ---
 
 Recently I was challenged with a task to dynamically colorize checkboxes when they are selected. The colors are generated on-the-fly when the select action is triggered:
@@ -26,6 +26,7 @@ Since we generate colors dynamically and thus can’t make predefined CSS classe
   </div>
 {{/each}}{% endraw %}
 ```
+
 <small>Random color is set to the the `series.color` property on checkbox change event.</small>
 
 Due to the way these custom checkboxes are implemented, I learned this is not going to work. The place to define checkbox's background color is actually in the label’s `::before` pseudo selector:
@@ -58,7 +59,6 @@ But it did. I was amazed by how Ember’s templating engine digests this without
     <a href="/images/dynamic-css-post/2.jpg"><img src="/images/dynamic-css-post/2.jpg"></a>
     <figcaption>The templating engine inserts some whitespace, but we can live with that.</figcaption>
 </figure>
-
 
 ## Lesson 2: When you need a dirty workaround, Ember's templating engine can reactively spit out practically any markup a browser can understand.
 

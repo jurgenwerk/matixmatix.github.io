@@ -1,10 +1,10 @@
 ---
 category: posts
 layout: single
-mainTopic: 'programming'
+mainTopic: "programming"
 title: "CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page,...)"
 header:
-  image: "http://codeandtechno.com/images/lambda-post/cloudfront-map.png"
+  image: "http://jurgen.si/images/lambda-post/cloudfront-map.png"
 ---
 
 For many people, the stack of choice for deploying a JavaScript application (SPA) or other assets is to save them to Amazon S3 and serve it to the world over Amazon CloudFront CDN. With its cached edges around the world, it makes sure the users’ browsers are able to download your application in the most efficient way possible.
@@ -21,7 +21,7 @@ One of these cases is showing a “maintenance site”. You know - those “We�
 
 A popular technique in SPAs is to detect these adversities by listening for `5xx` responses from the API server and rendering a “Maintenance” message. It’s a valid approach, but this comes with a couple of assumptions which make the problem detection unreliable.
 
- Two major assumptions:
+Two major assumptions:
 
 - JavaScript application works OK,
 - Server is responding with HTTP code `5xx`.
@@ -41,13 +41,15 @@ Returning to the maintenance page switch, we could write a Lambda function like 
 ```javascript
 exports.handler = (event, context, callback) => {
   const response = {
-    status: '302',
-    statusDescription: 'Found',
+    status: "302",
+    statusDescription: "Found",
     headers: {
-      location: [{
-        key: 'Location',
-        value: 'https://my-site.com/maintenance.html',
-        }],
+      location: [
+        {
+          key: "Location",
+          value: "https://my-site.com/maintenance.html",
+        },
+      ],
     },
   };
   callback(null, response);

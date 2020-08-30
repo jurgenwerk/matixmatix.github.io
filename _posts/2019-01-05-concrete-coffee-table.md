@@ -1,12 +1,11 @@
 ---
 category: posts
 layout: single
-mainTopic: 'concrete'
+mainTopic: "concrete"
 title: "Making a concrete coffee table"
 header:
-  image: "http://codeandtechno.com/images/coffeetable-post/concrete-coffee-table-final.jpg"
+  image: "http://jurgen.si/images/coffeetable-post/concrete-coffee-table-final.jpg"
 ---
-
 
 Coffee tables are arguably the most important piece of furniture in a living room. They hold much more than coffee, and are a centerpiece around which the most intimate kind of socialising happens.
 
@@ -61,7 +60,6 @@ Slurry is a term for cement paste mixed with a chemical that helps it bond with 
     <a href="/images/coffeetable-post/concrete-coffee-table-dismantling-3.jpg"><img src="/images/coffeetable-post/concrete-coffee-table-dismantling-3.jpg"></a>
     <figcaption></figcaption>
 </figure>
-
 
 ## Polishing
 

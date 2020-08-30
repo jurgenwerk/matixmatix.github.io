@@ -7,7 +7,7 @@
 
 # Site Settings
 locale: "en-US"
-title: "codeandtechno"
+title: "jurgen.si"
 title_separator: "-"
 name: "Matic Jurglic"
 description: "Matic Jurglič is a computer person who specializes in avant-garde internet applications."
@@ -20,7 +20,7 @@ words_per_minute: 201
 comments:
   provider: "disqus"
   disqus:
-    shortname: "codeandtechno"
+    shortname: "jurgen.si"
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid:

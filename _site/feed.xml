@@ -1,4 +1,389 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-03-11T20:49:18+01:00</updated><id>/</id><title>codeandtechno</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title>2019 Year Review</title><link href="/posts/year-review-2019/" rel="alternate" type="text/html" title="2019 Year Review" /><published>2020-01-04T00:00:00+01:00</published><updated>2020-01-04T00:00:00+01:00</updated><id>/posts/year-review-2019</id><content type="html" xml:base="/posts/year-review-2019/">&lt;p&gt;I like reading people’s year reviews so I decided to write mine as well, albeit a couple days late.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://jurgen.si/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://jurgen.si/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jurgen.si/" rel="alternate" type="text/html" /><updated>2020-10-14T22:37:40+02:00</updated><id>https://jurgen.si/</id><title type="html">jurgen.si</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title type="html">Concrete Paintings</title><link href="https://jurgen.si/posts/concrete-paintings/" rel="alternate" type="text/html" title="Concrete Paintings" /><published>2020-10-13T00:00:00+02:00</published><updated>2020-10-13T00:00:00+02:00</updated><id>https://jurgen.si/posts/concrete-paintings</id><content type="html" xml:base="https://jurgen.si/posts/concrete-paintings/">&lt;p&gt;Concrete painting is something you don’t hear about a lot. It’s a term I invented for describing the unique art pieces that I create.&lt;/p&gt;
+
+&lt;p&gt;In this post I portray the creative process behind them, from idea to finish.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/concrete-painting-1.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/concrete-painting-1.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    One of the more recent paintings, hanging in my home gallery.
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;These paintings are composed of concrete tiles in various rectangular shapes, assembled together in a way that resembles the elements of a abstract painting: a frame, and content whose explanation is left to the viewer.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/concrete-paintings-2.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/concrete-paintings-2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Recent concrete paintings, hanging in my home gallery
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;frame-and-design&quot;&gt;Frame and design&lt;/h2&gt;
+
+&lt;p&gt;I always start by creating the painting’s frame. I draw the outline on a melamine board. Melamine is shredded wood laminated with plastic, which is usually used for furniture. It’s suitable because it doesn’t absorb water (and because of that, doesn’t bend).&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/melamine-board-frame-outline.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/melamine-board-frame-outline.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Drawing a rectangular shape for a frame on a melamine board
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Next, I cut a couple of divider strips for formwork using a sharp knife. These will help to keep form for the pouring of the painting frame. The white foamy material is called depron, which is a type of XPS (extruded polystyrene foam) and is used as insulation material in construction.&lt;/p&gt;
+
+&lt;p&gt;Additionally, I cut long pieces of steel mesh which will serve as rebar. Rebar is a term for reinforcement steel which makes the concrete less likely to crack or break.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/formwork-gluegun.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/formwork-gluegun.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Glueing formwork using a hot glue gun
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The walls are now glued to the melamine surface using hot glue gun.&lt;/p&gt;
+
+&lt;p&gt;The form is ready for pouring the black pigmented concrete which will become the frame of the painting.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/depron-formwork-mesh.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/depron-formwork-mesh.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Frame formwork done
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;pouring-concrete-for-the-frame&quot;&gt;Pouring concrete for the frame&lt;/h2&gt;
+
+&lt;p&gt;What follows next is mixing a batch of concrete and pouring it into the formwork. I use:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;45% white cement&lt;/li&gt;
+  &lt;li&gt;40% gray cement&lt;/li&gt;
+  &lt;li&gt;15% aggregate (4 - 5mm sand)&lt;/li&gt;
+  &lt;li&gt;Black pigment (iron oxide)&lt;/li&gt;
+  &lt;li&gt;Water&lt;/li&gt;
+  &lt;li&gt;Superplasticiser (a chemical for better strength)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These numbers are very approximate. I usually just eyeball it. 🤷‍♂️&lt;/p&gt;
+
+&lt;p&gt;I want the frame to be really dark. To achieve that, I use around 3 large spoons of black pigment.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/black-pigment-concrete-mix.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/black-pigment-concrete-mix.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Mixing black pigment dust into the concrete mix
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/concrete-painting-frame-pour.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/concrete-painting-frame-pour.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Pouring black concrete into the painting frame
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;After a day or two once the concrete sets (hardens), I remove the inner part of the frame formwork. This enables me to create dividers for the inner segments.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/concrete-painting-frame-hardened.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/concrete-painting-frame-hardened.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    After around 24 hours, the frame has hardened enough to continue working on the inner parts
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Notice how the tiny parts of the steel rebar are sticking out of the concrete frame? They will serve as anchor for the rest of the pieces that will go inside the painting.&lt;/p&gt;
+
+&lt;h2 id=&quot;inner-segments&quot;&gt;Inner segments&lt;/h2&gt;
+
+&lt;p&gt;At this point, I start designing the inner pieces. Sometimes I prepare the design some time prior to this phase, but what I usually do is to just go and draw some rectangles on the fly… improvise a little bit. Note the lines — they will serve for placing the depron dividers, similarly as I did with the frame formwork.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/dividers-and-mesh.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/dividers-and-mesh.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Segment dividers and rebar
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Time to start pouring in the segments using differently pigmented concrete. Once the concrete sets, its color becomes much milder than seen on the below photo, so I have to account for that during the design process where I decide which shades of gray I want to use.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/pouring-concrete-segment.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/pouring-concrete-segment.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Pouring concrete segments
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Not all of the pieces can be poured at once. Wherever two or more segments join, I need to wait for the other one to harden. For example here, I’m pouring the left and the right segment first (and wait for them to harden), and when those harden, I can pour the center one, and after that, the top one.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/pouring-concrete-segment-2.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/pouring-concrete-segment-2.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Sequentially adding segments after their neighbors harden
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;At this point all the segments are poured. In the photo below, the top right segment is still fresh. After it will harden enough, I’ll finally be able to flip it over and see the face of the painting I’ve been creating all this time!&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/pouring-concrete-segment-3.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/pouring-concrete-segment-3.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    All segments filled
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;After all the concrete segments pictured above fully harden, it’s time to carefully flip the painting over and see how the face of the painting look like.&lt;/p&gt;
+
+&lt;p&gt;This is a VERY exciting moment for me because reveals what I’ve been working on all this time but wasn’t able to see!&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/concrete-painting-raw.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/concrete-painting-raw.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    The face of the painting, raw and wet
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Looks great! After I inspect the face of the painting, it’s time to flip it over again to its back side and do some structural hardening work.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;ig-follow-invite&quot;&gt;
+  &lt;strong style=&quot;font-size: 26px&quot;&gt; 🤔 Like this content?&lt;/strong&gt;
+  &lt;br /&gt;
+  &lt;hr /&gt;
+  &lt;span style=&quot;font-size: 16px&quot;&gt;
+    Consider following me on Instagram?? 👇
+    &lt;br /&gt;
+  &lt;/span&gt;
+
+  &lt;br /&gt;
+
+  &lt;blockquote class=&quot;instagram-media&quot; data-instgrm-permalink=&quot;https://www.instagram.com/p/BwXiGLLF-NU/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;12&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/BwXiGLLF-NU/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt; View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/p/BwXiGLLF-NU/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;A post shared by Matic Jurglič (@jurgenwerk)&lt;/a&gt; on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2019-04-17T19:03:38+00:00&quot;&gt;Apr 17, 2019 at 12:03pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hooks&quot;&gt;Hooks&lt;/h2&gt;
+
+&lt;p&gt;It’s time to install the mounting hooks. This is a very important part because the heavy painting hangs on this with all of its crushing weight. These paintings are very heavy.&lt;/p&gt;
+
+&lt;p&gt;Note the hooks in the angles of the back side of the painting:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/hooks.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/hooks.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Installing hooks
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;A close-up (later there will be fiberglass over this, securing the hook firmly in place):&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/hook.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/hook.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    These will later be glued with epoxy and covered with fiberglass
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The hooks are temporarily locked into their place using superglue, but later a couple of layers of fiberglass and epoxy will be put over the back side, securing the hook tightly into its place.&lt;/p&gt;
+
+&lt;p&gt;Because the paintings are heavy, this is very important to get it right. If any of the hooks would give in, the painting would fall, break and wreak havoc (it happened to me!).&lt;/p&gt;
+
+&lt;p&gt;The concrete as shown above after I flipped it for the first time is very fragile and lacks structural integrity. It would easily break if held or moved around improperly.&lt;/p&gt;
+
+&lt;h2 id=&quot;fiberglass-back&quot;&gt;Fiberglass back&lt;/h2&gt;
+
+&lt;p&gt;To make this sculpture stronger and more rigid, I add a layer of glass fibers and epoxy resin to the back of the painting.&lt;/p&gt;
+
+&lt;p&gt;Epoxy resin comes in two components that need to be mixed.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/epoxy-components.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/epoxy-components.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    2 epoxy resin components: resin and hardener (curing agent)
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/epoxy-mix.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/epoxy-mix.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Epoxy components have different viscosity
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;After both components of the epoxy resin are well mixed together, I add some thickening agent. This makes the resin less runny and easier to work with. When resin is too runny, it can go through concrete’s pores and come out on the face of the painting, which is ruins the painting with stains (learned this the hard way!).&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/epoxy-thickener.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/epoxy-thickener.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Space dust. Just kidding, it's a mineral thickening agent.
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The back of the painting, layered with glass fibers.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/glass-fiber.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/glass-fiber.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Glass fibers
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Using a brush I spread the resin all over the fiber. It needs a day to fully harden and then it becomes the backbone of the painting, making it structurally much stronger.&lt;/p&gt;
+
+&lt;p&gt;Note the hooks which are now integrated into the fiberglass layer, securing them tightly into place.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/glass-fiber-wet.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/glass-fiber-wet.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Glass fibers drenched in epoxy resin
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Once the resin fully hardens, I can start making the final touches to the face of the painting: polishing, coating.&lt;/p&gt;
+
+&lt;h2 id=&quot;polishing&quot;&gt;Polishing&lt;/h2&gt;
+
+&lt;p&gt;I place the painting outside, put it on a blanket, which helps to absorb shocks and prevent structural damage from the vibrations of the polishing machine.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/painting-raw-before-polishing.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/painting-raw-before-polishing.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    The raw face of the painting that just begs to be polished
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;What comes next is polishing with a rotational tool similar to an angle grinder, using diamond pads. In the past I tried many different sanding tools, but the diamond pads polisher works best.
+These pads have different amounts of tiny little hard rocks spread out in plastic.&lt;/p&gt;
+
+&lt;p&gt;I start with the pad number 50, then 150, then move to 500 and finally, 2000. Lower grit (number) means rougher grinding, while higher number means a more polished finish.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/pads.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/pads.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Pads with grits ranging from 50 to 2000
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Now let’s polish this thing already.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/angle-polished.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/angle-polished.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    The beautiful concrete surface starts showing
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The painting is now finally starting to look really pretty.&lt;/p&gt;
+
+&lt;p&gt;Here’s how it looks after polishing with a diamond pad with a low grit:&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/polished-with-50.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/polished-with-50.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Roughly polished
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;After treating the painting with 4 different diamond pads (going up by the grit number), the polishing process is done.&lt;/p&gt;
+
+&lt;p&gt;The surface is now delightfully shiny, and has an oddly satisfying smoothness to it.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/polished-before-coating.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/polished-before-coating.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Final result of the polishing
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;At this point the painting contains some dust in the pores of the concrete. To remove dust and other particles caught on the surface, I wash it under shower, and rinse with micro fibre cloth afterwards, then let it dry.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/showering.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/showering.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Showering the painting
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;coating&quot;&gt;Coating&lt;/h2&gt;
+
+&lt;p&gt;To emphasize colors, achieve better contrast, even out the hues, and make the surface more dust resistant, I use a mix of a coating agent made from acrylic resins, and ethyl acetate which is used to dillute the coating agent.&lt;/p&gt;
+
+&lt;p&gt;In the past I experimented a lot with different coatings, but this mix works best for beautiful polished concrete finish which sits perfectly in the middle in the spectrum from matte to shiny.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/coating-mix.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/coating-mix.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Coating chemicals
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+  &lt;a href=&quot;/images/concrete-painting/coating.jpg&quot;&gt;&lt;img src=&quot;/images/concrete-painting/coating.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;center&gt;
+  &lt;figcaption&gt;
+    Coating the painting
+  &lt;/figcaption&gt;
+  &lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The painting receives 2 layers of coating which dries in a couple minutes. The art piece painting is now ready to be hanged and enjoyed.&lt;/p&gt;
+
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-permalink=&quot;https://www.instagram.com/p/CFxdGl3l4xu/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;12&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/CFxdGl3l4xu/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt; View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/CFxdGl3l4xu/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_blank&quot;&gt;They say making art calms you down, but it stresses the shit out of me. #brutalism #concrete #concretedesign #contemporaryart #sculpture #modernarchitecture #artpiece #artbrut #modernism #beton #collection #gallerywall #concreteart #concretedecor #architecturelovers #archive #wallhanging #cement #abstractart #abstractpainting&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;A post shared by &lt;a href=&quot;https://www.instagram.com/jurgenwerk/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;&quot; target=&quot;_blank&quot;&gt; Matic Jurglič&lt;/a&gt; (@jurgenwerk) on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2020-09-30T19:39:32+00:00&quot;&gt;Sep 30, 2020 at 12:39pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Concrete painting is something you don’t hear about a lot. It’s a term I invented for describing the unique art pieces that I create.</summary></entry><entry><title type="html">2019 Year Review</title><link href="https://jurgen.si/posts/year-review-2019/" rel="alternate" type="text/html" title="2019 Year Review" /><published>2020-01-04T00:00:00+01:00</published><updated>2020-01-04T00:00:00+01:00</updated><id>https://jurgen.si/posts/year-review-2019</id><content type="html" xml:base="https://jurgen.si/posts/year-review-2019/">&lt;p&gt;I like reading people’s year reviews so I decided to write mine as well, albeit a couple days late.&lt;/p&gt;
 
 &lt;p&gt;People tend to include the goals they set in the previous year, compare them to reality and set the goals for the next year.&lt;/p&gt;
 
@@ -41,7 +426,7 @@ The truth is that I achieved none of this.&lt;/p&gt;
 &lt;h1 id=&quot;reflecting-on-last-years-projects&quot;&gt;Reflecting on last year’s projects&lt;/h1&gt;
 
 &lt;p&gt;&lt;br /&gt;
-I launched quite a couple of new side-projects this year so I will only mention the most interesting and lucrative ones. You can find the full list &lt;a href=&quot;https://codeandtechno.com/about/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+I launched quite a couple of new side-projects this year so I will only mention the most interesting and lucrative ones. You can find the full list &lt;a href=&quot;https://jurgen.si/about/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;jurgenstudio&quot;&gt;jurgenstudio&lt;/h2&gt;
 
@@ -99,7 +484,7 @@ I launched quite a couple of new side-projects this year so I will only mention 
 
 &lt;p&gt;I like software development, and I like complaining about it. I like the tragicomedy of it. So I built an automated program which scans for swearing on GitHub, adds a meme-esque picture in the background and &lt;a href=&quot;https://instagram.com/gitfuck&quot;&gt;posts it on Instagram&lt;/a&gt;. It’s hilarous!&lt;/p&gt;
 
-&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-permalink=&quot;https://www.instagram.com/p/B60WqcPnYnI/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;12&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; margin-bottom: 40px; margin-bottom: 40px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/B60WqcPnYnI/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewbox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt; View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/p/B60WqcPnYnI/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;A post shared by @gitfuck&lt;/a&gt; on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2020-01-02T12:55:39+00:00&quot;&gt;Jan 2, 2020 at 4:55am PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-permalink=&quot;https://www.instagram.com/p/B60WqcPnYnI/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;12&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; margin-bottom: 40px; margin-bottom: 40px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/B60WqcPnYnI/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt; View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/p/B60WqcPnYnI/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;A post shared by @gitfuck&lt;/a&gt; on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2020-01-02T12:55:39+00:00&quot;&gt;Jan 2, 2020 at 4:55am PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;
 
 &lt;h1 id=&quot;art&quot;&gt;Art&lt;/h1&gt;
@@ -189,7 +574,7 @@ I launched quite a couple of new side-projects this year so I will only mention 
 
 &lt;p&gt;But things happen. People grow apart. Only intrinsic motivation lasts.&lt;/p&gt;
 
-&lt;p&gt;I decided to start afresh and find something else to work on.&lt;/p&gt;</content><category term="posts" /><summary>Goals make us blind.</summary></entry><entry><title>User impersonation in SaaS with Ember.js and Ruby on Rails</title><link href="/posts/user-impersonation-ember-simple-auth-doorkeeper/" rel="alternate" type="text/html" title="User impersonation in SaaS with Ember.js and Ruby on Rails" /><published>2019-04-12T00:00:00+02:00</published><updated>2019-04-12T00:00:00+02:00</updated><id>/posts/user-impersonation-ember-simple-auth-doorkeeper</id><content type="html" xml:base="/posts/user-impersonation-ember-simple-auth-doorkeeper/">&lt;p&gt;When developing SaaS, it’s very convenient, and arguably even urgent, to be able to log in as your users and see exactly what they see. This is especially important when debugging an issue or enabling your support team to check for bugs without looking into error logs.&lt;/p&gt;
+&lt;p&gt;I decided to start afresh and find something else to work on.&lt;/p&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Goals make us blind.</summary></entry><entry><title type="html">User impersonation in SaaS with Ember.js and Ruby on Rails</title><link href="https://jurgen.si/posts/user-impersonation-ember-simple-auth-doorkeeper/" rel="alternate" type="text/html" title="User impersonation in SaaS with Ember.js and Ruby on Rails" /><published>2019-04-12T00:00:00+02:00</published><updated>2019-04-12T00:00:00+02:00</updated><id>https://jurgen.si/posts/user-impersonation-ember-simple-auth-doorkeeper</id><content type="html" xml:base="https://jurgen.si/posts/user-impersonation-ember-simple-auth-doorkeeper/">&lt;p&gt;When developing SaaS, it’s very convenient, and arguably even urgent, to be able to log in as your users and see exactly what they see. This is especially important when debugging an issue or enabling your support team to check for bugs without looking into error logs.&lt;/p&gt;
 
 &lt;p&gt;I’m going to show you how you can do it using the following technologies:&lt;/p&gt;
 
@@ -212,14 +597,14 @@ I launched quite a couple of new side-projects this year so I will only mention 
 
 &lt;p&gt;We modify this so we can pass &lt;code class=&quot;highlighter-rouge&quot;&gt;tokenData&lt;/code&gt; directly, which logs us in:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// app/authenticators/oauth2-custom-inject.js&lt;/span&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// app/authenticators/oauth2-custom-inject.js&lt;/span&gt;
 
 &lt;span class=&quot;kr&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;OAuth2&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;./oauth2&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;kr&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;isEmpty&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;@ember/utils&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;kr&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;RSVP&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;rsvp&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
 &lt;span class=&quot;kr&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;OAuth2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;extend&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-  &lt;span class=&quot;c1&quot;&gt;// tokenData is { access_token: &#39;asd&#39;, refreshToken: &#39;asdf&#39;, ... }&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;// tokenData is { access_token: 'asd', refreshToken: 'asdf', ... }&lt;/span&gt;
   &lt;span class=&quot;nx&quot;&gt;authenticate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tokenData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;RSVP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Promise&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;resolve&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
       &lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;expiresAt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;_absolutizeExpirationTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tokenData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;expires_in&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
@@ -242,7 +627,7 @@ I launched quite a couple of new side-projects this year so I will only mention 
 
 &lt;p&gt;We also need to add the accompanying authorizer:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// app/authorizers/oauth2-custom-inject.js&lt;/span&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// app/authorizers/oauth2-custom-inject.js&lt;/span&gt;
 
 &lt;span class=&quot;kr&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;OAuth2&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;./oauth2&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;kr&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;OAuth2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;extend&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
@@ -251,7 +636,7 @@ I launched quite a couple of new side-projects this year so I will only mention 
 
 &lt;p&gt;Now, where should we call this new custom authenticator? One way is to do it in the &lt;code class=&quot;highlighter-rouge&quot;&gt;application&lt;/code&gt; route, where we receive the token data in a form of a query parameter when the app loads.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// app/routes/application.js&lt;/span&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// app/routes/application.js&lt;/span&gt;
 
 &lt;span class=&quot;nx&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;beforeModel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;transition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;uit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;transition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;queryParams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;userImpersonationToken&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -280,8 +665,8 @@ I launched quite a couple of new side-projects this year so I will only mention 
 
 &lt;p&gt;Use the following code for generating a URL that gets you logged in as any user.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;access_token&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Doorkeeper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;AccessToken&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;create!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;resource_owner_id: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;scopes: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;all&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;expires_in: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Doorkeeper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;configuration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;access_token_expires_in&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;access_token&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Doorkeeper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;AccessToken&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;create!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;resource_owner_id: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;scopes: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'all'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;expires_in: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Doorkeeper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;configuration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;access_token_expires_in&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
 &lt;span class=&quot;ss&quot;&gt;use_refresh_token: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Doorkeeper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;configuration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;refresh_token_enabled?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;token_response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Doorkeeper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;OAuth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;TokenResponse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;access_token&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_json&lt;/span&gt;
@@ -301,7 +686,7 @@ I launched quite a couple of new side-projects this year so I will only mention 
   &lt;li&gt;
     &lt;p&gt;If you have some kind of user behaviour tracking set up (e.g. Mixpanel), you might want to disable it while you are impersonating.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><category term="posts" /><summary>When developing SaaS, it’s very convenient, and arguably even urgent, to be able to log in as your users and see exactly what they see. This is especially important when debugging an issue or enabling your support team to check for bugs without looking into error logs.</summary></entry><entry><title>If Marcus Aurelius were a software developer</title><link href="/posts/stoicism-for-developers/" rel="alternate" type="text/html" title="If Marcus Aurelius were a software developer" /><published>2019-01-13T00:00:00+01:00</published><updated>2019-01-13T00:00:00+01:00</updated><id>/posts/stoicism-for-developers</id><content type="html" xml:base="/posts/stoicism-for-developers/">&lt;p&gt;Working with people is hard when you feel like people in your organization are incompetent, sloppy, holding you back, or even working against you.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">When developing SaaS, it’s very convenient, and arguably even urgent, to be able to log in as your users and see exactly what they see. This is especially important when debugging an issue or enabling your support team to check for bugs without looking into error logs.</summary></entry><entry><title type="html">If Marcus Aurelius were a software developer</title><link href="https://jurgen.si/posts/stoicism-for-developers/" rel="alternate" type="text/html" title="If Marcus Aurelius were a software developer" /><published>2019-01-13T00:00:00+01:00</published><updated>2019-01-13T00:00:00+01:00</updated><id>https://jurgen.si/posts/stoicism-for-developers</id><content type="html" xml:base="https://jurgen.si/posts/stoicism-for-developers/">&lt;p&gt;Working with people is hard when you feel like people in your organization are incompetent, sloppy, holding you back, or even working against you.&lt;/p&gt;
 
 &lt;p&gt;Your manager is a dick. Your back-end team keeps making APIs you don’t like. The new guy who was supposed to be a senior developer broke production and you were paged while watching the game. Perhaps you’re dealing with a &lt;a href=&quot;https://clientsfromhell.net/&quot;&gt;client from hell&lt;/a&gt;.&lt;/p&gt;
 
@@ -328,7 +713,7 @@ I launched quite a couple of new side-projects this year so I will only mention 
 
 &lt;p&gt;The key takeaway is that the people in your organization who disappoint you are not inherently different from you, thus, to feel anger at your own kind, is unreasonable.&lt;/p&gt;
 
-&lt;p&gt;There is no need to escape your environment to find a sense of calm. When you lose your temper, you’ve already fallen behind.&lt;/p&gt;</content><category term="posts" /><summary>Working with people is hard when you feel like people in your organization are incompetent, sloppy, holding you back, or even working against you.</summary></entry><entry><title>Making a concrete coffee table</title><link href="/posts/concrete-coffee-table/" rel="alternate" type="text/html" title="Making a concrete coffee table" /><published>2019-01-05T00:00:00+01:00</published><updated>2019-01-05T00:00:00+01:00</updated><id>/posts/concrete-coffee-table</id><content type="html" xml:base="/posts/concrete-coffee-table/">&lt;p&gt;Coffee tables are arguably the most important piece of furniture in a living room. They hold much more than coffee, and are a centerpiece around which the most intimate kind of socialising happens.&lt;/p&gt;
+&lt;p&gt;There is no need to escape your environment to find a sense of calm. When you lose your temper, you’ve already fallen behind.&lt;/p&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Working with people is hard when you feel like people in your organization are incompetent, sloppy, holding you back, or even working against you.</summary></entry><entry><title type="html">Making a concrete coffee table</title><link href="https://jurgen.si/posts/concrete-coffee-table/" rel="alternate" type="text/html" title="Making a concrete coffee table" /><published>2019-01-05T00:00:00+01:00</published><updated>2019-01-05T00:00:00+01:00</updated><id>https://jurgen.si/posts/concrete-coffee-table</id><content type="html" xml:base="https://jurgen.si/posts/concrete-coffee-table/">&lt;p&gt;Coffee tables are arguably the most important piece of furniture in a living room. They hold much more than coffee, and are a centerpiece around which the most intimate kind of socialising happens.&lt;/p&gt;
 
 &lt;p&gt;Read on to see how to make one out of concrete.&lt;/p&gt;
 
@@ -408,7 +793,7 @@ I launched quite a couple of new side-projects this year so I will only mention 
 
 &lt;p&gt;It was a bad decision to stain it with a brush, because brushmarks are seen under some angles in bright light. For mark-less coating, it’s better to use a dense roller.&lt;/p&gt;
 
-&lt;p&gt;P.S: While concrete is the best material for making furniture, wood comes as a close second. Make sure to check out my friends’ &lt;a href=&quot;https://ergochord.com/&quot;&gt;height adjustable work desks&lt;/a&gt;.&lt;/p&gt;</content><category term="posts" /><summary>Coffee tables are arguably the most important piece of furniture in a living room. They hold much more than coffee, and are a centerpiece around which the most intimate kind of socialising happens.</summary></entry><entry><title>What is SaaS white labeling and how to do it?</title><link href="/posts/saas-whitelabeling/" rel="alternate" type="text/html" title="What is SaaS white labeling and how to do it?" /><published>2018-12-26T00:00:00+01:00</published><updated>2018-12-26T00:00:00+01:00</updated><id>/posts/saas-whitelabeling</id><content type="html" xml:base="/posts/saas-whitelabeling/">&lt;p&gt;Depending on your online business, white labeling can turn out to be a fantastic business model. This applies especially when your target customers are actually &lt;b&gt;customers who have their own customers&lt;/b&gt;, for example agencies, consultancies and client-oriented businesses.&lt;/p&gt;
+&lt;p&gt;P.S: While concrete is the best material for making furniture, wood comes as a close second. Make sure to check out my friends’ &lt;a href=&quot;https://ergochord.com/&quot;&gt;height adjustable work desks&lt;/a&gt;.&lt;/p&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Coffee tables are arguably the most important piece of furniture in a living room. They hold much more than coffee, and are a centerpiece around which the most intimate kind of socialising happens.</summary></entry><entry><title type="html">What is SaaS white labeling and how to do it?</title><link href="https://jurgen.si/posts/saas-whitelabeling/" rel="alternate" type="text/html" title="What is SaaS white labeling and how to do it?" /><published>2018-12-26T00:00:00+01:00</published><updated>2018-12-26T00:00:00+01:00</updated><id>https://jurgen.si/posts/saas-whitelabeling</id><content type="html" xml:base="https://jurgen.si/posts/saas-whitelabeling/">&lt;p&gt;Depending on your online business, white labeling can turn out to be a fantastic business model. This applies especially when your target customers are actually &lt;b&gt;customers who have their own customers&lt;/b&gt;, for example agencies, consultancies and client-oriented businesses.&lt;/p&gt;
 
 &lt;p&gt;In this case there is a real chance that adding support for white labeling in your product will improve your chances of attracting advanced users and position your product higher in the eyes of corporate customers (i.e. those who can pay top dollar).&lt;/p&gt;
 
@@ -483,11 +868,11 @@ I launched quite a couple of new side-projects this year so I will only mention 
 
 &lt;p&gt;When you reached the stage where connections from white labeled domains are succesfully hitting your server, it’s time to write some application logic that matches a hostname against a white labeled account and decorates the requests with the info on which white labeled account it belongs to.&lt;/p&gt;
 
-&lt;p&gt;When you have this information for every request, you can easily use it inside your application interface to show white labeled branding, e.g. custom design, logos, emails, texts and other customly branded pieces of the app.&lt;/p&gt;</content><category term="posts" /><summary>Depending on your online business, white labeling can turn out to be a fantastic business model. This applies especially when your target customers are actually customers who have their own customers, for example agencies, consultancies and client-oriented businesses.</summary></entry><entry><title>Partial, resource-related dumps in PostgreSQL</title><link href="/posts/partial-resource-dump-postgres/" rel="alternate" type="text/html" title="Partial, resource-related dumps in PostgreSQL" /><published>2018-03-29T00:00:00+02:00</published><updated>2018-03-29T00:00:00+02:00</updated><id>/posts/partial-resource-dump-postgres</id><content type="html" xml:base="/posts/partial-resource-dump-postgres/">&lt;p&gt;Sometimes we find ourselves in a need for copying and restoring a specific set of data belonging to a common parent resource. For example, we want to connect to the production server, pull down fresh data related only to the specified user and restore it to our development database to debug an issue or just develop new features. When your database is tiny, you could just restore the whole thing, but once it grows, the complete restoration is out of the question, especially when you need to do it often.&lt;/p&gt;
+&lt;p&gt;When you have this information for every request, you can easily use it inside your application interface to show white labeled branding, e.g. custom design, logos, emails, texts and other customly branded pieces of the app.&lt;/p&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Depending on your online business, white labeling can turn out to be a fantastic business model. This applies especially when your target customers are actually customers who have their own customers, for example agencies, consultancies and client-oriented businesses.</summary></entry><entry><title type="html">Partial, resource-related dumps in PostgreSQL</title><link href="https://jurgen.si/posts/partial-resource-dump-postgres/" rel="alternate" type="text/html" title="Partial, resource-related dumps in PostgreSQL" /><published>2018-03-29T00:00:00+02:00</published><updated>2018-03-29T00:00:00+02:00</updated><id>https://jurgen.si/posts/partial-resource-dump-postgres</id><content type="html" xml:base="https://jurgen.si/posts/partial-resource-dump-postgres/">&lt;p&gt;Sometimes we find ourselves in a need for copying and restoring a specific set of data belonging to a common parent resource. For example, we want to connect to the production server, pull down fresh data related only to the specified user and restore it to our development database to debug an issue or just develop new features. When your database is tiny, you could just restore the whole thing, but once it grows, the complete restoration is out of the question, especially when you need to do it often.&lt;/p&gt;
 
 &lt;p&gt;Here’s a simplified bash script I wrote that downloads everything belonging to the application user from the production database, deletes stale user data from the local development database and replaces it with the fresh data.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;# Usage: ./script/restore_user 100&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;USER_ID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;DATE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;date +%Y-%m-%d&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
@@ -528,11 +913,11 @@ EOT
 
 &lt;p&gt;Let’s comment on what’s happening here. What we’re doing is essentially using Postgres’s &lt;code class=&quot;highlighter-rouge&quot;&gt;COPY&lt;/code&gt; function which is useful for moving data around tables. Usually it’s used to produce individual CSV files separately for each table, which are then individually restored using &lt;code class=&quot;highlighter-rouge&quot;&gt;COPY FROM&lt;/code&gt; command.&lt;/p&gt;
 
-&lt;p&gt;Since this function is also able to read from the &lt;code class=&quot;highlighter-rouge&quot;&gt;STDIN&lt;/code&gt;, we bundle all &lt;code class=&quot;highlighter-rouge&quot;&gt;COPY&lt;/code&gt; commands together (using the  &lt;code class=&quot;highlighter-rouge&quot;&gt;.\&lt;/code&gt; which indicates the end of the input). Local PostgreSQL will then see sequences of &lt;code class=&quot;highlighter-rouge&quot;&gt;COPY FROM STDIN&lt;/code&gt;, then data, then &lt;code class=&quot;highlighter-rouge&quot;&gt;.\&lt;/code&gt;, indicating it’s done. We do this to avoid making multiple table-specific CSV files. Instead, we just put everything into one big SQL file.&lt;/p&gt;
+&lt;p&gt;Since this function is also able to read from the &lt;code class=&quot;highlighter-rouge&quot;&gt;STDIN&lt;/code&gt;, we bundle all &lt;code class=&quot;highlighter-rouge&quot;&gt;COPY&lt;/code&gt; commands together (using the &lt;code class=&quot;highlighter-rouge&quot;&gt;.\&lt;/code&gt; which indicates the end of the input). Local PostgreSQL will then see sequences of &lt;code class=&quot;highlighter-rouge&quot;&gt;COPY FROM STDIN&lt;/code&gt;, then data, then &lt;code class=&quot;highlighter-rouge&quot;&gt;.\&lt;/code&gt;, indicating it’s done. We do this to avoid making multiple table-specific CSV files. Instead, we just put everything into one big SQL file.&lt;/p&gt;
 
 &lt;p&gt;This was just the first part of the script. Now that we have the necessary data in an SQL file, we have to make place for it and restore it to our local database.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;-- Deleting old user data...&quot;&lt;/span&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;-- Deleting old user data...&quot;&lt;/span&gt;
 psql -d mydb_dev -c &lt;span class=&quot;s2&quot;&gt;&quot;
   DELETE FROM tags WHERE tags.id IN (
     SELECT tags.id
@@ -555,7 +940,7 @@ rm &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&
 &lt;/div&gt;
 
 &lt;p&gt;Since this is only a partial dump related to a common resource or ancestor (application user, in this case), we need to make sure we also have all other data in our development database that the application needs to run and doesn’t belong to the user. Depending on your setup, you could easily restore those tables using &lt;code class=&quot;highlighter-rouge&quot;&gt;pg_dump&lt;/code&gt; command where you explicitly specify the tables.
-But when you need to refresh only a subset of local data, a script like this comes in really handy.&lt;/p&gt;</content><category term="posts" /><summary>Sometimes we find ourselves in a need for copying and restoring a specific set of data belonging to a common parent resource. For example, we want to connect to the production server, pull down fresh data related only to the specified user and restore it to our development database to debug an issue or just develop new features. When your database is tiny, you could just restore the whole thing, but once it grows, the complete restoration is out of the question, especially when you need to do it often.</summary></entry><entry><title>CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page,…)</title><link href="/posts/cloudfront-redirections-lambda/" rel="alternate" type="text/html" title="CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page,...)" /><published>2017-09-10T00:00:00+02:00</published><updated>2017-09-10T00:00:00+02:00</updated><id>/posts/cloudfront-redirections-lambda</id><content type="html" xml:base="/posts/cloudfront-redirections-lambda/">&lt;p&gt;For many people, the stack of choice for deploying a JavaScript application (SPA) or other assets is to save them to Amazon S3 and serve it to the world over Amazon CloudFront CDN. With its cached edges around the world, it makes sure the users’ browsers are able to download your application in the most efficient way possible.&lt;/p&gt;
+But when you need to refresh only a subset of local data, a script like this comes in really handy.&lt;/p&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Sometimes we find ourselves in a need for copying and restoring a specific set of data belonging to a common parent resource. For example, we want to connect to the production server, pull down fresh data related only to the specified user and restore it to our development database to debug an issue or just develop new features. When your database is tiny, you could just restore the whole thing, but once it grows, the complete restoration is out of the question, especially when you need to do it often.</summary></entry><entry><title type="html">CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page,…)</title><link href="https://jurgen.si/posts/cloudfront-redirections-lambda/" rel="alternate" type="text/html" title="CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page,...)" /><published>2017-09-10T00:00:00+02:00</published><updated>2017-09-10T00:00:00+02:00</updated><id>https://jurgen.si/posts/cloudfront-redirections-lambda</id><content type="html" xml:base="https://jurgen.si/posts/cloudfront-redirections-lambda/">&lt;p&gt;For many people, the stack of choice for deploying a JavaScript application (SPA) or other assets is to save them to Amazon S3 and serve it to the world over Amazon CloudFront CDN. With its cached edges around the world, it makes sure the users’ browsers are able to download your application in the most efficient way possible.&lt;/p&gt;
 
 &lt;figure&gt;
     &lt;a href=&quot;/images/lambda-post/cloudfront-map.png&quot;&gt;&lt;img src=&quot;/images/lambda-post/cloudfront-map.png&quot; /&gt;&lt;/a&gt;
@@ -590,15 +975,17 @@ But when you need to refresh only a subset of local data, a script like this com
 
 &lt;p&gt;Returning to the maintenance page switch, we could write a Lambda function like this:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;handler&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;handler&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;302&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;statusDescription&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Found&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;302&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;statusDescription&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Found&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
     &lt;span class=&quot;na&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[{&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;Location&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;https://my-site.com/maintenance.html&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}],&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Location&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://my-site.com/maintenance.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
   &lt;span class=&quot;nx&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
@@ -615,14 +1002,14 @@ But when you need to refresh only a subset of local data, a script like this com
 
 &lt;p&gt;… and remove it once you don’t want the redirection anymore. The change is usually processed within a very short period of time (which is usually not the case when saving adjustments in CloudFront distributions).&lt;/p&gt;
 
-&lt;p&gt;This mechanism can be used for a lot of other practical implementations, like A/B testing redirections, logging and handling web client specifics.&lt;/p&gt;</content><category term="posts" /><summary>For many people, the stack of choice for deploying a JavaScript application (SPA) or other assets is to save them to Amazon S3 and serve it to the world over Amazon CloudFront CDN. With its cached edges around the world, it makes sure the users’ browsers are able to download your application in the most efficient way possible.</summary></entry><entry><title>List and download Dropbox files with Ruby</title><link href="/posts/download-dropbox-files-ruby/" rel="alternate" type="text/html" title="List and download Dropbox files with Ruby" /><published>2017-03-12T00:00:00+01:00</published><updated>2017-03-12T00:00:00+01:00</updated><id>/posts/download-dropbox-files-ruby</id><content type="html" xml:base="/posts/download-dropbox-files-ruby/">&lt;p&gt;If you find yourself in a need for downloading contents from Dropbox (or whole folders), a sane and quick way would be
+&lt;p&gt;This mechanism can be used for a lot of other practical implementations, like A/B testing redirections, logging and handling web client specifics.&lt;/p&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">For many people, the stack of choice for deploying a JavaScript application (SPA) or other assets is to save them to Amazon S3 and serve it to the world over Amazon CloudFront CDN. With its cached edges around the world, it makes sure the users’ browsers are able to download your application in the most efficient way possible.</summary></entry><entry><title type="html">List and download Dropbox files with Ruby</title><link href="https://jurgen.si/posts/download-dropbox-files-ruby/" rel="alternate" type="text/html" title="List and download Dropbox files with Ruby" /><published>2017-03-12T00:00:00+01:00</published><updated>2017-03-12T00:00:00+01:00</updated><id>https://jurgen.si/posts/download-dropbox-files-ruby</id><content type="html" xml:base="https://jurgen.si/posts/download-dropbox-files-ruby/">&lt;p&gt;If you find yourself in a need for downloading contents from Dropbox (or whole folders), a sane and quick way would be
 to visit their web interface and select to download (compressed) files.&lt;/p&gt;
 
 &lt;p&gt;But what about when you don’t have a password to access the interface, but you do have an API access token?&lt;/p&gt;
 
 &lt;p&gt;I put together a small script to help you with that. Here it goes.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;fileutils&quot;&lt;/span&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;fileutils&quot;&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;dropbox_sdk&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# dropbox-sdk-ruby gem&lt;/span&gt;
 
 &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;DropboxClient&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;access_token&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -642,14 +1029,14 @@ to visit their web interface and select to download (compressed) files.&lt;/p&gt
 &lt;span class=&quot;c1&quot;&gt;# A folder on your local machine where contents will be downloaded to&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;dump_folder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;dropbox_dump&quot;&lt;/span&gt;
 
-&lt;span class=&quot;c1&quot;&gt;# List files for the root path (&#39;/&#39;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# List files for the root path ('/')&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;file_paths&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list_files&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Now we have the paths of all the files in the folder we provided (root folder). Let’s download them all.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;download_file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dump_folder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;download_file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dump_folder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;full_file_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dump_folder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;exist?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;full_file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;File &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;full_file_path&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; already exists&quot;&lt;/span&gt;
@@ -659,7 +1046,7 @@ to visit their web interface and select to download (compressed) files.&lt;/p&gt
   &lt;span class=&quot;n&quot;&gt;contents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;metadata&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;get_file_and_metadata&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;full_folder_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;dirname&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;full_file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;no&quot;&gt;FileUtils&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;mkdir_p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;full_folder_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;full_file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;wb&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contents&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;full_file_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'wb'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contents&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
 &lt;span class=&quot;c1&quot;&gt;# Download every file in file_paths to specified local dump folder&lt;/span&gt;
@@ -669,7 +1056,7 @@ to visit their web interface and select to download (compressed) files.&lt;/p&gt
   &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_paths&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; to go&quot;&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><category term="posts" /><summary>How to use Ruby Dropbox SDK to download files.</summary></entry><entry><title>Tips for writing an indie e-book</title><link href="/posts/tips-for-writing-an-indie-ebook/" rel="alternate" type="text/html" title="Tips for writing an indie e-book" /><published>2017-01-29T00:00:00+01:00</published><updated>2017-01-29T00:00:00+01:00</updated><id>/posts/tips-for-writing-an-indie-ebook</id><content type="html" xml:base="/posts/tips-for-writing-an-indie-ebook/">&lt;p&gt;With the advent of solopreneurship, &lt;a href=&quot;https://www.indiehackers.com&quot;&gt;indie hacking&lt;/a&gt; and side hustling, writing and self-publishing niche e-books became a well recognized source of passive income, and, more importantly, an effective sales funnel to your main business - be it a personal brand, consulting gigs, or various services.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">How to use Ruby Dropbox SDK to download files.</summary></entry><entry><title type="html">Tips for writing an indie e-book</title><link href="https://jurgen.si/posts/tips-for-writing-an-indie-ebook/" rel="alternate" type="text/html" title="Tips for writing an indie e-book" /><published>2017-01-29T00:00:00+01:00</published><updated>2017-01-29T00:00:00+01:00</updated><id>https://jurgen.si/posts/tips-for-writing-an-indie-ebook</id><content type="html" xml:base="https://jurgen.si/posts/tips-for-writing-an-indie-ebook/">&lt;p&gt;With the advent of solopreneurship, &lt;a href=&quot;https://www.indiehackers.com&quot;&gt;indie hacking&lt;/a&gt; and side hustling, writing and self-publishing niche e-books became a well recognized source of passive income, and, more importantly, an effective sales funnel to your main business - be it a personal brand, consulting gigs, or various services.&lt;/p&gt;
 
 &lt;p&gt;A bit less than a year ago, I set myself up for my first serious writing adventure. Out of appreciation and internal need to evangelize the coolness of &lt;a href=&quot;http://emberjs.com/&quot;&gt;Ember.js&lt;/a&gt; (a web programming framework), a technical e-book &lt;a href=&quot;http://emberjs-book.com/&quot;&gt;Front-end revolution with Ember.js&lt;/a&gt; was born.&lt;/p&gt;
 
@@ -678,37 +1065,52 @@ to visit their web interface and select to download (compressed) files.&lt;/p&gt
 &lt;h2 id=&quot;the-prerequisites-for-writing-an-e-book&quot;&gt;The prerequisites for writing an e-book&lt;/h2&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Know your field in depth&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;All humbleness aside, one ought to grow up and become an expert first. Know your stuff.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Have a knack for writing, form and story-telling&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Reading poor language and grammar destroys the experience. Nobody likes dull writing and genericism.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Be good at explaining&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;It’s easy to overestimate your mentoring abilites. Great tutoring is extremely hard.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Know your audience&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Do you know a community where there are at least 5 people who will buy your book right off the bat, or at least be very interested in? And I don’t mean your family. It’s the same as any other business. Do your market research.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Know your competitors&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Has your book already been written by somebody else? In that case, do you know its drawbacks and have constructed a plan how your e-book will address that?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Do it for the greater good&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;There is too much bullshit out there. Write material because you genuinely like doing it and because it will help people. Quick dollar and recognition should be treated as happy side-effects.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Know your field in depth&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;All humbleness aside, one ought to grow up and become an expert first. Know your stuff.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Have a knack for writing, form and story-telling&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Reading poor language and grammar destroys the experience. Nobody likes dull writing and genericism.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Be good at explaining&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It’s easy to overestimate your mentoring abilites. Great tutoring is extremely hard.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Know your audience&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Do you know a community where there are at least 5 people who will buy your book right off the bat, or at least be very interested in? And I don’t mean your family. It’s the same as any other business. Do your market research.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Know your competitors&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Has your book already been written by somebody else? In that case, do you know its drawbacks and have constructed a plan how your e-book will address that?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Do it for the greater good&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There is too much bullshit out there. Write material because you genuinely like doing it and because it will help people. Quick dollar and recognition should be treated as happy side-effects.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;center&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Just found out some company is building a web thing for US Paralympics and they’re using my book to learn &lt;a href=&quot;https://twitter.com/hashtag/emberjs?src=hash&quot;&gt;#emberjs&lt;/a&gt;! 🤗&lt;a href=&quot;https://t.co/tv4BuDz1fF&quot;&gt;https://t.co/tv4BuDz1fF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Matic Jurglič (@matixmatix) &lt;a href=&quot;https://twitter.com/matixmatix/status/794460016602468352&quot;&gt;November 4, 2016&lt;/a&gt;&lt;/blockquote&gt;
@@ -736,7 +1138,7 @@ to visit their web interface and select to download (compressed) files.&lt;/p&gt
 &lt;figure class=&quot;third&quot;&gt;
   &lt;a href=&quot;https://leanpub.com/dowhatyoulove&quot;&gt;
     &lt;img src=&quot;/images/book-post/boring-book3.jpg&quot; /&gt;
-    &lt;figcaption&gt;I can&#39;t even read the title.&lt;/figcaption&gt;
+    &lt;figcaption&gt;I can't even read the title.&lt;/figcaption&gt;
   &lt;/a&gt;
   &lt;a href=&quot;https://leanpub.com/whatsnewinjava8&quot;&gt;
 	 &lt;img src=&quot;/images/book-post/boring-book2.jpg&quot; /&gt;
@@ -850,59 +1252,4 @@ to visit their web interface and select to download (compressed) files.&lt;/p&gt
 
 &lt;p&gt;In the end, it was all worth it.&lt;/p&gt;
 
-&lt;p&gt;&lt;small&gt; Special thanks to &lt;a href=&quot;https://twitter.com/artto&quot;&gt;@artto&lt;/a&gt; for designing the e-book’s cover and Katherine from Russia for reviewing this article. &lt;/small&gt;&lt;/p&gt;</content><category term="posts" /><summary>Write material because you genuinely like doing it and because it will help people. Quick dollar should be treated as a happy side-effect.</summary></entry><entry><title>Dynamic CSS in Ember templates</title><link href="/posts/dynamic-css-in-ember-templates/" rel="alternate" type="text/html" title="Dynamic CSS in Ember templates" /><published>2016-11-12T00:00:00+01:00</published><updated>2016-11-12T00:00:00+01:00</updated><id>/posts/dynamic-css-in-ember-templates</id><content type="html" xml:base="/posts/dynamic-css-in-ember-templates/">&lt;p&gt;Recently I was challenged with a task to dynamically colorize checkboxes when they are selected. The colors are generated on-the-fly when the select action is triggered:&lt;/p&gt;
-
-&lt;iframe src=&quot;//giphy.com/embed/qeUvEToKvHGBa&quot; width=&quot;400&quot; height=&quot;250&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;small&gt;Finished functionality. It’s a selector for chart series.&lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;Since we generate colors dynamically and thus can’t make predefined CSS classes that determine the checkbox’s color, I thought it should be enough to simply inline the color style, like so:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;{{#&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;chartSeries&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;series&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;checkbox&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;checkbox&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;html-safe&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;concat&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;color:&#39;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;series&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;checked=…&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;label&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;for=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;series&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;seriesId&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-      &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;series&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;lt;/label&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;{{/&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;each&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;small&gt;Random color is set to the the &lt;code class=&quot;highlighter-rouge&quot;&gt;series.color&lt;/code&gt; property on checkbox change event.&lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;Due to the way these custom checkboxes are implemented, I learned this is not going to work. The place to define checkbox’s background color is actually in the label’s &lt;code class=&quot;highlighter-rouge&quot;&gt;::before&lt;/code&gt; pseudo selector:&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-    &lt;a href=&quot;/images/dynamic-css-post/1.jpg&quot;&gt;&lt;img src=&quot;/images/dynamic-css-post/1.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;figcaption&gt;You can&#39;t implement pseudo-element declarations using inline CSS.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;lesson-1-css-is-not-designed-to-accept-pseudo-element-styles-in-the-style-attribute&quot;&gt;Lesson 1: CSS is not designed to accept pseudo-element styles in the style attribute.&lt;/h2&gt;
-
-&lt;p&gt;What can we do?&lt;/p&gt;
-
-&lt;p&gt;The only solution that came to my mind is to generate CSS classes dynamically. I naively wrote this piece of code in the template, and for some reason, I didn’t expect it to work:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;{{#&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;chartSeries&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;series&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;
-    input[type=&quot;checkbox&quot;]#&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;series&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;seriesId&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.styled:checked + label:before {
-      background: &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;series&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;
-      border-color: &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;series&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;
-    }
-  &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;{{/&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;each&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}}&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;But it did. I was amazed by how Ember’s templating engine digests this without problems, and dynamically adds the necessary CSS declarations to the &lt;code class=&quot;highlighter-rouge&quot;&gt;style&lt;/code&gt; tag when the &lt;code class=&quot;highlighter-rouge&quot;&gt;chartSeries&lt;/code&gt; array changes:&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-    &lt;a href=&quot;/images/dynamic-css-post/2.jpg&quot;&gt;&lt;img src=&quot;/images/dynamic-css-post/2.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;figcaption&gt;The templating engine inserts some whitespace, but we can live with that.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;lesson-2-when-you-need-a-dirty-workaround-embers-templating-engine-can-reactively-spit-out-practically-any-markup-a-browser-can-understand&quot;&gt;Lesson 2: When you need a dirty workaround, Ember’s templating engine can reactively spit out practically any markup a browser can understand.&lt;/h2&gt;
-
-&lt;p&gt;Just be careful not to ruin your site’s performance.&lt;/p&gt;
-
-&lt;p&gt;In our case, every time the &lt;code class=&quot;highlighter-rouge&quot;&gt;chartSeries&lt;/code&gt; array changes, the browser needs to recalculate style, which could lead to page clunkiness if we had a lot of elements and a lot of updates in a short amount of time.&lt;/p&gt;</content><category term="posts" /><summary>When you need a dirty workaround, Ember&#39;s templating engine can reactively spit out practically any markup a browser can understand.</summary></entry></feed>
+&lt;p&gt;&lt;small&gt; Special thanks to &lt;a href=&quot;https://twitter.com/artto&quot;&gt;@artto&lt;/a&gt; for designing the e-book’s cover and Katherine from Russia for reviewing this article. &lt;/small&gt;&lt;/p&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Write material because you genuinely like doing it and because it will help people. Quick dollar should be treated as a happy side-effect.</summary></entry></feed>

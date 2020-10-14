@@ -12,7 +12,7 @@
     style="width: 220px; height: 37px; margin-top: 10px; font-size: 19px"
     placeholder="Your e-mail"
   />
-  <button class="email-button">&nbsp; &nbsp; ok &nbsp; &nbsp;</button>
+  <button class="email-button">&nbsp; &nbsp; yes ok &nbsp; &nbsp;</button>
 </section>
 
 <script>
@@ -31,7 +31,7 @@
         email +
         "&from_site=jurgen";
       $(".email-button").text(
-        "Subscribing... This will take 5 seconds, please don't navigate away."
+        "Subscribing... This will take 5 seconds due to a shitty server, please don't navigate away."
       );
       $.post(url, { from_url: window.location.href }, function () {
         $(".email-button").text("Done!");

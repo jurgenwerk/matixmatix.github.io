@@ -223,7 +223,7 @@ A close-up (later there will be fiberglass over this, securing the hook firmly i
 
 The hooks are temporarily locked into their place using superglue, but later a couple of layers of fiberglass and epoxy will be put over the back side, securing the hook tightly into its place.
 
-Because the paintings are heavy, this is very important to get it right. If any of the hooks would give in, the painting would fall, break and wreak havoc (it happened to me!).
+Because the paintings are heavy, this is very important to get it right. If any of the hooks gave in, the painting would fall, break and wreak havoc (it happened to me!).
 
 The concrete as shown above after I flipped it for the first time is very fragile and lacks structural integrity. It would easily break if held or moved around improperly.
 

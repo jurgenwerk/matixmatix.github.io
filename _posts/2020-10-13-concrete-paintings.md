@@ -197,7 +197,7 @@ Looks great! After I inspect the face of the painting, it’s time to flip it ov
 
 ## Hooks
 
-It’s time to install the mounting hooks. This is a very important part because the heavy painting hangs on this with all of its crushing weight. These paintings are very heavy.
+It’s time to install the mounting hooks. This is a very important part because the heavy painting hangs on this with all of its crushing weight.
 
 Note the hooks in the angles of the back side of the painting:
 

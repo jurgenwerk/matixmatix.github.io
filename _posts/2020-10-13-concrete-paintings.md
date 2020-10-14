@@ -225,7 +225,7 @@ The hooks are temporarily locked into their place using superglue, but later a c
 
 Because the paintings are heavy, this is very important to get it right. If any of the hooks gave in, the painting would fall, break and wreak havoc (it happened to me!).
 
-The concrete as shown above after I flipped it for the first time is very fragile and lacks structural integrity. It would easily break if held or moved around improperly.
+The concrete as shown above after I flipped it for the first time is quite fragile and lacks structural integrity. It would easily break if held or moved around improperly.
 
 ## Fiberglass back
 

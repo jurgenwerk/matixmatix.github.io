@@ -3,6 +3,8 @@ category: posts
 layout: single
 mainTopic: "art"
 title: "Concrete Paintings"
+header:
+  image: "https://jurgen.si/images/concrete-painting/concrete-painting-1.jpg"
 ---
 
 Concrete painting is something you don’t hear about a lot. It’s a term I invented for describing the unique art pieces that I create.

@@ -20,7 +20,7 @@ In this post I portray the creative process behind them, from idea to finish.
   </center>
 </figure>
 
-These paintings are composed of concrete tiles in various rectangular shapes, assembled together in a way that resembles the elements of a abstract painting: a frame, and content whose explanation is left to the viewer.
+These paintings are composed of concrete tiles in various rectangular shapes, assembled together in a way that resembles the elements of an abstract painting.
 
 <figure>
   <a href="/images/concrete-painting/concrete-paintings-2.jpg"><img src="/images/concrete-painting/concrete-paintings-2.jpg"></a>

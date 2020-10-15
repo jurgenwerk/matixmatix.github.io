@@ -179,11 +179,11 @@ Looks great! After I inspect the face of the painting, it’s time to flip it ov
 
 <br>
 <div class="ig-follow-invite">
-  <strong style="font-size: 26px"> 🤔 Like this content?</strong>
+  <strong style="font-size: 26px"> 🤔 Enjoying this content?</strong>
   <br>
   <hr>
   <span style="font-size: 16px">
-    Consider following me on Instagram?? 👇
+    Consider following me on Instagram! 👇
     <br>
   </span>
 

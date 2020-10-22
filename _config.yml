@@ -20,7 +20,7 @@ words_per_minute: 201
 comments:
   provider: "disqus"
   disqus:
-    shortname: "jurgen.si"
+    shortname: "codeandtechno"
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid:

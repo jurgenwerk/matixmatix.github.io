@@ -2,7 +2,7 @@
 category: posts
 layout: single
 mainTopic: "programming"
-title: "Make emojis work in Headless Chrome using AWS Lambda and Puppeteer"
+title: "Making emojis work in Headless Chrome using AWS Lambda and Puppeteer"
 ---
 
 This is a small tutorial on how to make emojis work when rendering emoji content
@@ -103,7 +103,7 @@ Make sure to install them using `npm install`, or `yarn install`.
 
 ### The function
 
-The key here is to import the font using `await chromium.font("/opt/custom_fonts/NotoColorEmoji.ttf");`.
+The key here is to import the font from the layer, using `await chromium.font("/opt/custom_fonts/NotoColorEmoji.ttf");`.
 
 ```javascript
 const chromium = require("chrome-aws-lambda");

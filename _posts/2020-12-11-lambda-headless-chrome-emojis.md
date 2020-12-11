@@ -8,7 +8,7 @@ title: "Making emojis work in Headless Chrome using AWS Lambda and Puppeteer"
 This is a small tutorial on how to make emojis work when rendering emoji content
 using Headless Chrome in an AWS Lambda function.
 
-In my case, I needed to convert HTML to PDF, but this can also be used for rendering images, scraping, or doing automated testing.
+In my case, I needed to convert HTML to PDF, but this can also be used for rendering images, screenshots, scraping, or doing automated testing.
 
 The components used:
 
@@ -17,7 +17,7 @@ The components used:
 - Headless Chrome
 - Puppeteer
 
-By default, the emojis won't render in Headless Chrome when it's being run inside a Lambda function, and what you get is just squares instead of emojis.
+By default, emojis won't render in Headless Chrome when it's being run inside a Lambda function, and what you get is just squares instead of emojis.
 
 To solve this, you have to provide an emoji font which the Headless Chrome can use to render emojis.
 

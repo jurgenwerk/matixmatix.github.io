@@ -1,7 +1,7 @@
 ---
 category: posts
 layout: single
-mainTopic: 'programming'
+mainTopic: "programming"
 title: "User impersonation in SaaS with Ember.js and Ruby on Rails"
 ---
 
@@ -36,7 +36,7 @@ import RSVP from "rsvp";
 export default OAuth2.extend({
   // tokenData is { access_token: 'asd', refreshToken: 'asdf', ... }
   authenticate(tokenData) {
-    return new RSVP.Promise(resolve => {
+    return new RSVP.Promise((resolve) => {
       const expiresAt = this._absolutizeExpirationTime(tokenData["expires_in"]);
       this._scheduleAccessTokenRefresh(
         tokenData["expires_in"],
@@ -50,7 +50,7 @@ export default OAuth2.extend({
 
       resolve(tokenData);
     });
-  }
+  },
 });
 ```
 
@@ -111,8 +111,3 @@ A good place to use this code and redirect to the `user_impersonation_url` is in
 1. This keeps you logged in with another user when you reopen the browser. You might want to find a way to nullify the session after you are done impersonating.
 
 2. If you have some kind of user behaviour tracking set up (e.g. Mixpanel), you might want to disable it while you are impersonating.
-
-
-
-
-

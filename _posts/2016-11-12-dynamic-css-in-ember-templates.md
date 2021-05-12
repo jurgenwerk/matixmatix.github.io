@@ -10,7 +10,7 @@ header:
 
 Recently I was challenged with a task to dynamically colorize checkboxes when they are selected. The colors are generated on-the-fly when the select action is triggered:
 
-<iframe src="//giphy.com/embed/qeUvEToKvHGBa" width="400" height="250" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<iframe src="https://giphy.com/embed/CIN5VCtXdiZvYP8QUp" width="480" height="248" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 <small>Finished functionality. It’s a selector for chart series.</small>
 

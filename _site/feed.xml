@@ -1,14 +1,166 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://jurgen.si/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://jurgen.si/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jurgen.si/" rel="alternate" type="text/html" /><updated>2020-12-31T10:52:47+01:00</updated><id>https://jurgen.si/</id><title type="html">jurgen.si</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title type="html">2020 Year Review</title><link href="https://jurgen.si/posts/2020-year-review/" rel="alternate" type="text/html" title="2020 Year Review" /><published>2020-12-30T00:00:00+01:00</published><updated>2020-12-30T00:00:00+01:00</updated><id>https://jurgen.si/posts/2020-year-review</id><content type="html" xml:base="https://jurgen.si/posts/2020-year-review/">&lt;h1 id=&quot;from-clicks-to-bricks&quot;&gt;From Clicks To Bricks&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://jurgen.si/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://jurgen.si/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jurgen.si/" rel="alternate" type="text/html" /><updated>2021-07-19T22:18:54+02:00</updated><id>https://jurgen.si/</id><title type="html">jurgen.si</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title type="html">How I built a monument for my country</title><link href="https://jurgen.si/posts/concrete-monument/" rel="alternate" type="text/html" title="How I built a monument for my country" /><published>2021-07-17T00:00:00+02:00</published><updated>2021-07-17T00:00:00+02:00</updated><id>https://jurgen.si/posts/concrete-monument</id><content type="html" xml:base="https://jurgen.si/posts/concrete-monument/">&lt;p&gt;This is a story of how I designed and built my first commisioned art sculpture which is placed in a public spot in my hometown of Šentrupert, Slovenia.&lt;/p&gt;
 
-&lt;h2 id=&quot;depression-identity-crysis-and-lucrativeness&quot;&gt;Depression, identity crysis, and lucrativeness&lt;/h2&gt;
+&lt;p&gt;The sculpture is a monument, commemorating 30 years of Slovenia’s independence.It holds a memorial plaque in memory of people who gave their life in Slovenia’s war for independence.&lt;/p&gt;
 
-&lt;p&gt;Never in my life there was a year when I was so depressed while at the same time producing and gaining so much — materially, and also in terms of relationships with other people. But internally, I was falling and suffocating, because my expectations didn’t meet the reality.&lt;/p&gt;
+&lt;p&gt;It’s built from 250 kgs (~551lbs) of glass fiber reinforced concrete, polished and sealed with a protective coat. It holds a black memorial plaque made by the &lt;a href=&quot;http://www.kamnosestvomeglic.si/&quot;&gt;local stonemason&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;ℹ️ &lt;em&gt;Slovenia gained independence from Yugoslavia in 1991, followed by the &lt;a href=&quot;https://en.wikipedia.org/wiki/Ten-Day_War&quot;&gt;Ten-Day War&lt;/a&gt;. Even though I was only a toddler then, I feel a strong emotional bond to this time and this event.&lt;/em&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+    &lt;a href=&quot;/images/spomenik/spomenik_sentrupert_slovenija_osamosvojitev.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/spomenik_sentrupert_slovenija_osamosvojitev.jpeg&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;/images/spomenik/spomenik_jurglic.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/spomenik_jurglic.jpeg&quot; /&gt;&lt;/a&gt;
+    &lt;figcaption&gt;Posing next to the monument I built, in Šentrupert, Slovenia. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;design&quot;&gt;Design&lt;/h1&gt;
+
+&lt;p&gt;The requirement was rather simple: make something nice that will hold the memorial plaque.&lt;/p&gt;
+
+&lt;p&gt;I wanted to showcase the aesthetic versatility of concrete while keeping the viewer ergonomics and accesibility in mind.&lt;/p&gt;
+
+&lt;p&gt;What I settled on the is the following sketch, which served as the official design plan. 🤷‍♂️&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+    &lt;a href=&quot;/images/spomenik/sketch.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/sketch.jpeg&quot; /&gt;&lt;/a&gt;
+    &lt;!-- &lt;a href=&quot;/images/spomenik/spomenik_sentrupert_slovenija_osamosvojitev.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/spomenik_jurglic.jpeg&quot;&gt;&lt;/a&gt; --&gt;
+    &lt;!-- &lt;figcaption&gt;Posing next to the monument I built, in Šentrupert, Slovenia.&lt;/figcaption&gt; --&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;formwork&quot;&gt;Formwork&lt;/h1&gt;
+
+&lt;p&gt;For the mould, melamine boards were used. They’re more or less standard for concrete formworks like this one. Since their surface is smooth, the concrete is smooth as well, which reduces the amount of sanding needed for a nice finish.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+    &lt;a href=&quot;/images/spomenik/mould1.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/mould1.jpeg&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;/images/spomenik/mould2.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/mould2.jpeg&quot; /&gt;&lt;/a&gt;
+    &lt;figcaption&gt;Assembling the mould for pouring concrete.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The mould needs to be strong enough to withstand the force of fresh concrete.&lt;/p&gt;
+
+&lt;p&gt;The forces pushing the mold apart while the concrete is in liquid state are not to be taken lightly.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;In fact, what you see is my second attempt. The first mould failed miserably and it fell apart while pouring (&lt;a href=&quot;https://twitter.com/matixmatix/status/1396183114221768704&quot;&gt;here’s a Twitter thread&lt;/a&gt; with more details if you want to know how that went).&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;concrete&quot;&gt;Concrete&lt;/h1&gt;
+
+&lt;p&gt;I optimized the cement mix for extra strength.&lt;/p&gt;
+
+&lt;p&gt;This means high cement to sand ratio, adding glass fibers, and using additives, such as superplasticizer and pozzolan (silica fume).&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+    &lt;a href=&quot;/images/spomenik/mix1.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/mix1.jpeg&quot; /&gt;&lt;/a&gt;
+    &lt;!-- &lt;a href=&quot;/images/spomenik/mould2.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/mould2.jpeg&quot;&gt;&lt;/a&gt; --&gt;
+    &lt;figcaption&gt;Mixing the stuff for strong, non-cracking concrete.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Ingredients in the mix:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Standard portland cement&lt;/li&gt;
+  &lt;li&gt;Glass fiber&lt;/li&gt;
+  &lt;li&gt;PVA fiber&lt;/li&gt;
+  &lt;li&gt;Silica fume&lt;/li&gt;
+  &lt;li&gt;Superplasticizer&lt;/li&gt;
+  &lt;li&gt;Sand ~5mm and ~10mm&lt;/li&gt;
+  &lt;li&gt;Black pigment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+    &lt;a href=&quot;/images/spomenik/pouring.jpg&quot;&gt;&lt;img src=&quot;/images/spomenik/pouring.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;/images/spomenik/smoothening.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/smoothening.jpeg&quot; /&gt;&lt;/a&gt;
+    &lt;figcaption&gt;Pouring concrete and smoothing the top layer.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Once the concrete has been poured and smoothened on the top, I left it to cure for 2 days.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+    &lt;a href=&quot;/images/spomenik/curing.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/curing.jpeg&quot; /&gt;&lt;/a&gt;
+    &lt;figcaption&gt;Fresh concrete starting to cure.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;dismantling&quot;&gt;Dismantling&lt;/h1&gt;
+
+&lt;p&gt;After a couple of days of curing, the sculpture was ready to be unmoulded.&lt;/p&gt;
+
+&lt;p&gt;Removing the formwork revealed a beatiful concrete cast with straight edges, with minimal amount of air pockets, and no cracks.&lt;/p&gt;
+
+&lt;p&gt;I breathed a sigh of relief.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;/images/spomenik/dismantling.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/dismantling.jpeg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/spomenik/dismantled.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/dismantled.jpeg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Friends helping me to dismantle the mould.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;sanding-touch-ups-and-coating&quot;&gt;Sanding, touch-ups and coating&lt;/h1&gt;
+
+&lt;p&gt;Initially, I wanted to polish the sculpture with a diamond pad grinder to create a perfect, shiny surface. To see how that looks like,
+you can check how I made my &lt;a href=&quot;../concrete-coffee-table&quot;&gt;concrete coffee table&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Later, I changed my mind and decided to go with a more raw, brutalist style.&lt;/p&gt;
+
+&lt;p&gt;I sanded the surface using an orbital sander with varying grits (90, 180, 240). Then, I improved the edges using cement grout mixed with a special
+bonding agent, and added two coats of cement sealer. This prevents the concrete sculpture from soaking up water, protects the surface, and gives it a beautiful shine.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;/images/spomenik/edges.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/edges.jpeg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/spomenik/edge_grout.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/edge_grout.jpeg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Making sharper edges.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;/images/spomenik/sanding.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/sanding.jpeg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/spomenik/sanding2.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/sanding2.jpeg&quot; /&gt;&lt;/a&gt;
+
+  &lt;figcaption&gt;Sanding the sculpture using an orbital sander.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;/images/spomenik/raw.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/raw.jpeg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/spomenik/coated_3.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/coated_3.jpeg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Before and after applying a protective coat. The sealer enhances the hue of the concrete beautifully.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;/images/spomenik/plate_1.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/plate_1.jpeg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/spomenik/plate_2.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/plate_2.jpeg&quot; /&gt;&lt;/a&gt;
+
+  &lt;figcaption&gt;Stonemason glueing the plaque onto the monument using epoxy glue.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;transport&quot;&gt;Transport&lt;/h1&gt;
+
+&lt;p&gt;The monument needed to be transported from my house to a town nearby.&lt;/p&gt;
+
+&lt;p&gt;An arm lift truck, a couple of heavy duty straps and two construction pros did the trick!&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;/images/spomenik/transport_1.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/transport_1.jpeg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/spomenik/transport_2.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/transport_2.jpeg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/spomenik/transport_3.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/transport_3.jpeg&quot; /&gt;&lt;/a&gt;
+
+  &lt;figcaption&gt;Construction guys using a remote control to lift the monument and put it back down to its final location.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;ceremony&quot;&gt;Ceremony&lt;/h1&gt;
+
+&lt;p&gt;On the day before the official Statehod Day, we unveiled the monument together with the mayor of Šentrupert. There was a nice little ceremony.&lt;/p&gt;
+
+&lt;p&gt;It was a special day for me. I’m happy I could contribute a piece of art to honor my country and hometown.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;a href=&quot;/images/spomenik/matic_jurglic_martin_kostelec_sentrupert.JPG&quot;&gt;&lt;img src=&quot;/images/spomenik/matic_jurglic_martin_kostelec_sentrupert.JPG&quot; alt=&quot;Matic Jurglič and Andrej Martin Kostelec unveiling the monument in Šentrupert&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Matic Jurglič and Andrej Martin Kostelec unveiling the monument in Šentrupert.&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">This is a story of how I designed and built my first commisioned art sculpture which is placed in a public spot in my hometown of Šentrupert, Slovenia.</summary></entry><entry><title type="html">2020 Year Review</title><link href="https://jurgen.si/posts/2020-year-review/" rel="alternate" type="text/html" title="2020 Year Review" /><published>2020-12-30T00:00:00+01:00</published><updated>2020-12-30T00:00:00+01:00</updated><id>https://jurgen.si/posts/2020-year-review</id><content type="html" xml:base="https://jurgen.si/posts/2020-year-review/">&lt;h1 id=&quot;from-clicks-to-bricks&quot;&gt;From Clicks To Bricks&lt;/h1&gt;
+
+&lt;p&gt;The past year felt like one big exhaustion. Now that I look at it, I did manage to achieve many things, but internally, I was suffocating, because the reality didn’t meet my expectations.&lt;/p&gt;
 
 &lt;p&gt;I think a lot of this has to do with the unexpected growth of my &lt;a href=&quot;https://www.etsy.com/shop/jurgenstudio&quot;&gt;side business&lt;/a&gt; which strayed me away from what I really wanted to be and focus on, and unexpectedly ate up all my free time.&lt;/p&gt;
 
 &lt;p&gt;Instead of spending my time to focus on finding my next idea worth pursuing and building an online business around it (i.e. “clicks”), I spent my creative time producing and shipping concrete sculptures (i.e. “bricks”).&lt;/p&gt;
 
-&lt;p&gt;My silly hobby is now a true business, bringing enough revenue I could probably survive on it.&lt;/p&gt;
+&lt;p&gt;My silly hobby is now a true business, bringing enough revenue I could probably survive on it. It’s a labor of love that spiralled out of control.&lt;/p&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
     &lt;a href=&quot;/images/2020-review-post/sculptures.png&quot;&gt;&lt;img src=&quot;/images/2020-review-post/sculptures.png&quot; /&gt;&lt;/a&gt;
@@ -20,7 +172,7 @@
 
 &lt;p&gt;I’m not so sure.&lt;/p&gt;
 
-&lt;p&gt;That’s the identity crysis I mentioned. On the one hand, with my knowledge I have a shot of building an online business with an unlimited upside and predictable revenue, while on the other hand, I have this brick and mortar business which can’t really scale and it constantly needs routine work.&lt;/p&gt;
+&lt;p&gt;That’s the identity crysis I mentioned. On the one hand, with my knowledge I have a shot of building things online, which has unlimited upside and predictable revenue, while on the other hand, I have this brick and mortar business which can’t really scale and it constantly needs routine work.&lt;/p&gt;
 
 &lt;figure class=&quot;&quot;&gt;
     &lt;a href=&quot;/images/2020-review-post/etsy-revenue.png&quot;&gt;&lt;img src=&quot;/images/2020-review-post/etsy-revenue.png&quot; /&gt;&lt;/a&gt;
@@ -53,7 +205,7 @@ Also, there’s someone who offered me 1k EUR for an art piece. We’re still fi
     &lt;a href=&quot;/images/2020-review-post/wooden-phone.png&quot;&gt;&lt;img src=&quot;/images/2020-review-post/wooden-phone.png&quot; /&gt;&lt;/a&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&quot;built-a-garden-in-front-of-the-house-and-a-fence-around-it&quot;&gt;Built a garden in front of the house, and a fence around it&lt;/h3&gt;
+&lt;h3 id=&quot;built-a-little-lawn-garden-in-front-of-the-house-and-a-fence-around-it&quot;&gt;Built a little lawn garden in front of the house, and a fence around it&lt;/h3&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
     &lt;a href=&quot;/images/2020-review-post/garden-fence.png&quot;&gt;&lt;img src=&quot;/images/2020-review-post/garden-fence.png&quot; /&gt;&lt;/a&gt;
@@ -1161,66 +1313,4 @@ rm &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&
 &lt;/div&gt;
 
 &lt;p&gt;Since this is only a partial dump related to a common resource or ancestor (application user, in this case), we need to make sure we also have all other data in our development database that the application needs to run and doesn’t belong to the user. Depending on your setup, you could easily restore those tables using &lt;code class=&quot;highlighter-rouge&quot;&gt;pg_dump&lt;/code&gt; command where you explicitly specify the tables.
-But when you need to refresh only a subset of local data, a script like this comes in really handy.&lt;/p&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Sometimes we find ourselves in a need for copying and restoring a specific set of data belonging to a common parent resource. For example, we want to connect to the production server, pull down fresh data related only to the specified user and restore it to our development database to debug an issue or just develop new features. When your database is tiny, you could just restore the whole thing, but once it grows, the complete restoration is out of the question, especially when you need to do it often.</summary></entry><entry><title type="html">CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page,…)</title><link href="https://jurgen.si/posts/cloudfront-redirections-lambda/" rel="alternate" type="text/html" title="CloudFront redirections for your SPA using AWS Lambda (A/B testing, maintenance page,...)" /><published>2017-09-10T00:00:00+02:00</published><updated>2017-09-10T00:00:00+02:00</updated><id>https://jurgen.si/posts/cloudfront-redirections-lambda</id><content type="html" xml:base="https://jurgen.si/posts/cloudfront-redirections-lambda/">&lt;p&gt;For many people, the stack of choice for deploying a JavaScript application (SPA) or other assets is to save them to Amazon S3 and serve it to the world over Amazon CloudFront CDN. With its cached edges around the world, it makes sure the users’ browsers are able to download your application in the most efficient way possible.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;a href=&quot;/images/lambda-post/cloudfront-map.png&quot;&gt;&lt;img src=&quot;/images/lambda-post/cloudfront-map.png&quot; /&gt;&lt;/a&gt;
-    &lt;center&gt;
-    &lt;figcaption&gt;At the time of writing, CloudFront offers around 100 edge locations around the globe.&lt;/figcaption&gt;&lt;/center&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;A possible drawback of this application/server architecture is that your JavaScript application or other content is cached in various cache servers placed globally, and that seems problematic in cases where you want to suddenly place a redirection switch - serving your users something else, depending on some condition or request. You’re not in complete control of your server(s), and cache invalidations and DNS changes could take forever, especially in urgencies.&lt;/p&gt;
-
-&lt;p&gt;One of these cases is showing a “maintenance site”. You know - those “We’ll be back shortly.” notices, when engineers are either sweatingly salvaging a botched back-end or just performing regular, scheduled maintenance.&lt;/p&gt;
-
-&lt;p&gt;A popular technique in SPAs is to detect these adversities by listening for &lt;code class=&quot;highlighter-rouge&quot;&gt;5xx&lt;/code&gt; responses from the API server and rendering a “Maintenance” message. It’s a valid approach, but this comes with a couple of assumptions which make the problem detection unreliable.&lt;/p&gt;
-
-&lt;p&gt;Two major assumptions:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;JavaScript application works OK,&lt;/li&gt;
-  &lt;li&gt;Server is responding with HTTP code &lt;code class=&quot;highlighter-rouge&quot;&gt;5xx&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;But, what if your build system deploys a broken bundle which doesn’t work in a browser anymore (or maybe it breaks only in specific browsers)? What if your async API requests are timeouting and you don’t get any response?&lt;/p&gt;
-
-&lt;p&gt;In these cases it’s best to have a manual switch &lt;strong&gt;on the server level&lt;/strong&gt; that puts your website into maintenance mode while you do the fixing.&lt;/p&gt;
-
-&lt;p&gt;With CloudFront you’re able to achieve this by using &lt;a href=&quot;http://docs.aws.amazon.com/lambda/latest/dg/lambda-edge.html&quot;&gt;Lambda@Edge&lt;/a&gt; functions (an extension of AWS Lambda) in the Viewer Request trigger, which triggers BEFORE the CloudFront cache is checked and returned. Within this function you could do many different things, for example:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Inspect cookies, User-Agent, headers,…&lt;/li&gt;
-  &lt;li&gt;Do HTTP redirections, personalize and generate responses depending on location and various other criteria, serve different content for crawler bots,&lt;/li&gt;
-  &lt;li&gt;Make network calls to external resources (e.g., authorization).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Returning to the maintenance page switch, we could write a Lambda function like this:&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;handler&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;status&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;302&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;statusDescription&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Found&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-          &lt;span class=&quot;na&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Location&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;na&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://my-site.com/maintenance.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;callback&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;When we want to put this redirection to work, we simply assign its ARN to our CloudFront distribution in its behaviour settings:&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;a href=&quot;/images/lambda-post/cloudfront-lambda-redirect.png&quot;&gt;&lt;img src=&quot;/images/lambda-post/cloudfront-lambda-redirect.png&quot; /&gt;&lt;/a&gt;
-    &lt;figcaption&gt;CloudFront distribution behaviour settings.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;… and remove it once you don’t want the redirection anymore. The change is usually processed within a very short period of time (which is usually not the case when saving adjustments in CloudFront distributions).&lt;/p&gt;
-
-&lt;p&gt;This mechanism can be used for a lot of other practical implementations, like A/B testing redirections, logging and handling web client specifics.&lt;/p&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">For many people, the stack of choice for deploying a JavaScript application (SPA) or other assets is to save them to Amazon S3 and serve it to the world over Amazon CloudFront CDN. With its cached edges around the world, it makes sure the users’ browsers are able to download your application in the most efficient way possible.</summary></entry></feed>
+But when you need to refresh only a subset of local data, a script like this comes in really handy.&lt;/p&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Sometimes we find ourselves in a need for copying and restoring a specific set of data belonging to a common parent resource. For example, we want to connect to the production server, pull down fresh data related only to the specified user and restore it to our development database to debug an issue or just develop new features. When your database is tiny, you could just restore the whole thing, but once it grows, the complete restoration is out of the question, especially when you need to do it often.</summary></entry></feed>

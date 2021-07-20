@@ -6,11 +6,11 @@ header:
   image: "https://jurgen.si/images/spomenik/header.jpg"
 ---
 
-This is a story of how I designed and built my first commisioned art sculpture which is placed in a public spot in my hometown of Šentrupert, Slovenia.
+This is a story of how I designed and built my first commisioned art sculpture placed in a public spot in my hometown of Šentrupert, Slovenia.
 
-The sculpture is a monument, commemorating 30 years of Slovenia's independence.It holds a memorial plaque in memory of people who gave their life in Slovenia’s war for independence.
+The sculpture is a monument, commemorating 30 years of Slovenia's independence. It holds a memorial plaque in memory of people who contributed and died for this cause.
 
-It’s built from 250 kgs (~551lbs) of glass fiber reinforced concrete, polished and sealed with a protective coat. It holds a black memorial plaque made by the [local stonemason](http://www.kamnosestvomeglic.si/).
+It’s built from 250 kgs (~551lbs) of glass fiber reinforced concrete, polished and sealed with a protective coat. On the top there's a black memorial plate made by a [local stonemason](http://www.kamnosestvomeglic.si/).
 
 ℹ️ _Slovenia gained independence from Yugoslavia in 1991, followed by the [Ten-Day War](https://en.wikipedia.org/wiki/Ten-Day_War). Even though I was only a toddler then, I feel a strong emotional bond to this time and this event._
 

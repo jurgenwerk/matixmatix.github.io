@@ -20,7 +20,7 @@ words_per_minute: 201
 comments:
   provider: "disqus"
   disqus:
-    shortname: "codeandtechno"
+    shortname: "jurgen.si"
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid:
@@ -72,7 +72,7 @@ author:
   flickr:
   facebook:
   foursquare:
-  github: "matixmatix"
+  github: "jurgenwerk"
   google_plus:
   keybase:
   instagram: "jurgenwerk"

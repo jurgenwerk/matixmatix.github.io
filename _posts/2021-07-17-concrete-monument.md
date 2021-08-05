@@ -1,7 +1,7 @@
 ---
 category: posts
 layout: single
-title: "How I built a monument for my country"
+title: "How I built a monument to my country"
 header:
   image: "https://jurgen.si/images/spomenik/header.jpg"
 ---

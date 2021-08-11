@@ -3,7 +3,7 @@ category: posts
 layout: single
 title: "How I built a monument to my country"
 header:
-  image: "https://jurgen.si/images/spomenik/header.jpg"
+  image: "https://jurgen.si/images/spomenik/mould2.jpeg"
 ---
 
 This is a story of how I designed and built my first commisioned art sculpture placed in a public spot in my hometown of Šentrupert, Slovenia.

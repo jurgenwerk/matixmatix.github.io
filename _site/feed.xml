@@ -1,8 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://jurgen.si/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://jurgen.si/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jurgen.si/" rel="alternate" type="text/html" /><updated>2021-07-19T22:18:54+02:00</updated><id>https://jurgen.si/</id><title type="html">jurgen.si</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title type="html">How I built a monument for my country</title><link href="https://jurgen.si/posts/concrete-monument/" rel="alternate" type="text/html" title="How I built a monument for my country" /><published>2021-07-17T00:00:00+02:00</published><updated>2021-07-17T00:00:00+02:00</updated><id>https://jurgen.si/posts/concrete-monument</id><content type="html" xml:base="https://jurgen.si/posts/concrete-monument/">&lt;p&gt;This is a story of how I designed and built my first commisioned art sculpture which is placed in a public spot in my hometown of Šentrupert, Slovenia.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://jurgen.si/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://jurgen.si/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jurgen.si/" rel="alternate" type="text/html" /><updated>2021-12-30T17:32:14+01:00</updated><id>https://jurgen.si/</id><title type="html">jurgen.si</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title type="html">2021 Year Review</title><link href="https://jurgen.si/posts/2021-year-review/" rel="alternate" type="text/html" title="2021 Year Review" /><published>2021-12-30T00:00:00+01:00</published><updated>2021-12-30T00:00:00+01:00</updated><id>https://jurgen.si/posts/2021-year-review</id><content type="html" xml:base="https://jurgen.si/posts/2021-year-review/">&lt;p&gt;2021 was a year I will definitely remember - I was riding the highest highs, and found myself dragging through the lowest of the low.&lt;/p&gt;
 
-&lt;p&gt;The sculpture is a monument, commemorating 30 years of Slovenia’s independence.It holds a memorial plaque in memory of people who gave their life in Slovenia’s war for independence.&lt;/p&gt;
+&lt;p&gt;I learned a lot about myself, and implemented processes that enable me to have more time and resources for personal growth, self discovery and wellbeing.&lt;/p&gt;
 
-&lt;p&gt;It’s built from 250 kgs (~551lbs) of glass fiber reinforced concrete, polished and sealed with a protective coat. It holds a black memorial plaque made by the &lt;a href=&quot;http://www.kamnosestvomeglic.si/&quot;&gt;local stonemason&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here’s a couple of areas that deserve an update.&lt;/p&gt;
+
+&lt;h1 id=&quot;side-business&quot;&gt;Side Business&lt;/h1&gt;
+
+&lt;p&gt;I run &lt;a href=&quot;https://www.etsy.com/shop/jurgenstudio&quot;&gt;an Etsy shop&lt;/a&gt; where I sell handmade busts of influential people.&lt;/p&gt;
+
+&lt;p&gt;In &lt;a href=&quot;/posts/2020-year-review/&quot;&gt;last year’s review&lt;/a&gt; I mentioned doing all this by myself (production, processing, shipping) is driving me nuts.&lt;/p&gt;
+
+&lt;p&gt;I’m happy to report I found a person who took over the production, processing and shipping part. Now I focus on what energizes me - product research, customer support, and development of new products.&lt;/p&gt;
+
+&lt;p&gt;I’m really proud I was able to pull this off and keep the company profitable.&lt;/p&gt;
+
+&lt;p&gt;Perhaps the most important point here is that I’m no longer treating this as a profitable hobby. It’s a real business now, and I enjoy operating it.&lt;/p&gt;
+
+&lt;p&gt;I also bought a new workshop studio:&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    &lt;a href=&quot;/images/2021-review-post/container1.jpg&quot;&gt;&lt;img src=&quot;/images/2021-review-post/container1.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;/images/2021-review-post/container2.jpg&quot;&gt;&lt;img src=&quot;/images/2021-review-post/container2.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;/images/2021-review-post/container3.jpg&quot;&gt;&lt;img src=&quot;/images/2021-review-post/container3.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;!-- &lt;figcaption&gt;My studio&lt;/figcaption&gt; --&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;software&quot;&gt;Software&lt;/h1&gt;
+
+&lt;p&gt;Programming is still my main job. Around June I terminated contracts with all my consulting clients, and took a summer break.&lt;/p&gt;
+
+&lt;p&gt;Then, I started a new job at &lt;a href=&quot;https://cardstack.com/&quot;&gt;Cardstack&lt;/a&gt;, where we make tools for creators in the Web3 realm.&lt;/p&gt;
+
+&lt;p&gt;This took some time getting used to. I’m used to working on SaaS products, and collecting as much user data as legally possible. Here, it’s the other way around!&lt;/p&gt;
+
+&lt;p&gt;I see Web3 as a social experiment and I’m happy to work at the forefront of this movement.&lt;/p&gt;
+
+&lt;h1 id=&quot;art&quot;&gt;Art&lt;/h1&gt;
+
+&lt;p&gt;I managed to produce 3 new artworks. I’m happy I discovered an art style that I really like, and I want to push this concept further, create more pieces and host an exhibition.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;a href=&quot;/images/2021-review-post/artworks.jpg&quot;&gt;&lt;img src=&quot;/images/2021-review-post/artworks.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I was also commisioned to build a monument - an art sculpture placed in a public spot in my hometown of Šentrupert, Slovenia.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+    &lt;a href=&quot;/images/spomenik/spomenik_sentrupert_slovenija_osamosvojitev.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/spomenik_sentrupert_slovenija_osamosvojitev.jpeg&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;/images/spomenik/spomenik_jurglic.jpeg&quot;&gt;&lt;img src=&quot;/images/spomenik/spomenik_jurglic.jpeg&quot; /&gt;&lt;/a&gt;
+    &lt;figcaption&gt;Posing next to the monument I built, in Šentrupert, Slovenia. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This was a truly special achievement for me. My craftsmanship was put to the real test.&lt;/p&gt;
+
+&lt;p&gt;Here’s a blog post on &lt;a href=&quot;https://jurgen.si/posts/concrete-monument/&quot;&gt;how I built it&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;random&quot;&gt;Random&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Got Covid 🦠&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Made stupid poses&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+    &lt;a href=&quot;/images/2021-review-post/pose4.jpg&quot;&gt;&lt;img src=&quot;/images/2021-review-post/pose4.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;/images/2021-review-post/pose3.jpg&quot;&gt;&lt;img src=&quot;/images/2021-review-post/pose3.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;a href=&quot;/images/2021-review-post/pose1.jpg&quot;&gt;&lt;img src=&quot;/images/2021-review-post/pose1.jpg&quot; /&gt;&lt;/a&gt;
+    &lt;!-- &lt;a href=&quot;/images/2021-review-post/pose2.jpg&quot;&gt;&lt;img src=&quot;/images/2021-review-post/pose2.jpg&quot;&gt;&lt;/a&gt; --&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h1&gt;
+
+&lt;p&gt;I have a 3 important goals for next year:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Move to Ljubljana&lt;/li&gt;
+  &lt;li&gt;Grow my side business to the point where it pays for all my living costs&lt;/li&gt;
+  &lt;li&gt;Have an art exhibition in fall&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Best and Worst Year</summary></entry><entry><title type="html">How I built a monument for my country</title><link href="https://jurgen.si/posts/concrete-monument/" rel="alternate" type="text/html" title="How I built a monument for my country" /><published>2021-07-17T00:00:00+02:00</published><updated>2021-07-17T00:00:00+02:00</updated><id>https://jurgen.si/posts/concrete-monument</id><content type="html" xml:base="https://jurgen.si/posts/concrete-monument/">&lt;p&gt;This is a story of how I designed and built my first commisioned art sculpture placed in a public spot in my hometown of Šentrupert, Slovenia.&lt;/p&gt;
+
+&lt;p&gt;The sculpture is a monument, commemorating 30 years of Slovenia’s independence. It holds a memorial plaque in memory of people who contributed and died for this cause.&lt;/p&gt;
+
+&lt;p&gt;It’s built from 250 kgs (~551lbs) of glass fiber reinforced concrete, polished and sealed with a protective coat. On the top there’s a black memorial plate made by a &lt;a href=&quot;http://www.kamnosestvomeglic.si/&quot;&gt;local stonemason&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;ℹ️ &lt;em&gt;Slovenia gained independence from Yugoslavia in 1991, followed by the &lt;a href=&quot;https://en.wikipedia.org/wiki/Ten-Day_War&quot;&gt;Ten-Day War&lt;/a&gt;. Even though I was only a toddler then, I feel a strong emotional bond to this time and this event.&lt;/em&gt;&lt;/p&gt;
 
@@ -152,7 +235,7 @@ bonding agent, and added two coats of cement sealer. This prevents the concrete 
 &lt;figure class=&quot;&quot;&gt;
   &lt;a href=&quot;/images/spomenik/matic_jurglic_martin_kostelec_sentrupert.JPG&quot;&gt;&lt;img src=&quot;/images/spomenik/matic_jurglic_martin_kostelec_sentrupert.JPG&quot; alt=&quot;Matic Jurglič and Andrej Martin Kostelec unveiling the monument in Šentrupert&quot; /&gt;&lt;/a&gt;
   &lt;figcaption&gt;Matic Jurglič and Andrej Martin Kostelec unveiling the monument in Šentrupert.&lt;/figcaption&gt;
-&lt;/figure&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">This is a story of how I designed and built my first commisioned art sculpture which is placed in a public spot in my hometown of Šentrupert, Slovenia.</summary></entry><entry><title type="html">2020 Year Review</title><link href="https://jurgen.si/posts/2020-year-review/" rel="alternate" type="text/html" title="2020 Year Review" /><published>2020-12-30T00:00:00+01:00</published><updated>2020-12-30T00:00:00+01:00</updated><id>https://jurgen.si/posts/2020-year-review</id><content type="html" xml:base="https://jurgen.si/posts/2020-year-review/">&lt;h1 id=&quot;from-clicks-to-bricks&quot;&gt;From Clicks To Bricks&lt;/h1&gt;
+&lt;/figure&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">This is a story of how I designed and built my first commisioned art sculpture placed in a public spot in my hometown of Šentrupert, Slovenia.</summary></entry><entry><title type="html">2020 Year Review</title><link href="https://jurgen.si/posts/2020-year-review/" rel="alternate" type="text/html" title="2020 Year Review" /><published>2020-12-30T00:00:00+01:00</published><updated>2020-12-30T00:00:00+01:00</updated><id>https://jurgen.si/posts/2020-year-review</id><content type="html" xml:base="https://jurgen.si/posts/2020-year-review/">&lt;h1 id=&quot;from-clicks-to-bricks&quot;&gt;From Clicks To Bricks&lt;/h1&gt;
 
 &lt;p&gt;The past year felt like one big exhaustion. Now that I look at it, I did manage to achieve many things, but internally, I was suffocating, because the reality didn’t meet my expectations.&lt;/p&gt;
 
@@ -1241,76 +1324,4 @@ I launched quite a couple of new side-projects this year so I will only mention 
 
 &lt;p&gt;When you reached the stage where connections from white labeled domains are succesfully hitting your server, it’s time to write some application logic that matches a hostname against a white labeled account and decorates the requests with the info on which white labeled account it belongs to.&lt;/p&gt;
 
-&lt;p&gt;When you have this information for every request, you can easily use it inside your application interface to show white labeled branding, e.g. custom design, logos, emails, texts and other customly branded pieces of the app.&lt;/p&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Depending on your online business, white labeling can turn out to be a fantastic business model. This applies especially when your target customers are actually customers who have their own customers, for example agencies, consultancies and client-oriented businesses.</summary></entry><entry><title type="html">Partial, resource-related dumps in PostgreSQL</title><link href="https://jurgen.si/posts/partial-resource-dump-postgres/" rel="alternate" type="text/html" title="Partial, resource-related dumps in PostgreSQL" /><published>2018-03-29T00:00:00+02:00</published><updated>2018-03-29T00:00:00+02:00</updated><id>https://jurgen.si/posts/partial-resource-dump-postgres</id><content type="html" xml:base="https://jurgen.si/posts/partial-resource-dump-postgres/">&lt;p&gt;Sometimes we find ourselves in a need for copying and restoring a specific set of data belonging to a common parent resource. For example, we want to connect to the production server, pull down fresh data related only to the specified user and restore it to our development database to debug an issue or just develop new features. When your database is tiny, you could just restore the whole thing, but once it grows, the complete restoration is out of the question, especially when you need to do it often.&lt;/p&gt;
-
-&lt;p&gt;Here’s a simplified bash script I wrote that downloads everything belonging to the application user from the production database, deletes stale user data from the local development database and replaces it with the fresh data.&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# Usage: ./script/restore_user 100&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;USER_ID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;DATE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;date +%Y-%m-%d&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;SQL_FILENAME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;data_user_&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;USER_ID&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;_&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;DATE&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;.sql
-
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;-- Preparing a data dump file for the specified user...&quot;&lt;/span&gt;
-ssh admin@db.myapp.com /bin/sh &lt;span class=&quot;sh&quot;&gt;&amp;lt;&amp;lt;EOT &amp;gt; $SQL_FILENAME
-  echo &quot;Copying user...&quot; &amp;gt;&amp;amp;2
-  echo &quot;COPY users FROM STDIN;&quot;
-  psql -h db.myapp.com -U myusername mydatabase -c &quot;COPY (
-    SELECT users.*
-    FROM users
-    WHERE id = ${USER_ID}
-  ) TO STDOUT;&quot;
-  echo &quot;\\.&quot;
-
-  echo &quot;Copying user’s posts...&quot; &amp;gt;&amp;amp;2
-  echo &quot;COPY posts FROM STDIN;&quot;
-  psql -h db.myapp.com -U myusername mydatabase -c &quot;COPY (
-    SELECT posts.*
-    FROM posts
-    WHERE user_id = ${user_id}
-  ) TO STDOUT;&quot;
-  echo &quot;\\.&quot;
-
-  echo &quot;Copying post’s tags ...&quot; &amp;gt;&amp;amp;2
-  echo &quot;COPY tags FROM STDIN;&quot;
-  psql -h db.myapp.com -U myusername mydatabase -c &quot;COPY (
-    SELECT tags.*
-    FROM tags
-    INNER JOIN posts ON posts.id = tags.post_id
-    WHERE posts.user_id = ${user_id}
-  ) TO STDOUT;&quot;
-  echo &quot;\\.&quot;
-EOT
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Let’s comment on what’s happening here. What we’re doing is essentially using Postgres’s &lt;code class=&quot;highlighter-rouge&quot;&gt;COPY&lt;/code&gt; function which is useful for moving data around tables. Usually it’s used to produce individual CSV files separately for each table, which are then individually restored using &lt;code class=&quot;highlighter-rouge&quot;&gt;COPY FROM&lt;/code&gt; command.&lt;/p&gt;
-
-&lt;p&gt;Since this function is also able to read from the &lt;code class=&quot;highlighter-rouge&quot;&gt;STDIN&lt;/code&gt;, we bundle all &lt;code class=&quot;highlighter-rouge&quot;&gt;COPY&lt;/code&gt; commands together (using the &lt;code class=&quot;highlighter-rouge&quot;&gt;.\&lt;/code&gt; which indicates the end of the input). Local PostgreSQL will then see sequences of &lt;code class=&quot;highlighter-rouge&quot;&gt;COPY FROM STDIN&lt;/code&gt;, then data, then &lt;code class=&quot;highlighter-rouge&quot;&gt;.\&lt;/code&gt;, indicating it’s done. We do this to avoid making multiple table-specific CSV files. Instead, we just put everything into one big SQL file.&lt;/p&gt;
-
-&lt;p&gt;This was just the first part of the script. Now that we have the necessary data in an SQL file, we have to make place for it and restore it to our local database.&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;-- Deleting old user data...&quot;&lt;/span&gt;
-psql -d mydb_dev -c &lt;span class=&quot;s2&quot;&gt;&quot;
-  DELETE FROM tags WHERE tags.id IN (
-    SELECT tags.id
-    FROM tags
-    INNER join posts ON posts.id = tags.post_id
-    WHERE user_id = &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;user_id&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;
-  );
-
-  DELETE FROM posts where user_id = &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;user_id&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;;
-  DELETE FROM users where id = &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;user_id&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;;&quot;&lt;/span&gt;
-
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;-- Restoring fresh user data...&quot;&lt;/span&gt;
-psql -d mydb_dev &amp;lt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;SQL_FILENAME&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;-- Deleting temp data...&quot;&lt;/span&gt;
-rm &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;SQL_FILENAME&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;-- Done. Enjoy.&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Since this is only a partial dump related to a common resource or ancestor (application user, in this case), we need to make sure we also have all other data in our development database that the application needs to run and doesn’t belong to the user. Depending on your setup, you could easily restore those tables using &lt;code class=&quot;highlighter-rouge&quot;&gt;pg_dump&lt;/code&gt; command where you explicitly specify the tables.
-But when you need to refresh only a subset of local data, a script like this comes in really handy.&lt;/p&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Sometimes we find ourselves in a need for copying and restoring a specific set of data belonging to a common parent resource. For example, we want to connect to the production server, pull down fresh data related only to the specified user and restore it to our development database to debug an issue or just develop new features. When your database is tiny, you could just restore the whole thing, but once it grows, the complete restoration is out of the question, especially when you need to do it often.</summary></entry></feed>
+&lt;p&gt;When you have this information for every request, you can easily use it inside your application interface to show white labeled branding, e.g. custom design, logos, emails, texts and other customly branded pieces of the app.&lt;/p&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Depending on your online business, white labeling can turn out to be a fantastic business model. This applies especially when your target customers are actually customers who have their own customers, for example agencies, consultancies and client-oriented businesses.</summary></entry></feed>

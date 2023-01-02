@@ -1,4 +1,137 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://jurgen.si/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://jurgen.si/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jurgen.si/" rel="alternate" type="text/html" /><updated>2021-12-30T17:32:14+01:00</updated><id>https://jurgen.si/</id><title type="html">jurgen.si</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title type="html">2021 Year Review</title><link href="https://jurgen.si/posts/2021-year-review/" rel="alternate" type="text/html" title="2021 Year Review" /><published>2021-12-30T00:00:00+01:00</published><updated>2021-12-30T00:00:00+01:00</updated><id>https://jurgen.si/posts/2021-year-review</id><content type="html" xml:base="https://jurgen.si/posts/2021-year-review/">&lt;p&gt;2021 was a year I will definitely remember - I was riding the highest highs, and found myself dragging through the lowest of the low.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="https://jurgen.si/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="https://jurgen.si/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jurgen.si/" rel="alternate" type="text/html" /><updated>2023-01-02T21:09:22+01:00</updated><id>https://jurgen.si/</id><title type="html">jurgen.si</title><subtitle>Matic Jurglič is a computer person who specializes in avant-garde internet applications.</subtitle><author><name>Matic Jurglič</name></author><entry><title type="html">2022 Year Review</title><link href="https://jurgen.si/posts/2022-year-review/" rel="alternate" type="text/html" title="2022 Year Review" /><published>2022-01-03T00:00:00+01:00</published><updated>2022-01-03T00:00:00+01:00</updated><id>https://jurgen.si/posts/2022-year-review</id><content type="html" xml:base="https://jurgen.si/posts/2022-year-review/">&lt;p&gt;I would say this year was fantastic. It was a prolific period filled with achievements, sense of fulfillment, meaningful relationships, and trying new things.&lt;/p&gt;
+
+&lt;p&gt;I continued to stick to the following recipe:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Shut up,&lt;/li&gt;
+  &lt;li&gt;Do the work,&lt;/li&gt;
+  &lt;li&gt;Consume less,&lt;/li&gt;
+  &lt;li&gt;Create more.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;software&quot;&gt;Software&lt;/h1&gt;
+
+&lt;p&gt;Due to my side projects projects getting more visibility I occasionally get asked if I even do software development anymore.&lt;/p&gt;
+
+&lt;p&gt;I don’t see myself quitting any time soon. I was born to be on the computer.&lt;/p&gt;
+
+&lt;p&gt;I’m working on the &lt;a href=&quot;https://cardstack.com/&quot;&gt;Cardstack&lt;/a&gt; project where we develop open source tools for merchants and creators in the Web3 realm.&lt;/p&gt;
+
+&lt;p&gt;I get to work with exciting blockchain technologies – in May, wrote my first &lt;a href=&quot;https://github.com/cardstack/card-pay-protocol/commit/919c078ef38e43fa54c3eb3a9ba3ceb773cd2466&quot;&gt;smart contract&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;This year marked my 10th year as a professional software developer.&lt;/p&gt;
+
+&lt;h1 id=&quot;side-business&quot;&gt;Side business&lt;/h1&gt;
+
+&lt;p&gt;On the side, I run &lt;a href=&quot;https://www.etsy.com/shop/jurgenstudio&quot;&gt;an Etsy shop&lt;/a&gt; where we sell handmade busts of influential people and mini replicas of famous monuments.&lt;/p&gt;
+
+&lt;p&gt;I now have a team who takes care of 3d modelling, production and shipping so I can focus on research and development of new products, and &lt;a href=&quot;https://twitter.com/matixmatix/status/1601145166609362944&quot;&gt;meme marketing&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We launched several new items: Nikola Tesla, Fyodor Dostoevsky, Karl Marx, Frida Kahlo, and Epictetus.&lt;/p&gt;
+
+&lt;p&gt;The build quality and the finish of the busts is something we improved substantially. How can concrete be so beautiful?&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;/images/2022-review-post/seneca.jpg&quot;&gt;&lt;img src=&quot;/images/2022-review-post/seneca.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In my &lt;a href=&quot;https://jurgen.si/posts/2021-year-review/&quot;&gt;last year’s review&lt;/a&gt; I set myself a goal of growing this shop to a profit level that could pay for all my living costs with my minimal input and I’m happy to report I achieved that!&lt;/p&gt;
+
+&lt;p&gt;We sold 483 handmade busts which is almost 10 per week. The business is going well and the customers are ecstatic. It’s not rare we get reviews like this:&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;a href=&quot;/images/2022-review-post/IMG_8878.jpg&quot;&gt;&lt;img src=&quot;/images/2022-review-post/IMG_8878.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;art&quot;&gt;Art&lt;/h1&gt;
+
+&lt;p&gt;My other creative outlet is creating &lt;a href=&quot;https://www.instagram.com/jurgenwerk/&quot;&gt;abstract brutalist sculptures&lt;/a&gt; made from concrete.&lt;/p&gt;
+
+&lt;p&gt;I had 2 art exhibitions where I showed my work.&lt;/p&gt;
+
+&lt;p&gt;The first one was hosted under a giant hayrack in &lt;a href=&quot;https://sentrupert.si/&quot;&gt;Sentrupert&lt;/a&gt;, my hometown in Slovenia:&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2022-review-post/razstava-jurglic-sentrupert-5.jpeg&quot;&gt;&lt;img src=&quot;/images/2022-review-post/razstava-jurglic-sentrupert-5.jpeg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2022-review-post/razstava-jurglic-sentrupert-4.jpeg&quot;&gt;&lt;img src=&quot;/images/2022-review-post/razstava-jurglic-sentrupert-4.jpeg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2022-review-post/razstava-jurglic-sentrupert-9.jpeg&quot;&gt;&lt;img src=&quot;/images/2022-review-post/razstava-jurglic-sentrupert-9.jpeg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2022-review-post/razstava-jurglic-sentrupert.jpeg&quot;&gt;&lt;img src=&quot;/images/2022-review-post/razstava-jurglic-sentrupert.jpeg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2022-review-post/razstava-jurglic-sentrupert-12.jpeg&quot;&gt;&lt;img src=&quot;/images/2022-review-post/razstava-jurglic-sentrupert-12.jpeg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2022-review-post/razstava-jurglic-sentrupert-13.jpeg&quot;&gt;&lt;img src=&quot;/images/2022-review-post/razstava-jurglic-sentrupert-13.jpeg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The second one was in Nova Gorica:&lt;/p&gt;
+
+&lt;figure class=&quot;third&quot;&gt;
+  &lt;a href=&quot;/images/2022-review-post/razstava-jurglic-nova-gorica-4.jpeg&quot;&gt;&lt;img src=&quot;/images/2022-review-post/razstava-jurglic-nova-gorica-4.jpeg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2022-review-post/razstava-jurglic-nova-gorica-3.jpeg&quot;&gt;&lt;img src=&quot;/images/2022-review-post/razstava-jurglic-nova-gorica-3.jpeg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2022-review-post/razstava-jurglic-nova-gorica.jpeg&quot;&gt;&lt;img src=&quot;/images/2022-review-post/razstava-jurglic-nova-gorica.jpeg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;plans-for-next-year&quot;&gt;Plans for next year&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Start building a house&lt;/li&gt;
+  &lt;li&gt;Start a new side business&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;other-important-things-that-happened&quot;&gt;Other important things that happened&lt;/h1&gt;
+
+&lt;h2 id=&quot;spent-a-couple-of-nights-in-a-banana-plantation&quot;&gt;👉 Spent a couple of nights in a banana plantation&lt;/h2&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;/images/2022-review-post/plantaza-1.jpeg&quot;&gt;&lt;img src=&quot;/images/2022-review-post/plantaza-1.jpeg&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2022-review-post/plantaza-2.jpeg&quot;&gt;&lt;img src=&quot;/images/2022-review-post/plantaza-2.jpeg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;a-very-famous-philosopher-reacted-to-a-fashion-accessory-i-created&quot;&gt;👉 A very famous philosopher reacted to a fashion accessory I created&lt;/h2&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;/images/2022-review-post/slavoj-zizek-reaction.JPG&quot;&gt;&lt;img src=&quot;/images/2022-review-post/slavoj-zizek-reaction.JPG&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;drove-a-boat&quot;&gt;👉 Drove a boat&lt;/h2&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;/images/2022-review-post/matic-jurglic-boat-2.JPG&quot;&gt;&lt;img src=&quot;/images/2022-review-post/matic-jurglic-boat-2.JPG&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2022-review-post/matic-jurglic-boat.JPG&quot;&gt;&lt;img src=&quot;/images/2022-review-post/matic-jurglic-boat.JPG&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;transported-some-concrete&quot;&gt;👉 Transported some concrete&lt;/h2&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;/images/2022-review-post/jurglic-beton-kombi.jpg&quot;&gt;&lt;img src=&quot;/images/2022-review-post/jurglic-beton-kombi.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;they-put-my-products-in-the-most-desired-bar-in-ljubljana&quot;&gt;👉 They put my products in the most desired bar in Ljubljana&lt;/h2&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;/images/2022-review-post/kipci1.JPG&quot;&gt;&lt;img src=&quot;/images/2022-review-post/kipci1.JPG&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;/images/2022-review-post/kipci2.JPG&quot;&gt;&lt;img src=&quot;/images/2022-review-post/kipci2.JPG&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;a-friend-showed-me-where-his-leg-hurts&quot;&gt;👉 A friend showed me where his leg hurts&lt;/h2&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;/images/2022-review-post/random2.JPG&quot;&gt;&lt;img src=&quot;/images/2022-review-post/random2.JPG&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;witnessed-a-man-with-a-computer-on-the-beach&quot;&gt;👉 Witnessed a man with a computer on the beach&lt;/h2&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;/images/2022-review-post/man-beach.JPG&quot;&gt;&lt;img src=&quot;/images/2022-review-post/man-beach.JPG&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;broke-a-wooden-bench&quot;&gt;👉 Broke a wooden bench&lt;/h2&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;/images/2022-review-post/broke-bench.JPG&quot;&gt;&lt;img src=&quot;/images/2022-review-post/broke-bench.JPG&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Things just keep getting better</summary></entry><entry><title type="html">2021 Year Review</title><link href="https://jurgen.si/posts/2021-year-review/" rel="alternate" type="text/html" title="2021 Year Review" /><published>2021-12-30T00:00:00+01:00</published><updated>2021-12-30T00:00:00+01:00</updated><id>https://jurgen.si/posts/2021-year-review</id><content type="html" xml:base="https://jurgen.si/posts/2021-year-review/">&lt;p&gt;2021 was a year I will definitely remember - I was riding the highest highs, and found myself dragging through the lowest of the low. I went through a breakup and was in a terrible place for a while.&lt;/p&gt;
 
 &lt;p&gt;I learned a lot about myself, and implemented processes that enable me to have more time and resources for personal growth, self discovery and wellbeing.&lt;/p&gt;
 
@@ -33,7 +166,7 @@
 
 &lt;p&gt;This took some time getting used to. I’m used to working on SaaS products, and collecting as much user data as legally possible. Here, it’s the other way around!&lt;/p&gt;
 
-&lt;p&gt;I see Web3 as a social experiment and I’m happy to work at the forefront of this movement.&lt;/p&gt;
+&lt;p&gt;I see Web3 as a social experiment and I’m happy to work at the forefront of this movement, and see what happens.&lt;/p&gt;
 
 &lt;h1 id=&quot;art&quot;&gt;Art&lt;/h1&gt;
 
@@ -81,7 +214,7 @@
   &lt;li&gt;Move to Ljubljana&lt;/li&gt;
   &lt;li&gt;Grow my side business to the point where it pays for all my living costs&lt;/li&gt;
   &lt;li&gt;Have an art exhibition in fall&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Best and Worst Year</summary></entry><entry><title type="html">How I built a monument for my country</title><link href="https://jurgen.si/posts/concrete-monument/" rel="alternate" type="text/html" title="How I built a monument for my country" /><published>2021-07-17T00:00:00+02:00</published><updated>2021-07-17T00:00:00+02:00</updated><id>https://jurgen.si/posts/concrete-monument</id><content type="html" xml:base="https://jurgen.si/posts/concrete-monument/">&lt;p&gt;This is a story of how I designed and built my first commisioned art sculpture placed in a public spot in my hometown of Šentrupert, Slovenia.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Best and Worst Year</summary></entry><entry><title type="html">How I built a monument to my country</title><link href="https://jurgen.si/posts/concrete-monument/" rel="alternate" type="text/html" title="How I built a monument to my country" /><published>2021-07-17T00:00:00+02:00</published><updated>2021-07-17T00:00:00+02:00</updated><id>https://jurgen.si/posts/concrete-monument</id><content type="html" xml:base="https://jurgen.si/posts/concrete-monument/">&lt;p&gt;This is a story of how I designed and built my first commisioned art sculpture placed in a public spot in my hometown of Šentrupert, Slovenia.&lt;/p&gt;
 
 &lt;p&gt;The sculpture is a monument, commemorating 30 years of Slovenia’s independence. It holds a memorial plaque in memory of people who contributed and died for this cause.&lt;/p&gt;
 
@@ -1249,79 +1382,4 @@ I launched quite a couple of new side-projects this year so I will only mention 
 
 &lt;p&gt;It was a bad decision to stain it with a brush, because brushmarks are seen under some angles in bright light. For mark-less coating, it’s better to use a dense roller.&lt;/p&gt;
 
-&lt;p&gt;P.S: While concrete is the best material for making furniture, wood comes as a close second. Make sure to check out my friends’ &lt;a href=&quot;https://ergochord.com/&quot;&gt;height adjustable work desks&lt;/a&gt;.&lt;/p&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Coffee tables are arguably the most important piece of furniture in a living room. They hold much more than coffee, and are a centerpiece around which the most intimate kind of socialising happens.</summary></entry><entry><title type="html">What is SaaS white labeling and how to do it?</title><link href="https://jurgen.si/posts/saas-whitelabeling/" rel="alternate" type="text/html" title="What is SaaS white labeling and how to do it?" /><published>2018-12-26T00:00:00+01:00</published><updated>2018-12-26T00:00:00+01:00</updated><id>https://jurgen.si/posts/saas-whitelabeling</id><content type="html" xml:base="https://jurgen.si/posts/saas-whitelabeling/">&lt;p&gt;Depending on your online business, white labeling can turn out to be a fantastic business model. This applies especially when your target customers are actually &lt;b&gt;customers who have their own customers&lt;/b&gt;, for example agencies, consultancies and client-oriented businesses.&lt;/p&gt;
-
-&lt;p&gt;In this case there is a real chance that adding support for white labeling in your product will improve your chances of attracting advanced users and position your product higher in the eyes of corporate customers (i.e. those who can pay top dollar).&lt;/p&gt;
-
-&lt;h3 id=&quot;but-what-exactly-is-white-labeling&quot;&gt;But what exactly is white labeling?&lt;/h3&gt;
-
-&lt;p&gt;White labeling means taking a blank product and slapping a label for another company on it.&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-    &lt;a href=&quot;/images/whitelabel-post/whitelabeled-bottles.jpg&quot;&gt;&lt;img src=&quot;/images/whitelabel-post/whitelabeled-bottles.jpg&quot; /&gt;&lt;/a&gt;
-    &lt;center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;It means other companies can take your (online, in this case) product and brand it as their own.&lt;/p&gt;
-
-&lt;h3 id=&quot;white-labeled-saas-example&quot;&gt;White labeled SaaS example&lt;/h3&gt;
-
-&lt;p&gt;Let’s imagine you built a website performance tracker that makes reports of websites’ speed. On one hand, you have individual customers that use your service to track their own websites. On the other hand, there are many web performance consultancies and agencies who make a living tuning &lt;em&gt;other&lt;/em&gt; people’s (i.e. their customers’) websites. To deliver reports, they have 3 options:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Build their own website tracking solution. This is expensive to build, and expensive to maintain. Not all businesses are in a position to afford and maintain it.&lt;/li&gt;
-  &lt;li&gt;Use a 3rd party solution (like yours). Their clients will notice they are relying on an external service, which may impair their trust.&lt;/li&gt;
-  &lt;li&gt;Use a 3rd party solution (like yours), but brand it (white label) as their own. Their clients will think the reporting solution (which is actually yours, but branded differently) is an integral part of their service, which may make them look better in their clients’ eyes.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;white-labeling-settings-in-saas&quot;&gt;White labeling settings in SaaS&lt;/h3&gt;
-
-&lt;p&gt;White labeling should be approached the same way as &lt;b&gt;internationalization&lt;/b&gt;. The principle is the same. Configurations can be saved in asset folders or in a database, and conditionally shown depending on the user and their settings.&lt;/p&gt;
-
-&lt;p&gt;Here is an example of how we did these settings at &lt;a href=&quot;https://nightwatch.io&quot; target=&quot;_blank&quot;&gt;Nightwatch.io&lt;/a&gt;:&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;a href=&quot;/images/whitelabel-post/whitelabel-settings-example.png&quot;&gt;&lt;img src=&quot;/images/whitelabel-post/whitelabel-settings-example.png&quot; /&gt;&lt;/a&gt;
-    &lt;center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;white-label-subdomain&quot;&gt;White label (sub)domain&lt;/h3&gt;
-
-&lt;p&gt;This is the entry point to a white labeled SaaS product.&lt;/p&gt;
-
-&lt;p&gt;Your customers who wish to offer your product branded as their own will want to customize its URL.&lt;/p&gt;
-
-&lt;p&gt;The DNS part is easy, usually solved with a &lt;em&gt;CNAME&lt;/em&gt; record. Returning to our previous example, let’s suppose that your SaaS product URL is &lt;em&gt;WebPerformanceTracking.com&lt;/em&gt;. Let’s suppose that one of your customers, who runs their consultancy at WebPerfCompany.com wants to white label your service and make it accessible at &lt;em&gt;tracker.WebPerfCompany.com&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;What you can do is set up a &lt;em&gt;whitelabel.WebPerformanceTracking.com&lt;/em&gt;, point it to your server and instruct your customer to set up a CNAME record on their &lt;em&gt;tracker.webperfcompany.com&lt;/em&gt; subdomain. This will route the requests to their white labeled service back to your server.&lt;/p&gt;
-
-&lt;h3 id=&quot;theres-a-problem-though&quot;&gt;There’s a problem though&lt;/h3&gt;
-
-&lt;figure&gt;
-    &lt;a href=&quot;/images/whitelabel-post/page-not-secure.png&quot;&gt;&lt;img src=&quot;/images/whitelabel-post/page-not-secure.png&quot; /&gt;&lt;/a&gt;
-    &lt;center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The described connection to your customer’s white labeled service is unsecure (non-https). Since browsers are complaining about it more and more, and you don’t want to break clients’s trust, it only makes sense to secure it.&lt;/p&gt;
-
-&lt;p&gt;To make secure connections from your customers’ white labeled domains to your server, you have two options.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Convince your customer to send you a cetificate for the white labeled domain and use it on your server. This is not really convenient nor desirable, because it’s a hard to maintain, hard to scale, needs a lot of support and it makes you a keeper of foreign certificate, which brings extra burderns.&lt;/li&gt;
-  &lt;li&gt;Use or build a proxying service with a middleware or CDN that creates Let’s Encrypt certificates on the fly.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;If you want hassle free whitelabeling, then you want to go with option 2. Depending on your scale, you probably want to use a 3rd party solution for that.&lt;/p&gt;
-
-&lt;p&gt;How this usually works is that your customer still has to create a CNAME record, but there is an additional step you have to make. You have to report the white labeled domain to your selected proxying service via their API so they could setup the certificate in the background and do the necessary routing.&lt;/p&gt;
-
-&lt;p&gt;CloudFlare is probably the simplest service you can use to secure white labeled connections, but at the time of writing, it’s available only as a part of an &lt;a href=&quot;https://www.cloudflare.com/saas/&quot;&gt;expensive corporate plan&lt;/a&gt;. Alternatively, you can use CDN services, like &lt;a href=&quot;https://fly.io/&quot;&gt;Fly.io&lt;/a&gt; or &lt;a href=&quot;https://zeit.co&quot;&gt;Zeit&lt;/a&gt; to deploy a proxying app which responds to secure whitelabel connections and serves data from your origin server.&lt;/p&gt;
-
-&lt;h3 id=&quot;final-step&quot;&gt;Final step&lt;/h3&gt;
-
-&lt;p&gt;When you reached the stage where connections from white labeled domains are succesfully hitting your server, it’s time to write some application logic that matches a hostname against a white labeled account and decorates the requests with the info on which white labeled account it belongs to.&lt;/p&gt;
-
-&lt;p&gt;When you have this information for every request, you can easily use it inside your application interface to show white labeled branding, e.g. custom design, logos, emails, texts and other customly branded pieces of the app.&lt;/p&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Depending on your online business, white labeling can turn out to be a fantastic business model. This applies especially when your target customers are actually customers who have their own customers, for example agencies, consultancies and client-oriented businesses.</summary></entry></feed>
+&lt;p&gt;P.S: While concrete is the best material for making furniture, wood comes as a close second. Make sure to check out my friends’ &lt;a href=&quot;https://ergochord.com/&quot;&gt;height adjustable work desks&lt;/a&gt;.&lt;/p&gt;</content><author><name>Matic Jurglič</name></author><category term="posts" /><summary type="html">Coffee tables are arguably the most important piece of furniture in a living room. They hold much more than coffee, and are a centerpiece around which the most intimate kind of socialising happens.</summary></entry></feed>

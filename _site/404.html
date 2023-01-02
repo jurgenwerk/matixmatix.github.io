@@ -510,8 +510,7 @@
   <br />
   <img src="/images/notepad.png" style="width: 20px" />
   <span style="font-weight: bold"
-    >Subscribe here to keep up with posts that I publish:</span
-  >
+    >Subscribe here to keep up with posts that I publish:</span>
   <br />
   <input
     class="email-input"
@@ -537,7 +536,7 @@
         email +
         "&from_site=jurgen";
       $(".email-button").text(
-        "Subscribing... This will take 5 seconds due to a shitty server, please don't navigate away."
+        "Subscribing..."
       );
       $.post(url, { from_url: window.location.href }, function () {
         $(".email-button").text("Done!");

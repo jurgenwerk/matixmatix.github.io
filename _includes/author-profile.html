@@ -47,9 +47,6 @@
       {% if author.google_plus %}
         <li><a href="https://plus.google.com/+{{ author.google_plus }}"><i class="fa fa-fw fa-google-plus-square" aria-hidden="true"></i> Google+</a></li>
       {% endif %}
-      {% if author.linkedin %}
-        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
-      {% endif %}
       {% if author.xing %}
         <li><a href="https://www.xing.com/profile/{{ author.xing }}"><i class="fa fa-fw fa-xing-square" aria-hidden="true"></i> XING</a></li>
       {% endif %}
@@ -66,6 +63,11 @@
       {% endif %}
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}" target="_blank"><input type="radio" class="sidebar-radio"/>github</a></li>
+      {% endif %}
+      {% if author.linkedin %}
+        <li>
+          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank"><input type="radio" class="sidebar-radio"/>linkedin</a>
+        </li>
       {% endif %}
       {% if author.medium %}
         <li><a href="https://medium.com/@{{ author.medium }}" target="_blank"><input type="radio" class="sidebar-radio"/>medium</a></li>

@@ -9,8 +9,8 @@ main:
   # - title: "pieces"
   #  url: /pieces/
 
-  - title: "art"
-    url: /art/
+  # - title: "art"
+  #   url: /art/
 
   - title: "bio"
     url: /about/

@@ -1,7 +1,10 @@
 # main links links
 main:
-  - title: "posts"
+  - title: "bio"
     url: /
+
+  - title: "posts"
+    url: /posts/
 
   - title: "lines"
     url: /lines/
@@ -11,6 +14,3 @@ main:
 
   # - title: "art"
   #   url: /art/
-
-  - title: "bio"
-    url: /about/
